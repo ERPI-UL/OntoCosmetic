@@ -1,0 +1,17 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "Ontotology for scometic product formulation.";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://purl.org/formo>;
+	 prov:wasRevisionOf <0.1>;
+	 prov:wasGeneratedAt "23/08/2022";
+.
+:agent0 a prov:Agent; foaf:name "Gabriel Alex".
+:agent1 a prov:Agent; foaf:name "Serna Rodas Juliana".
+:agent2 a prov:Agent; foaf:name "Arieta Javier".

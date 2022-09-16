@@ -1,0 +1,6304 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://purl.org/formo", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://purl.org/formo",
+    "version" : "1.1",
+    "comments" : {
+      "en" : "An ontology that describes chemical formulation in the perspective to assist the design process."
+    },
+    "other" : {
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "0.1",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.1",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "259",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://purl.org/formo#Emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emollient"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Triethylhexanoin",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Triethylhexanoin",
+        "undefined" : "Triethylhexanoin"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Cocoglycerides",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Cocoglycerides",
+        "undefined" : "Cocoglycerides"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MyristylMyristate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MyristylMyristate",
+        "undefined" : "Myristyl Myristate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsopropylMyristate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsopropylMyristate",
+        "undefined" : "Isopropyl Myristate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsoamylCocoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsoamylCocoate",
+        "undefined" : "Isoamyl Cocoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SesamumIndicum(Sesame)SeedOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SesamumIndicum(Sesame)SeedOil",
+        "undefined" : "Sesamum Indicum (Sesame) seed oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#jojobaOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "jojobaOil",
+        "undefined" : "jojoba oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylPalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylPalmitate",
+        "undefined" : "Cetyl palmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CaprylylCaprylate/Caprate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CaprylylCaprylate/Caprate",
+        "undefined" : "Caprylyl Caprylate/Caprate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylEthylhexanoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylEthylhexanoate",
+        "undefined" : "Cetyl Ethylhexanoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PropyleneGlycolIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PropyleneGlycolIsostearate",
+        "undefined" : "Propylene Glycol Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#OleylErucate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "OleylErucate",
+        "undefined" : "Oleyl Erucate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Diisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Diisostearate",
+        "undefined" : "Polyglyceryl-3 Diisostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PropyleneGlycolIsoceteth-3Acetate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PropyleneGlycolIsoceteth-3Acetate",
+        "undefined" : "Propylene Glycol Isoceteth-3 Acetate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PassifloraIncarnataSeedOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PassifloraIncarnataSeedOil",
+        "undefined" : "Passiflora Incarnata Seed Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DicaprylylCarbonate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DicaprylylCarbonate",
+        "undefined" : "Dicaprylyl Carbonate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PCADimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PCADimethicone",
+        "undefined" : "PCA Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#RicinusCommunis(Castor)Oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "RicinusCommunis(Castor)Oil",
+        "undefined" : "Ricinus communis (Castor) oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-3BenzylEtherMyristate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-3BenzylEtherMyristate",
+        "undefined" : "PPG-3 Benzyl ether Myristate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-2Isostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-2Isostearate",
+        "undefined" : "Polyglyceryl-2 Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SheaButter",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SheaButter",
+        "undefined" : "Shea butter"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#TheobromaCacao(Cocoabutter)",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "TheobromaCacao(Cocoabutter)",
+        "undefined" : "Theobroma cacao (Cocoa butter)"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DiisopropylDimerDilinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DiisopropylDimerDilinoleate",
+        "undefined" : "Diisopropyl Dimer Dilinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MacadamiaIntegrifolia(Macadamia)Oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MacadamiaIntegrifolia(Macadamia)Oil",
+        "undefined" : "Macadamia Integrifolia (Macadamia) oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Octyldodecanol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Octyldodecanol",
+        "undefined" : "Octyldodecanol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PentaerythritylIsostearate/Caprate/Caprylate/Adipate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PentaerythritylIsostearate/Caprate/Caprylate/Adipate",
+        "undefined" : "Pentaerythrityl Isostearate/Caprate/Caprylate/Adipate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MineralOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MineralOil",
+        "undefined" : "Mineral oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DecylOleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DecylOleate",
+        "undefined" : "Decyl Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PhenoxyethylCaprylate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PhenoxyethylCaprylate",
+        "undefined" : "Phenoxyethyl Caprylate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Di-PPG-2Myreth-10Adipate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Di-PPG-2Myreth-10Adipate",
+        "undefined" : "Di-PPG-2 Myreth-10 Adipate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C12-15AlkylBenzoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C12-15AlkylBenzoate",
+        "undefined" : "C12-15 Alkyl Benzoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#RosaCanina(Rosehip)SeedOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "RosaCanina(Rosehip)SeedOil",
+        "undefined" : "Rosa Canina (Rose hip) seed oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Tris(PPG-3Benzylether)Citrate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Tris(PPG-3Benzylether)Citrate",
+        "undefined" : "Tris(PPG-3 Benzyl ether) Citrate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#EthylhexylPalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "EthylhexylPalmitate",
+        "undefined" : "Ethylhexyl Palmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#OliveOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "OliveOil",
+        "undefined" : "Olea Europaea (Olive) Fruit Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PrunusArmeniaca(Apricot)KernelOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PrunusArmeniaca(Apricot)KernelOil",
+        "undefined" : "Prunus Armeniaca (Apricot) kernel oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Dimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Dimethicone",
+        "undefined" : "Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PropyleneGlycolDicaprylate/Dicaprate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PropyleneGlycolDicaprylate/Dicaprate",
+        "undefined" : "Propylene Glycol Dicaprylate/ Dicaprate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#HexyldecylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "HexyldecylStearate",
+        "undefined" : "Hexyldecyl Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-3BenzylEtherEthylhexanoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-3BenzylEtherEthylhexanoate",
+        "undefined" : "PPG-3 Benzyl ether Ethylhexanoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#TrimethylolpropaneTriisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "TrimethylolpropaneTriisostearate",
+        "undefined" : "Trimethylolpropane Triisostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DecylCocoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DecylCocoate",
+        "undefined" : "Decyl Cocoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CacaoButter",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CacaoButter",
+        "undefined" : "Cacao butter"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#EthylhexylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "EthylhexylStearate",
+        "undefined" : "Ethylhexyl Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Petrolatum",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Petrolatum",
+        "undefined" : "Petrolatum"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DecylIsostearate,IsostearylIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DecylIsostearate,IsostearylIsostearate",
+        "undefined" : "Decyl Isostearate, Isostearyl Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-11StearylEther",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-11StearylEther",
+        "undefined" : "PPG-11 Stearyl ether"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Coco-Caprylate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Coco-Caprylate",
+        "undefined" : "Coco-Caprylate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PentaerythritylStearate/Caprate/Caprylate/Adipate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PentaerythritylStearate/Caprate/Caprylate/Adipate",
+        "undefined" : "Pentaerythrityl Stearate/Caprate/Caprylate/Adipate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#OlusOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "OlusOil",
+        "undefined" : "Olus Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-15StearylEther",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-15StearylEther",
+        "undefined" : "PPG-15 Stearyl ether"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylIsononanoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylIsononanoate",
+        "undefined" : "Cetearyl Isononanoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsotridecylIsononanoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsotridecylIsononanoate",
+        "undefined" : "Isotridecyl Isononanoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Caprylic/CapricTriglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Caprylic/CapricTriglyceride",
+        "undefined" : "Caprylic/Capric triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-3MyristylEther",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-3MyristylEther",
+        "undefined" : "PPG-3 Myristyl ether"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#HydrogenatedPolyisobutene",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "HydrogenatedPolyisobutene",
+        "undefined" : "Hydrogenated Polyisobutene"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Hexyldecanol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Hexyldecanol",
+        "undefined" : "Hexyldecanol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucrosePolysoyate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucrosePolysoyate",
+        "undefined" : "Sucrose Polysoyate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Triisostearin",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Triisostearin",
+        "undefined" : "Triisostearin"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#StearylAlcohol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "StearylAlcohol",
+        "undefined" : "Stearyl Alcohol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Di-PPG-3MyristylEtherAdipate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Di-PPG-3MyristylEtherAdipate",
+        "undefined" : "Di-PPG-3 Myristyl ether Adipate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MyristylLactate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MyristylLactate",
+        "undefined" : "Myristyl Lactate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CoconutOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CoconutOil",
+        "undefined" : "Coconut oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-5-Ceteth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-5-Ceteth-20",
+        "undefined" : "PPG-5-Ceteth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DiethylhexylCarbonate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DiethylhexylCarbonate",
+        "undefined" : "Diethylhexyl Carbonate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PPG-14ButylEther",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PPG-14ButylEther",
+        "undefined" : "PPG-14 Butyl ether"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#HexylLaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "HexylLaurate",
+        "undefined" : "Hexyl Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DibutylAdipate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DibutylAdipate",
+        "undefined" : "Dibutyl Adipate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Isohexadecane",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Isohexadecane",
+        "undefined" : "Isohexadecane"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Coco-Caprylate/Caprate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Coco-Caprylate/Caprate",
+        "undefined" : "Coco-Caprylate/Caprate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#HelianthusAnnuus(sunflowerseed)Oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "HelianthusAnnuus(sunflowerseed)Oil",
+        "undefined" : "Helianthus Annuus (sunflower seed) oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsopropylLanolate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsopropylLanolate",
+        "undefined" : "Isopropyl Lanolate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsopropylPalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsopropylPalmitate",
+        "undefined" : "Isopropyl Palmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Polyricinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Polyricinoleate",
+        "undefined" : "Polyglyceryl-3 Polyricinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsopropylIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsopropylIsostearate",
+        "undefined" : "Isopropyl Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylEthylhexanoate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylEthylhexanoate",
+        "undefined" : "Cetearyl Ethylhexanoate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Squalane",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Squalane",
+        "undefined" : "Squalane"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DicaprylylEther",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DicaprylylEther",
+        "undefined" : "Dicaprylyl ether"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylDimethicone(veryHighviscosity,nonpolar)",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylDimethicone(veryHighviscosity,nonpolar)",
+        "undefined" : "Cetyl Dimethicone (very high  viscosity,nonpolar)"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PentaerythritylTetraisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PentaerythritylTetraisostearate",
+        "undefined" : "Pentaerythrityl Tetraisostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Triisononanoin",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Triisononanoin",
+        "undefined" : "Triisononanoin"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C10-30Cholesterol/LanosterolEsters",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C10-30Cholesterol/LanosterolEsters",
+        "undefined" : "C10-30 Cholesterol/Lanosterol esters"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PropylheptylCaprylate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PropylheptylCaprylate",
+        "undefined" : "Propylheptyl Caprylate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DiisostearylDimerDilinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DiisostearylDimerDilinoleate",
+        "undefined" : "Diisostearyl Dimer Dilinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil",
+        "en" : "Prunus Amygdalus Dulcis (Sweet Almond) Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylMyristate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylMyristate",
+        "undefined" : "Glyceryl Myristate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylIsostearate",
+        "undefined" : "Glyceryl Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylAlcohol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylAlcohol",
+        "undefined" : "Cetyl Alcohol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#AvocadoOil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "AvocadoOil",
+        "undefined" : "Persea Gratissima (Avocado) Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#IsostearylIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "IsostearylIsostearate",
+        "undefined" : "Isostearyl Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-2Triisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-2Triisostearate",
+        "undefined" : "Polyglyceryl-2 Triisostearate"
+      }
+    } ],
+    "subClasses" : [ "2", "3", "4", "5", "6", "7" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://purl.org/formo#Lotion",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lotion"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#lotion",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "lotion"
+      }
+    } ],
+    "id" : "11",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://purl.org/formo#Gel",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gel"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#gel",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "gel"
+      }
+    } ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ingredient_Type",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ingredient_Type"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#thickener",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "thickener"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfactant",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfactant"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#emollient",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "emollient"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#active",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "active"
+      }
+    } ],
+    "id" : "28",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#RecommendationHeuristic",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecommendationHeuristic"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#min_2_nonionic_surfactant_heur",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "min_2_nonionic_surfactant_heur"
+      }
+    } ],
+    "id" : "60",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#DropletSize",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DropletSize"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#high_droplet",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "high_droplet"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#small_droplet",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "small_droplet"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#med_droplet",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "med_droplet"
+      }
+    } ],
+    "id" : "69",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#SpecificApplication",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpecificApplication"
+    },
+    "subClasses" : [ "71", "72", "73", "74" ],
+    "id" : "70",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://purl.org/formo#Dosages",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dosages"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#surfact_dosage7",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage7"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage8",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage8"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#glycerin_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "glycerin_dosage1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#dosage-test",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "dosage-test"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#fatty_alcohol_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "fatty_alcohol_dosage1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#water_dosage2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "water_dosage2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#water_dosage3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "water_dosage3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#water_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "water_dosage1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage5",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage5"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage6",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage6"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#antioxydant_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "antioxydant_dosage1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#preservative_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "preservative_dosage1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage4"
+      }
+    } ],
+    "subClasses" : [ "75", "76", "77", "78" ],
+    "comment" : {
+      "undefined" : "Dosages are the combination of an ingedient and a quantity. It constitute a part of a formulation."
+    },
+    "id" : "35"
+  }, {
+    "iri" : "https://purl.org/formo#last_dosage",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "last_dosage"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#emol_dosage3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "emol_dosage3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#fatty_alcohol_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "fatty_alcohol_dosage1"
+      }
+    } ],
+    "id" : "76",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://purl.org/formo#Silicone_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silicone_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ingredient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Chemical product that is used to make a formulated product.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ingredient"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Dicitrate/Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Dicitrate/Stearate",
+        "undefined" : "Polyglyceryl-3 Dicitrate/Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-21",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-21",
+        "undefined" : "Steareth-21"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Isoceteth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Isoceteth-20",
+        "undefined" : "Isoceteth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-20",
+        "undefined" : "Steareth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polysorbate80",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polysorbate80",
+        "undefined" : "Polysorbate 80"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-30",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-30",
+        "undefined" : "Ceteareth-30"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-50Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-50Stearate",
+        "undefined" : "PEG-50 stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate;PEG-100Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate;PEG-100Stearate",
+        "undefined" : "Glyceryl Stearate; PEG-100 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-2",
+        "undefined" : "Steareth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-PEG/PPG-14/14Dimethicone;Dimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-PEG/PPG-14/14Dimethicone;Dimethicone",
+        "undefined" : "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearateSE",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearateSE",
+        "undefined" : "Glyceryl Stearate SE"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Glycerin",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Glycerin"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-20",
+        "undefined" : "Ceteth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Diisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Diisostearate",
+        "undefined" : "Polyglyceryl-3 Diisostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanTristearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanTristearate",
+        "undefined" : "PEG-20 sorbitan tristearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride",
+        "undefined" : "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone; Caprylic/Capric Triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanSesquioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanSesquioleate",
+        "undefined" : "Sorbitan sesquioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DisodiumCetearylSulfosuccite",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DisodiumCetearylSulfosuccite",
+        "undefined" : "Disodium CetearylSulfosuccite"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride",
+        "undefined" : "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-25",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-25",
+        "undefined" : "Ceteareth-25"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-10",
+        "undefined" : "Steareth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Laureth-23",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Laureth-23",
+        "undefined" : "Laureth-23"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-20",
+        "undefined" : "Ceteareth-20 "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MethylGlucoseIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MethylGlucoseIsostearate",
+        "undefined" : "Methyl Glucose Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanIsostearate",
+        "undefined" : "Sorbitan isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Distearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Distearate",
+        "undefined" : "Polyglyceryl-3 Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Laurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Laurate",
+        "undefined" : "Polyglyceryl-4 Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylPEG/PPG-10/1Dimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylPEG/PPG-10/1Dimethicone",
+        "undefined" : "Cetyl PEG/PPG-10/1 Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-4SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-4SorbitanMonostearate",
+        "undefined" : "PEG-4 sorbitan monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanMonostearate",
+        "undefined" : "Sorbitan Monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SodiumStearoylGlutamate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SodiumStearoylGlutamate",
+        "undefined" : "Sodium Stearoyl Glutamate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseStearate(and)SucroseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseStearate(and)SucroseDistearate",
+        "undefined" : "Sucrose Stearate (and) Sucrose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Laureth-4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Laureth-4",
+        "undefined" : "Laureth-4"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate",
+        "undefined" : "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-2Dipolyhydroxystearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-2Dipolyhydroxystearate",
+        "undefined" : "Polyglyceryl-2 Dipolyhydroxystearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanLaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanLaurate",
+        "undefined" : "Sorbitan Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanOleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanOleate",
+        "undefined" : "Sorbitan Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate",
+        "undefined" : "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanTrioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanTrioleate",
+        "undefined" : "Sorbitan trioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#StearicAcid(and)PalmiticAcid",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "StearicAcid(and)PalmiticAcid",
+        "undefined" : "Stearic Acid (and) Palmitic Acid"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-2",
+        "undefined" : "Ceteth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MethylGlucoseSesquistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MethylGlucoseSesquistearate",
+        "undefined" : "Methyl Glucose Sesquistearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-40Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-40Stearate",
+        "undefined" : "PEG-40 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-10",
+        "undefined" : "Ceteth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylOleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylOleate",
+        "undefined" : "Glyceryl Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucrosePolystearate(and)CetylPalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucrosePolystearate(and)CetylPalmitate",
+        "undefined" : "Sucrose Polystearate(and) CetylPalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanTrioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanTrioleate",
+        "undefined" : "PEG-20 sorbitan trioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Isostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Isostearate",
+        "undefined" : "Polyglyceryl-4 Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polysorbate60",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polysorbate60",
+        "undefined" : "Polysorbate 60"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylGlucoside(and)CetearylAlcohol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylGlucoside(and)CetearylAlcohol",
+        "undefined" : "Cetearyl Glucoside (and) CetearylAlcohol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-8Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-8Stearate",
+        "undefined" : "PEG-8 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Vitamine_E_tocopherol_acetate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Vitamine_E_tocopherol_acetate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylGlucoside",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylGlucoside",
+        "undefined" : "Cetearyl Glucoside "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseStearate",
+        "undefined" : "Sucrose Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-10",
+        "undefined" : "Oleth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20AlmondGlycerides",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20AlmondGlycerides",
+        "undefined" : "PEG-20 Almond Glycerides"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonostearate",
+        "undefined" : "PEG-20 sorbitan monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3MethylglucoseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3MethylglucoseDistearate",
+        "undefined" : "Polyglyceryl-3 Methylglucose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-100",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-100",
+        "undefined" : "Steareth-100"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonolaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonolaurate",
+        "undefined" : "PEG-20 Sorbitan Monolaurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-6Stearate;Polyglyceryl-6Behete",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-6Stearate;Polyglyceryl-6Behete",
+        "undefined" : "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanMonopalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanMonopalmitate",
+        "undefined" : "Sorbitan Monopalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DiisostearoylPolyglyceryl-3DimerDilinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DiisostearoylPolyglyceryl-3DimerDilinoleate",
+        "undefined" : "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SodiumCetearylSulfate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SodiumCetearylSulfate",
+        "undefined" : "Sodium Cetearyl Sulfate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Oleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Oleate",
+        "undefined" : "Polyglyceryl-3 Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#water",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "water"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-100Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-100Stearate",
+        "undefined" : "PEG-100 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseDistearate",
+        "undefined" : "Sucrose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanOleate(and)Polyglyceryl-3Polyricinoleate",
+        "undefined" : "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-3",
+        "undefined" : "Oleth-3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-20",
+        "undefined" : "Oleth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-2",
+        "undefined" : "Oleth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-80SorbitanLaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-80SorbitanLaurate",
+        "undefined" : "PEG-80 Sorbitan Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-5",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-5",
+        "undefined" : "Oleth-5"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate",
+        "undefined" : "Glyceryl Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonopalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonopalmitate",
+        "undefined" : "PEG-20 sorbitan monopalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil",
+        "en" : "Prunus Amygdalus Dulcis (Sweet Almond) Oil"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate;Ceteareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate;Ceteareth-20",
+        "undefined" : "Glyceryl Stearate; Ceteareth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucrosePolystearate(and)HydrogetedPolyisobutene",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucrosePolystearate(and)HydrogetedPolyisobutene",
+        "undefined" : "Sucrose Polystearate(and) Hydrogeted Polyisobutene"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-4SorbitanMonolaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-4SorbitanMonolaurate",
+        "undefined" : "PEG-4 Sorbitan Monolaurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearateCitrate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearateCitrate",
+        "undefined" : "Glyceryl Stearate Citrate "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonooleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonooleate",
+        "undefined" : "PEG-20 sorbitan monooleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-15;GlycerylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-15;GlycerylStearate",
+        "undefined" : "Ceteareth-15; Glyceryl Stearate"
+      }
+    } ],
+    "subClasses" : [ "0", "89", "82", "59", "85" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://purl.org/formo#Emollient_Dosage",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emollient_Dosage"
+    },
+    "intersection" : [ "35" ],
+    "attributes" : [ "intersection" ],
+    "id" : "77",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://purl.org/formo#LowEmolSpreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowEmolSpreading"
+    },
+    "id" : "90",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#Sensation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensation",
+      "en" : "After Feel - Absorption Sensation"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#complete_sensoriel_profile",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "complete_sensoriel_profile"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#incomplete_sensoriel_profile",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "incomplete_sensoriel_profile"
+      }
+    } ],
+    "comment" : {
+      "en" : "Describe the after feel of the formulation on the skin of a consumer. I define the level of oilyness"
+    },
+    "id" : "91",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Vegetable_oil",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vegetable_oil"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#vegetable_oil",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "vegetable_oil"
+      }
+    } ],
+    "id" : "93",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#VisualApperance",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VisualApperance"
+    },
+    "id" : "95",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Hydrocarbon_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrocarbon_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#CationicThickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CationicThickener"
+    },
+    "id" : "96",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicOtherAdditives",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicOtherAdditives"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#fattyAlcoholHeuristic1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "fattyAlcoholHeuristic1"
+      }
+    } ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "https://purl.org/formo#ConformFormulation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConformFormulation"
+    },
+    "intersection" : [ "32" ],
+    "comment" : {
+      "en" : "the formulation is conform to the specification defined for the final product. It means the formulation respects all the specification that have been explicited."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "101",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#Stability",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stability"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Stable",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Stable"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#NonStable",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "NonStable"
+      }
+    } ],
+    "comment" : {
+      "en" : "A formulation can be either stable or note stable."
+    },
+    "id" : "33",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Silky_Afterfeeling",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silky_Afterfeeling"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#silky",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "silky"
+      }
+    } ],
+    "id" : "53",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://purl.org/formo#Vegetable_oil_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vegetable_oil_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "7",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#DegreeOfGenerality",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DegreeOfGenerality"
+    },
+    "subClasses" : [ "70", "43", "46" ],
+    "id" : "44",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicForThickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForThickener"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection" ],
+    "id" : "111",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#HighEmolSpreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighEmolSpreading"
+    },
+    "id" : "112",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicSunCream",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicSunCream"
+    },
+    "id" : "74",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://purl.org/formo#Afterfeeling",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Ingredients have the property to influence the afterfeel of the formulated product.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Afterfeeling"
+    },
+    "subClasses" : [ "48", "51", "53" ],
+    "id" : "49",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#Restrictive_Heuristic",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Heuristics that have to be satisfied to have a conform formulation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Restrictive_Heuristic"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#fattyAlcoholHeuristic1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "fattyAlcoholHeuristic1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#atLeast1NaturalIngHeuristic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "atLeast1NaturalIngHeuristic"
+      }
+    } ],
+    "id" : "123",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#NonIonicSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonIonicSurfactant"
+    },
+    "intersection" : [ "89" ],
+    "attributes" : [ "intersection" ],
+    "id" : "126",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "https://purl.org/formo#TransportAndRelease",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportAndRelease"
+    },
+    "id" : "104",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Anionic",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Anionic"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#anionic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "anionic"
+      }
+    } ],
+    "id" : "137",
+    "superClasses" : [ "138" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ester",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ester"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#ester",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "ester"
+      }
+    } ],
+    "id" : "139",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#Process",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process"
+    },
+    "subClasses" : [ "55" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://purl.org/formo#Waxy_Afterfeeling",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Waxy_Afterfeeling"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#waxy",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "waxy"
+      }
+    } ],
+    "id" : "48",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://purl.org/formo#Agitation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agitation"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#low_agitation",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "low_agitation"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#med_agitation",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "med_agitation"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#high_agitation",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "high_agitation"
+      }
+    } ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://purl.org/formo#Oiliness",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oiliness",
+      "en" : "After Feel - Oiliness"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#very_waterly",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "very_waterly"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#waterly",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "waterly"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#oily",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "oily"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#very_oily",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "very_oily"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#non_oily",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "non_oily"
+      }
+    } ],
+    "id" : "129",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Nonionic",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nonionic"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#nonionic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "nonionic"
+      }
+    } ],
+    "id" : "151",
+    "superClasses" : [ "138" ]
+  }, {
+    "iri" : "https://purl.org/formo#Hydrocarbon",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrocarbon"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#hydrocarbon",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "hydrocarbon"
+      }
+    } ],
+    "id" : "166",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#Surfactant_Dosage",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surfactant_Dosage"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#surfact_dosage2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#surfact_dosage4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "surfact_dosage4"
+      }
+    } ],
+    "intersection" : [ "35" ],
+    "attributes" : [ "intersection" ],
+    "id" : "78",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://purl.org/formo#Preservative",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Preservative"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Cosgard",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Cosgard"
+      }
+    } ],
+    "id" : "62",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://purl.org/formo#Triglyceride",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Triglyceride"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#triglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "triglyceride"
+      }
+    } ],
+    "id" : "175",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#Medium_to_Low_Spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_to_Low_Spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#medium_to_low_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_to_low_spreading"
+      }
+    } ],
+    "id" : "25",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#SpecialFunction",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpecialFunction"
+    },
+    "id" : "125",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Medium_spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#medium_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_spreading"
+      }
+    } ],
+    "id" : "30",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ester_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ester_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "6",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#Silicone",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silicone"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#silicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "silicone"
+      }
+    } ],
+    "id" : "106",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#Fatty_alcohol_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fatty_alcohol_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#Viscosity",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Describe the level of viscosity of a formulated product. it can be low, medium or high.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Viscosity"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#med_viscosity",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "med_viscosity"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#low_viscosity",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "low_viscosity"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#high_viscosity",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "high_viscosity"
+      }
+    } ],
+    "id" : "122",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicForActive",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForActive"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection" ],
+    "id" : "189",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#OtherIngredient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherIngredient"
+    },
+    "subClasses" : [ "58", "62" ],
+    "id" : "59",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://purl.org/formo#ToIngredient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ToIngredient"
+    },
+    "subClasses" : [ "66" ],
+    "id" : "67",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#AbsorptionRate",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Describe the capacity of the formulation product to be absopt by a skin.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AbsorptionRate",
+      "en" : "After Feel - Absorption Rate"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#low_absorption_rate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "low_absorption_rate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#med_absorption_rate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "med_absorption_rate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#high_absorption_rate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "high_absorption_rate"
+      }
+    } ],
+    "id" : "134",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Medium_to_High_Spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Medium_to_High_Spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#medium_to_high_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_to_high_spreading"
+      }
+    } ],
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#NonionicThickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonionicThickener"
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://purl.org/formo#Texture",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Texture"
+    },
+    "subClasses" : [ "11", "41", "9", "13" ],
+    "id" : "10",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#UvFilter",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UvFilter"
+    },
+    "id" : "201",
+    "superClasses" : [ "82" ]
+  }, {
+    "iri" : "https://purl.org/formo#AqueousThickeners",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AqueousThickeners"
+    },
+    "subClasses" : [ "15", "18" ],
+    "id" : "16",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/formo#Low_spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Low_spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#low_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "low_spreading"
+      }
+    } ],
+    "id" : "191",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#CationicSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CationicSurfactant"
+    },
+    "id" : "150",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicForEmollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForEmollient"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection" ],
+    "id" : "209",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#Humectant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Humectant"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Glycerin",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Glycerin"
+      }
+    } ],
+    "id" : "211",
+    "superClasses" : [ "82" ]
+  }, {
+    "iri" : "https://purl.org/formo#Antioxidant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Antioxidant"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Vitamine_E_tocopherol_acetate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Vitamine_E_tocopherol_acetate"
+      }
+    } ],
+    "id" : "213",
+    "superClasses" : [ "82" ]
+  }, {
+    "iri" : "https://purl.org/formo#Spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "The ability of the ingredient to spread on the skin",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Spreading"
+    },
+    "subClasses" : [ "20", "23", "25", "30", "191", "193" ],
+    "id" : "21",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#NonAqueousThickeners",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonAqueousThickeners"
+    },
+    "id" : "132",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/formo#Smooth_Afterfeeling",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Smooth_Afterfeeling"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#smooth",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "smooth"
+      }
+    } ],
+    "id" : "51",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://purl.org/formo#AmphotericSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmphotericSurfactant"
+    },
+    "id" : "148",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://purl.org/formo#Origin",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Origins of the ingredient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Origin"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#natural_raw_material_enzymatic_processed",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "natural_raw_material_enzymatic_processed"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#natural_raw_material",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "natural_raw_material"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#NRM_and_SRM",
+      "baseIri" : "https://purl.org/formo",
+      "comment" : {
+        "en" : "NRM = Natural Raw Material\nSRM = Synthetic Raw Material"
+      },
+      "labels" : {
+        "IRI-based" : "NRM_and_SRM"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#natural_and_SRM",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "natural_and_SRM"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#synthetic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "synthetic"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#natural",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "natural"
+      }
+    } ],
+    "id" : "100",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#MedEmolSpreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedEmolSpreading"
+    },
+    "id" : "180",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#OilyPhase",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OilyPhase"
+    },
+    "id" : "118",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Formulation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "A formulation is a combition of ingredients according to their dosage in order to produce a final product. This final product will have product properties according the ingredients used.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Formulation"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#formulation4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "formulation4"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#formulation3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "formulation3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#formulation2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "formulation2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#form",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "form"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#formulation1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "formulation1"
+      }
+    } ],
+    "subClasses" : [ "195", "174", "112", "101", "90", "180" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://purl.org/formo#FattyAlcohol",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FattyAlcohol"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#fatty_alcohol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "fatty_alcohol"
+      }
+    } ],
+    "id" : "108",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicHairCream",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicHairCream"
+    },
+    "id" : "71",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://purl.org/formo#IngredientProperties",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IngredientProperties"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#HLB",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "HLB"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "spreading"
+      }
+    } ],
+    "subClasses" : [ "94", "10", "169", "138", "21", "49", "28", "100", "157", "153" ],
+    "comment" : {
+      "en" : "Describe the properties of the ingredient that is considered by the heuristic. Each instance is a type of property. All the propterties does not concern all the ingredients."
+    },
+    "id" : "36"
+  }, {
+    "iri" : "https://purl.org/formo#Spray",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spray"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#spray",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "spray"
+      }
+    } ],
+    "id" : "13",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://purl.org/formo#PHRegulator",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PHRegulator"
+    },
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ionic_Nature",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ionic_Nature"
+    },
+    "subClasses" : [ "151", "137" ],
+    "id" : "138",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicForSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForSurfactant"
+    },
+    "intersection" : [ "27" ],
+    "attributes" : [ "intersection" ],
+    "id" : "259",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://purl.org/formo#Cream",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cream"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#cream",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "cream"
+      }
+    } ],
+    "id" : "41",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicFacialCream",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicFacialCream"
+    },
+    "id" : "72",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://purl.org/formo#IonicThickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicThickener"
+    },
+    "subClasses" : [ "96", "143" ],
+    "id" : "18",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://purl.org/formo#Vegetable_wax",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vegetable_wax"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#vegetable_wax",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "vegetable_wax"
+      }
+    } ],
+    "id" : "274",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#IonicSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicSurfactant"
+    },
+    "subClasses" : [ "145", "148", "150" ],
+    "intersection" : [ "89" ],
+    "attributes" : [ "intersection" ],
+    "id" : "146",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#first_dosage",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "first_dosage"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#emol_dosage2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "emol_dosage2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#dosage-test",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "dosage-test"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#preservative_dosage1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "preservative_dosage1"
+      }
+    } ],
+    "id" : "75",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://purl.org/formo#Phase",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Phase"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#water_phase",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "water_phase"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#oily_phase",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "oily_phase"
+      }
+    } ],
+    "id" : "153",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#Thickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thickener"
+    },
+    "subClasses" : [ "16", "132" ],
+    "id" : "85",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://purl.org/formo#AnionicSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnionicSurfactant"
+    },
+    "id" : "145",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#Emollience",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emollience"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#medium_emollience",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#medium_to_rich_emollience",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_to_rich_emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#medium_to_light_emollience",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "medium_to_light_emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#light_emollience",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "light_emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#rich_emollience",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "rich_emollience"
+      }
+    } ],
+    "id" : "157",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#ProductProperty",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProductProperty"
+    },
+    "subClasses" : [ "134", "69", "95", "118", "120", "122", "125", "91", "129", "33", "104" ],
+    "comment" : {
+      "en" : "Describe the list of properties that a formulated product can have. Formulation heuristic can have an impact on it."
+    },
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#Chemical_nature",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chemical_nature"
+    },
+    "subClasses" : [ "106", "108", "175", "166", "271", "93", "139", "274" ],
+    "id" : "94",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#Surfactant",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surfactant"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Dicitrate/Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Dicitrate/Stearate",
+        "undefined" : "Polyglyceryl-3 Dicitrate/Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-21",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-21",
+        "undefined" : "Steareth-21"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-20",
+        "undefined" : "Steareth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Isoceteth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Isoceteth-20",
+        "undefined" : "Isoceteth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polysorbate80",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polysorbate80",
+        "undefined" : "Polysorbate 80"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-30",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-30",
+        "undefined" : "Ceteareth-30"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-50Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-50Stearate",
+        "undefined" : "PEG-50 stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate;PEG-100Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate;PEG-100Stearate",
+        "undefined" : "Glyceryl Stearate; PEG-100 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-2",
+        "undefined" : "Steareth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-PEG/PPG-14/14Dimethicone;Dimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-PEG/PPG-14/14Dimethicone;Dimethicone",
+        "undefined" : "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearateSE",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearateSE",
+        "undefined" : "Glyceryl Stearate SE"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-20",
+        "undefined" : "Ceteth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Diisostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Diisostearate",
+        "undefined" : "Polyglyceryl-3 Diisostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanTristearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanTristearate",
+        "undefined" : "PEG-20 sorbitan tristearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride",
+        "undefined" : "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone; Caprylic/Capric Triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanSesquioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanSesquioleate",
+        "undefined" : "Sorbitan sesquioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DisodiumCetearylSulfosuccite",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DisodiumCetearylSulfosuccite",
+        "undefined" : "Disodium CetearylSulfosuccite"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride",
+        "undefined" : "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-25",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-25",
+        "undefined" : "Ceteareth-25"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-10",
+        "undefined" : "Steareth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-20",
+        "undefined" : "Ceteareth-20 "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Laureth-23",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Laureth-23",
+        "undefined" : "Laureth-23"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MethylGlucoseIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MethylGlucoseIsostearate",
+        "undefined" : "Methyl Glucose Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanIsostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanIsostearate",
+        "undefined" : "Sorbitan isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Laurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Laurate",
+        "undefined" : "Polyglyceryl-4 Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Distearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Distearate",
+        "undefined" : "Polyglyceryl-3 Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetylPEG/PPG-10/1Dimethicone",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetylPEG/PPG-10/1Dimethicone",
+        "undefined" : "Cetyl PEG/PPG-10/1 Dimethicone"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanMonostearate",
+        "undefined" : "Sorbitan Monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-4SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-4SorbitanMonostearate",
+        "undefined" : "PEG-4 sorbitan monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseStearate(and)SucroseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseStearate(and)SucroseDistearate",
+        "undefined" : "Sucrose Stearate (and) Sucrose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SodiumStearoylGlutamate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SodiumStearoylGlutamate",
+        "undefined" : "Sodium Stearoyl Glutamate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Laureth-4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Laureth-4",
+        "undefined" : "Laureth-4"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate",
+        "undefined" : "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-2Dipolyhydroxystearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-2Dipolyhydroxystearate",
+        "undefined" : "Polyglyceryl-2 Dipolyhydroxystearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanLaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanLaurate",
+        "undefined" : "Sorbitan Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanOleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanOleate",
+        "undefined" : "Sorbitan Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate",
+        "undefined" : "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanTrioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanTrioleate",
+        "undefined" : "Sorbitan trioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-2",
+        "undefined" : "Ceteth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#StearicAcid(and)PalmiticAcid",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "StearicAcid(and)PalmiticAcid",
+        "undefined" : "Stearic Acid (and) Palmitic Acid"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#MethylGlucoseSesquistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "MethylGlucoseSesquistearate",
+        "undefined" : "Methyl Glucose Sesquistearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-40Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-40Stearate",
+        "undefined" : "PEG-40 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteth-10",
+        "undefined" : "Ceteth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylOleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylOleate",
+        "undefined" : "Glyceryl Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanTrioleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanTrioleate",
+        "undefined" : "PEG-20 sorbitan trioleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucrosePolystearate(and)CetylPalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucrosePolystearate(and)CetylPalmitate",
+        "undefined" : "Sucrose Polystearate(and) CetylPalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-4Isostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-4Isostearate",
+        "undefined" : "Polyglyceryl-4 Isostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polysorbate60",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polysorbate60",
+        "undefined" : "Polysorbate 60"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylGlucoside(and)CetearylAlcohol",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylGlucoside(and)CetearylAlcohol",
+        "undefined" : "Cetearyl Glucoside (and) CetearylAlcohol"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-8Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-8Stearate",
+        "undefined" : "PEG-8 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#CetearylGlucoside",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "CetearylGlucoside",
+        "undefined" : "Cetearyl Glucoside "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseStearate",
+        "undefined" : "Sucrose Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-10",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-10",
+        "undefined" : "Oleth-10"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20AlmondGlycerides",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20AlmondGlycerides",
+        "undefined" : "PEG-20 Almond Glycerides"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonostearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonostearate",
+        "undefined" : "PEG-20 sorbitan monostearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3MethylglucoseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3MethylglucoseDistearate",
+        "undefined" : "Polyglyceryl-3 Methylglucose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Steareth-100",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Steareth-100",
+        "undefined" : "Steareth-100"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonolaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonolaurate",
+        "undefined" : "PEG-20 Sorbitan Monolaurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-6Stearate;Polyglyceryl-6Behete",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-6Stearate;Polyglyceryl-6Behete",
+        "undefined" : "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanMonopalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanMonopalmitate",
+        "undefined" : "Sorbitan Monopalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#DiisostearoylPolyglyceryl-3DimerDilinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "DiisostearoylPolyglyceryl-3DimerDilinoleate",
+        "undefined" : "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SodiumCetearylSulfate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SodiumCetearylSulfate",
+        "undefined" : "Sodium Cetearyl Sulfate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Polyglyceryl-3Oleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Polyglyceryl-3Oleate",
+        "undefined" : "Polyglyceryl-3 Oleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-100Stearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-100Stearate",
+        "undefined" : "PEG-100 Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucroseDistearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucroseDistearate",
+        "undefined" : "Sucrose Distearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SorbitanOleate(and)Polyglyceryl-3Polyricinoleate",
+        "undefined" : "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-20",
+        "undefined" : "Oleth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-3",
+        "undefined" : "Oleth-3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-2",
+        "undefined" : "Oleth-2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-80SorbitanLaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-80SorbitanLaurate",
+        "undefined" : "PEG-80 Sorbitan Laurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Oleth-5",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Oleth-5",
+        "undefined" : "Oleth-5"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate",
+        "undefined" : "Glyceryl Stearate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonopalmitate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonopalmitate",
+        "undefined" : "PEG-20 sorbitan monopalmitate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#SucrosePolystearate(and)HydrogetedPolyisobutene",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "SucrosePolystearate(and)HydrogetedPolyisobutene",
+        "undefined" : "Sucrose Polystearate(and) Hydrogeted Polyisobutene"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-4SorbitanMonolaurate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-4SorbitanMonolaurate",
+        "undefined" : "PEG-4 Sorbitan Monolaurate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearate;Ceteareth-20",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearate;Ceteareth-20",
+        "undefined" : "Glyceryl Stearate; Ceteareth-20"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#GlycerylStearateCitrate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "GlycerylStearateCitrate",
+        "undefined" : "Glyceryl Stearate Citrate "
+      }
+    }, {
+      "iri" : "https://purl.org/formo#PEG-20SorbitanMonooleate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "PEG-20SorbitanMonooleate",
+        "undefined" : "PEG-20 sorbitan monooleate"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#Ceteareth-15;GlycerylStearate",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "Ceteareth-15;GlycerylStearate",
+        "undefined" : "Ceteareth-15; Glyceryl Stearate"
+      }
+    } ],
+    "subClasses" : [ "146", "126" ],
+    "id" : "89",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://purl.org/formo#Rheology",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rheology"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#thixotropic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "thixotropic"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#pseudoplastic",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "pseudoplastic"
+      }
+    } ],
+    "id" : "169",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ether_emollient",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ether_emollient"
+    },
+    "intersection" : [ "0" ],
+    "attributes" : [ "intersection" ],
+    "id" : "5",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://purl.org/formo#Stickiness",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stickiness",
+      "en" : "After feel - Stickiness"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#no_sticky_sensation",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "no_sticky_sensation"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#sticky_sensation",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "sticky_sensation"
+      }
+    } ],
+    "id" : "120",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "https://purl.org/formo#Ether",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ether"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#ether",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "ether"
+      }
+    } ],
+    "id" : "271",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "https://purl.org/formo#OWEmulsion",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWEmulsion"
+    },
+    "id" : "43",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://purl.org/formo#Very_High_Spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Very_High_Spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#very_high_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "very_high_spreading"
+      }
+    } ],
+    "id" : "193",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#Heuristic",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Rules that are used by product formulator to anticipate what happens while combined different ingredients.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Heuristic"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#A1",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "A1"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C4",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C4"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#A2",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "A2"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#A3",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "A3"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C32",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C32"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C21",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C21"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#B11",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "B11"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C31",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C31"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C12",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C12"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#B13",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "B13"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C23",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C23"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C22",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C22"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C33",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C33"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#B12",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "B12"
+      }
+    }, {
+      "iri" : "https://purl.org/formo#C11",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "C11"
+      }
+    } ],
+    "subClasses" : [ "44", "259", "189", "60", "111", "123", "209", "67" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://purl.org/formo#RecommendedFormulation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecommendedFormulation"
+    },
+    "comment" : {
+      "en" : "Recommended formulation corresponds to formulation that satisfies formulation best-practices heuristics"
+    },
+    "id" : "174",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#Active",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Active"
+    },
+    "subClasses" : [ "213", "201", "211" ],
+    "id" : "82",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "316",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#OWCosmeticEmulsion",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWCosmeticEmulsion"
+    },
+    "id" : "46",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://purl.org/formo#NonConformFormulation",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonConformFormulation"
+    },
+    "intersection" : [ "32" ],
+    "comment" : {
+      "en" : "The formulation is not conform to the specification defined for the final product. It means the formulation have at least one specification which is not satisfied."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "195",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://purl.org/formo#High_spreading",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "High_spreading"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/formo#high_spreading",
+      "baseIri" : "https://purl.org/formo",
+      "labels" : {
+        "IRI-based" : "high_spreading"
+      }
+    } ],
+    "id" : "23",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://purl.org/formo#HeuristicBodyCream",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicBodyCream"
+    },
+    "id" : "73",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://purl.org/formo#AnionicThickener",
+    "baseIri" : "https://purl.org/formo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnionicThickener"
+    },
+    "id" : "143",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "98",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "207",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "227",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "301",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "314",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "315",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "322",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "323",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "324",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "326",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "327",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "328",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "10",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "21",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicIngType",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "28",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Define which ingredient type is concerned by the heuristic.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicIngType"
+    },
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "range" : "21",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://purl.org/formo#hasProductStability",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "33",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Define the stability of a fomulation final product.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProductStability"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://purl.org/formo#hasIngredient",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "1",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Give the ingredient of a dosage.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "35",
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://purl.org/formo#hasRequiredHLB",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasRequiredHLB"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "the RHLB that an emollient can have"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "10",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "44",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "44",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "49",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "49",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "49",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "59",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "59",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicProdProp",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "64",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicProdProp"
+    },
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://purl.org/formo#hasProcessing",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Processing done on the ingredient of the formulation.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProcessing"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://purl.org/formo#hasSpreading",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Defines the spreading property of an emollient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSpreading"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "range" : "1",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "1",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicIngProp",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "36",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Associate an heuristic to the ingredient property that is involved in the rule.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicIngProp"
+    },
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "range" : "1",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "44",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://purl.org/formo#isActive",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "88",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Property that allow to enable/ disable a heuristic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isActive"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicProcessProp",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicProcessProp"
+    },
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://purl.org/formo#follows",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "follows"
+    },
+    "domain" : "98",
+    "comment" : {
+      "en" : "property to create list such as list of dosage"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://purl.org/formo#hasOrigin",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "100",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provide the origin of an ingredient",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasOrigin"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "range" : "64",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "64",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "94",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "94",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://purl.org/formo#hasTotalSurfactantQuantity",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "hasTotalSurfactantQuantity"
+    },
+    "domain" : "32",
+    "comment" : {
+      "en" : "The total quantity of surfactant that a formulation have. This quantity is in percentage of volume."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicDescription",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "114",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Data properties that provides a description of the heuristic.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicDescription"
+    },
+    "domain" : "98",
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://purl.org/formo#hasSurfactantQuantitySum",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "hasSurfactantQuantitySum"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "The surfactant quantity sum is an intermediary value that allow the calculation of the total quantity of surfactant in a formulation."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "115"
+  }, {
+    "range" : "64",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "64",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "64",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "64",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "64",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "64",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "85",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "85",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "64",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "64",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "64",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://purl.org/formo#hasIonicClass",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "hasIonicClass"
+    },
+    "domain" : "89",
+    "attributes" : [ "functional", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "18",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "18",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "146",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "146",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "146",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://purl.org/formo#hasPhase",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "153",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "it define which phase the ingredient is soluble in.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPhase"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "range" : "36",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "36",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "36",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://purl.org/formo#hasINCIcode",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "hasINCIcode"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "the INCI code that a ingredient can have."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "158"
+  }, {
+    "range" : "36",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "138",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "138",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://purl.org/formo#hasTotalThickenerQuantity",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "164",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "The total quantity of thickener that a formulation have. This quantity is in percentage of volume.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTotalThickenerQuantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://purl.org/formo#hasProductOiliness",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "129",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Define the oiliness of formulated product.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProductOiliness"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://purl.org/formo#isValidatedBy",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Defines that a formulation validate a given heuristic.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isValidatedBy"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "range" : "36",
+    "domain" : "169",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "36",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "36",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "36",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "32",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "32",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "32",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "32",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "32",
+    "domain" : "180",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "iri" : "https://purl.org/formo#isConform",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "isConform"
+    },
+    "domain" : "32",
+    "comment" : {
+      "en" : "the data property idicates if a formulation is conform to the restricive heuristics that correspond to formulation specification."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "181"
+  }, {
+    "range" : "36",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "36",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "iri" : "https://purl.org/formo#hasNbSurfactantIng",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "186",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Define the number of surfactants inside a given formulation.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasNbSurfactantIng"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://purl.org/formo#hasChemicalNature",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "94",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Give the chemical nature of an ingredient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasChemicalNature"
+    },
+    "domain" : "1",
+    "attributes" : [ "functional", "object" ],
+    "id" : "187"
+  }, {
+    "iri" : "https://purl.org/formo#hasRestrictiveHeuristic",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasRestrictiveHeuristic"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "188"
+  }, {
+    "range" : "21",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "21",
+    "domain" : "193",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "32",
+    "domain" : "195",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://purl.org/formo#hasAfterfeeling",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "49",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Give one or several afterfeeling properties to an ingredient of type emollient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAfterfeeling"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "196"
+  }, {
+    "range" : "138",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://purl.org/formo#hasRecommendationHeuristic",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provide the heuristic that will be applied to a formulation as recommendation herustic.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRecommendationHeuristic"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicProcessOutcome",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "69",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicProcessOutcome"
+    },
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "199"
+  }, {
+    "range" : "1",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "27",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "21",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "100",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "32",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "10",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "27",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "32",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "138",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "1",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "iri" : "https://purl.org/formo#hasProductDropletSize",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "69",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProductDropletSize"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://purl.org/formo#hasCalculatedHLB",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "hasCalculatedHLB"
+    },
+    "domain" : "32",
+    "comment" : {
+      "en" : "the final HLB of the surfactant mixture that compose the formulation"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicLowThreshold",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "218",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Low threshold in percentage for an heuristique.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicLowThreshold"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype" ],
+    "id" : "217"
+  }, {
+    "range" : "10",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "21",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "157",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "1",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "27",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "100",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "138",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "35",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "32",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "157",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "21",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "82",
+    "domain" : "211",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "21",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "10",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "iri" : "https://purl.org/formo#hasTotalOilyPhase",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "hasTotalOilyPhase"
+    },
+    "domain" : "98",
+    "attributes" : [ "datatype" ],
+    "id" : "233"
+  }, {
+    "range" : "21",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "27",
+    "domain" : "189",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "100",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "27",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "100",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "27",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicHighThreshold",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "242",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "High threshold in percentage for an heuristique.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicHighThreshold"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype" ],
+    "id" : "241"
+  }, {
+    "range" : "10",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "27",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "21",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "27",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "iri" : "https://purl.org/formo#hasProductOilyPhase",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "248",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Percentage of the formulated product that represent oily ingrdient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProductOilyPhase"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype" ],
+    "id" : "247"
+  }, {
+    "range" : "100",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "27",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "138",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "82",
+    "domain" : "213",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "10",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "82",
+    "domain" : "201",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "89",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "27",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "138",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "27",
+    "domain" : "259",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "1",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "iri" : "https://purl.org/formo#hasHeuristicSource",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "262",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provides the source of the heuristic (from literature or experience)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHeuristicSource"
+    },
+    "domain" : "27",
+    "attributes" : [ "datatype" ],
+    "id" : "261"
+  }, {
+    "range" : "10",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "138",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "1",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "94",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "21",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "94",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "100",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "94",
+    "domain" : "271",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "21",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "range" : "94",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "range" : "100",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "94",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "27",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "94",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "278"
+  }, {
+    "range" : "10",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "89",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "iri" : "https://purl.org/formo#followsSurfactant",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "followsSurfactant"
+    },
+    "domain" : "98",
+    "attributes" : [ "functional", "object" ],
+    "id" : "284"
+  }, {
+    "iri" : "https://purl.org/formo#hasEquivalentHLB",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "hasEquivalentHLB"
+    },
+    "domain" : "98",
+    "attributes" : [ "datatype" ],
+    "id" : "285"
+  }, {
+    "iri" : "https://purl.org/formo#hasQuantitySum",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "hasQuantitySum"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "the quantity sum is an intermediary value that allow the calculation of the total quantity of product in a formulation, except the water. This quantity sum will be used in the calculation of the water quantity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "287"
+  }, {
+    "range" : "123",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "iri" : "https://purl.org/formo#hasEmollience",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "157",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Give the level of emollience of an ingredient of type emollient.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasEmollience"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "289"
+  }, {
+    "range" : "78",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "10",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "iri" : "https://purl.org/formo#hasQuantity",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "hasQuantity"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "293"
+  }, {
+    "range" : "10",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "195",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "151",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "35",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "range" : "35",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "range" : "1",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "range" : "70",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "35",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "range" : "35",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "157",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "32",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "27",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "1",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
+    "range" : "138",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "range" : "100",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "309"
+  }, {
+    "range" : "21",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "10",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "94",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "35",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "iri" : "https://purl.org/formo#hasPricePerKilogram",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "hasPricePerKilogram"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Price per kilogram of an ingredient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "314"
+  }, {
+    "iri" : "https://purl.org/formo#hasHLB",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "hasHLB"
+    },
+    "domain" : "89",
+    "comment" : {
+      "en" : "the HLB that a surfactant can have"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "315"
+  }, {
+    "range" : "70",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "range" : "0",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "318"
+  }, {
+    "range" : "70",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "70",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "0",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "325"
+  }, {
+    "iri" : "https://purl.org/formo#hasDosage",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "35",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Give the dosages that compose a formulation.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDosage"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "326"
+  }, {
+    "iri" : "https://purl.org/formo#hasProductViscosity",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "122",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provides the viscosity of the formulation final product.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProductViscosity"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "327"
+  }, {
+    "iri" : "https://purl.org/formo#hasTexture",
+    "baseIri" : "https://purl.org/formo",
+    "range" : "10",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Provides the texture that can be expected from a given surfactant.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTexture"
+    },
+    "domain" : "89",
+    "attributes" : [ "object" ],
+    "id" : "328"
+  } ]
+}
