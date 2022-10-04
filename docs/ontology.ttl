@@ -36,7 +36,7 @@
 :hasAfterfeeling rdf:type owl:ObjectProperty ;
                  rdfs:domain :Emollient ;
                  rdfs:range :Afterfeeling ;
-                 rdfs:isDefinedBy "Give one or several afterfeeling properties to an ingredient of type emollient."@en .
+                 rdfs:comment "Give one or several afterfeeling properties to an ingredient of type emollient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasChemicalNature
@@ -44,63 +44,63 @@
                             owl:FunctionalProperty ;
                    rdfs:domain :Ingredient ;
                    rdfs:range :Chemical_nature ;
-                   rdfs:isDefinedBy "Give the chemical nature of an ingredient."@en .
+                   rdfs:comment "Give the chemical nature of an ingredient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasDosage
 :hasDosage rdf:type owl:ObjectProperty ;
            rdfs:domain :Formulation ;
            rdfs:range :Dosage ;
-           rdfs:isDefinedBy "Give the dosages that compose a formulation."@en .
+           rdfs:comment "Give the dosages that compose a formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasDosageIngredient
 :hasDosageIngredient rdf:type owl:ObjectProperty ;
                      rdfs:domain :Dosage ;
                      rdfs:range :Ingredient ;
-                     rdfs:isDefinedBy "Give the ingredient of a dosage."@en .
+                     rdfs:comment "Give the ingredient of a dosage."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasEmollience
 :hasEmollience rdf:type owl:ObjectProperty ;
                rdfs:domain :Emollient ;
                rdfs:range :Emollience ;
-               rdfs:isDefinedBy "Give the level of emollience of an ingredient of type emollient."@en .
+               rdfs:comment "Give the level of emollience of an ingredient of type emollient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicIngProp
 :hasHeuristicIngProp rdf:type owl:ObjectProperty ;
                      rdfs:domain :Heuristic ;
                      rdfs:range :IngredientProperty ;
-                     rdfs:isDefinedBy "Associate an heuristic to the ingredient property that is involved in the rule."@en .
+                     rdfs:comment "Associate an heuristic to the ingredient property that is involved in the rule."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicIngType
 :hasHeuristicIngType rdf:type owl:ObjectProperty ;
                      rdfs:domain :Heuristic ;
                      rdfs:range :Ingredient_Type ;
-                     rdfs:isDefinedBy "Define which ingredient type is concerned by the heuristic."@en .
+                     rdfs:comment "Define which ingredient type is concerned by the heuristic."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicProcessOutcome
 :hasHeuristicProcessOutcome rdf:type owl:ObjectProperty ;
                             rdfs:domain :Heuristic ;
                             rdfs:range :DropletSize ;
-                            rdfs:isDefinedBy "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
+                            rdfs:comment "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicProcessProp
 :hasHeuristicProcessProp rdf:type owl:ObjectProperty ;
                          rdfs:domain :Heuristic ;
                          rdfs:range :Process ;
-                         rdfs:isDefinedBy "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."@en .
+                         rdfs:comment "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicProdProp
 :hasHeuristicProdProp rdf:type owl:ObjectProperty ;
                       rdfs:domain :Heuristic ;
                       rdfs:range :ProductProperty ;
-                      rdfs:isDefinedBy "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."@en .
+                      rdfs:comment "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasIngredient
@@ -114,63 +114,63 @@
                         owl:FunctionalProperty ;
                rdfs:domain :Surfactant ;
                rdfs:range :Ionic_Nature ;
-               rdfs:isDefinedBy "Define the ionic nature of an ingredient."@en .
+               rdfs:comment "Define the ionic nature of an ingredient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasOrigin
 :hasOrigin rdf:type owl:ObjectProperty ;
            rdfs:domain :Ingredient ;
            rdfs:range :Origin ;
-           rdfs:isDefinedBy "Provide the origin of an ingredient"@en .
+           rdfs:comment "Provide the origin of an ingredient"@en .
 
 
 ###  https://purl.org/ontocosmetic#hasPhase
 :hasPhase rdf:type owl:ObjectProperty ;
           rdfs:domain :Ingredient ;
           rdfs:range :Phase ;
-          rdfs:isDefinedBy "it define which phase the ingredient is soluble in."@en .
+          rdfs:comment "it define which phase the ingredient is soluble in."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProcessing
 :hasProcessing rdf:type owl:ObjectProperty ;
                rdfs:domain :Formulation ;
                rdfs:range :Process ;
-               rdfs:isDefinedBy "Processing done on the ingredient of the formulation."@en .
+               rdfs:comment "Processing done on the ingredient of the formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductDropletSize
 :hasProductDropletSize rdf:type owl:ObjectProperty ;
                        rdfs:domain :Formulation ;
                        rdfs:range :DropletSize ;
-                       rdfs:isDefinedBy "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
+                       rdfs:comment "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductOiliness
 :hasProductOiliness rdf:type owl:ObjectProperty ;
                     rdfs:domain :Formulation ;
                     rdfs:range :Oiliness ;
-                    rdfs:isDefinedBy "Define the oiliness of formulated product."@en .
+                    rdfs:comment "Define the oiliness of formulated product."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductStability
 :hasProductStability rdf:type owl:ObjectProperty ;
                      rdfs:domain :Formulation ;
                      rdfs:range :Stability ;
-                     rdfs:isDefinedBy "Define the stability of a fomulation final product."@en .
+                     rdfs:comment "Define the stability of a fomulation final product."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductViscosity
 :hasProductViscosity rdf:type owl:ObjectProperty ;
                      rdfs:domain :Formulation ;
                      rdfs:range :Viscosity ;
-                     rdfs:isDefinedBy "Provides the viscosity of the formulation final product."@en .
+                     rdfs:comment "Provides the viscosity of the formulation final product."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasRecommendationHeuristic
 :hasRecommendationHeuristic rdf:type owl:ObjectProperty ;
                             rdfs:domain :Formulation ;
                             rdfs:range :Heuristic ;
-                            rdfs:isDefinedBy "Provide the heuristic that will be applied to a formulation as recommendation herustic."@en .
+                            rdfs:comment "Provide the heuristic that will be applied to a formulation as recommendation herustic."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasRestrictiveHeuristic
@@ -183,7 +183,7 @@
 :hasSpreading rdf:type owl:ObjectProperty ;
               rdfs:domain :Emollient ;
               rdfs:range :Spreading ;
-              rdfs:isDefinedBy "Defines the spreading property of an emollient."@en .
+              rdfs:comment "Defines the spreading property of an emollient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasState
@@ -196,7 +196,7 @@
 :hasTexture rdf:type owl:ObjectProperty ;
             rdfs:domain :Surfactant ;
             rdfs:range :Texture ;
-            rdfs:isDefinedBy "Provides the texture that can be expected from a given surfactant."@en .
+            rdfs:comment "Provides the texture that can be expected from a given surfactant."@en .
 
 
 ###  https://purl.org/ontocosmetic#isCommercializedAs
@@ -209,7 +209,7 @@
 :isValidatedBy rdf:type owl:ObjectProperty ;
                rdfs:domain :Formulation ;
                rdfs:range :Heuristic ;
-               rdfs:isDefinedBy "Defines that a formulation validate a given heuristic."@en .
+               rdfs:comment "Defines that a formulation validate a given heuristic."@en .
 
 
 #################################################################
@@ -236,27 +236,27 @@
 ###  https://purl.org/ontocosmetic#hasHeuristicDescription
 :hasHeuristicDescription rdf:type owl:DatatypeProperty ;
                          rdfs:domain :Heuristic ;
-                         rdfs:isDefinedBy "Data properties that provides a description of the heuristic."@en .
+                         rdfs:comment "Data properties that provides a description of the heuristic."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicHighThreshold
 :hasHeuristicHighThreshold rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Heuristic ;
                            rdfs:range xsd:float ;
-                           rdfs:isDefinedBy "High threshold in percentage for an heuristique."@en .
+                           rdfs:comment "High threshold in percentage for an heuristique."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicLowThreshold
 :hasHeuristicLowThreshold rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Heuristic ;
                           rdfs:range xsd:float ;
-                          rdfs:isDefinedBy "Low threshold in percentage for an heuristique."@en .
+                          rdfs:comment "Low threshold in percentage for an heuristique."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasHeuristicSource
 :hasHeuristicSource rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Heuristic ;
-                    rdfs:isDefinedBy "Provides the source of the heuristic (from literature or experience)"@en .
+                    rdfs:comment "Provides the source of the heuristic (from literature or experience)"@en .
 
 
 ###  https://purl.org/ontocosmetic#hasINCIcode
@@ -270,7 +270,7 @@
 :hasNbSurfactantIng rdf:type owl:DatatypeProperty ;
                     rdfs:domain :Formulation ;
                     rdfs:range xsd:int ;
-                    rdfs:isDefinedBy "Define the number of surfactants inside a given formulation."@en .
+                    rdfs:comment "Define the number of surfactants inside a given formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasPricePerKilogram
@@ -284,7 +284,7 @@
 :hasProductOilyPhase rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Formulation ;
                      rdfs:range xsd:float ;
-                     rdfs:isDefinedBy "Percentage of the formulated product that represent oily ingrdient."@en .
+                     rdfs:comment "Percentage of the formulated product that represent oily ingrdient."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasQuantity
@@ -292,7 +292,7 @@
                       owl:FunctionalProperty ;
              rdfs:domain :Dosage ;
              rdfs:range xsd:float ;
-             rdfs:isDefinedBy "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
+             rdfs:comment "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasQuantitySum
@@ -334,14 +334,14 @@
 :hasTotalThickenerQuantity rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Formulation ;
                            rdfs:range xsd:float ;
-                           rdfs:isDefinedBy "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
+                           rdfs:comment "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
 
 
 ###  https://purl.org/ontocosmetic#isActive
 :isActive rdf:type owl:DatatypeProperty ;
           rdfs:domain :Heuristic ;
           rdfs:range xsd:boolean ;
-          rdfs:isDefinedBy "Property that allow to enable/ disable a heuristic"@en .
+          rdfs:comment "Property that allow to enable/ disable a heuristic"@en .
 
 
 ###  https://purl.org/ontocosmetic#isConform
@@ -359,26 +359,26 @@
 ###  https://purl.org/ontocosmetic#AbsorptionRate
 :AbsorptionRate rdf:type owl:Class ;
                 rdfs:subClassOf :ProductProperty ;
-                rdfs:isDefinedBy "Describe the capacity of the formulation product to be absopt by a skin."@en ;
+                rdfs:comment "Describe the capacity of the formulation product to be absopt by a skin."@en ;
                 rdfs:label "After Feel - Absorption Rate"@en .
 
 
 ###  https://purl.org/ontocosmetic#Active
 :Active rdf:type owl:Class ;
         rdfs:subClassOf :Ingredient ;
-        rdfs:isDefinedBy "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."@en .
+        rdfs:comment "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."@en .
 
 
 ###  https://purl.org/ontocosmetic#Aerosol
 :Aerosol rdf:type owl:Class ;
          rdfs:subClassOf :Colloid ;
-         rdfs:isDefinedBy "solid or liquid particles in a gas"@en .
+         rdfs:comment "solid or liquid particles in a gas"@en .
 
 
 ###  https://purl.org/ontocosmetic#Afterfeeling
 :Afterfeeling rdf:type owl:Class ;
               rdfs:subClassOf :IngredientProperty ;
-              rdfs:isDefinedBy "Ingredients have the property to influence the afterfeel of the formulated product."@en .
+              rdfs:comment "Ingredients have the property to influence the afterfeel of the formulated product."@en .
 
 
 ###  https://purl.org/ontocosmetic#Agitation
@@ -404,7 +404,7 @@
 ###  https://purl.org/ontocosmetic#Antioxidant
 :Antioxidant rdf:type owl:Class ;
              rdfs:subClassOf :Active ;
-             rdfs:isDefinedBy "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."@en .
+             rdfs:comment "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."@en .
 
 
 ###  https://purl.org/ontocosmetic#AqueousThickeners
@@ -434,7 +434,7 @@
 ###  https://purl.org/ontocosmetic#Colloid
 :Colloid rdf:type owl:Class ;
          rdfs:subClassOf :HeterogenousMixture ;
-         rdfs:isDefinedBy "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en ;
+         rdfs:comment "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en ;
          rdfs:seeAlso "colloidal system"@en .
 
 
@@ -446,7 +446,7 @@
 ###  https://purl.org/ontocosmetic#Density
 :Density rdf:type owl:Class ;
          rdfs:subClassOf :EmollientProperty ;
-         rdfs:isDefinedBy "It is the mass per unit of volume. In emulsions it is related to emulsion stability."@en .
+         rdfs:comment "It is the mass per unit of volume. In emulsions it is related to emulsion stability."@en .
 
 
 ###  https://purl.org/ontocosmetic#Descriptors
@@ -462,13 +462,13 @@
 ###  https://purl.org/ontocosmetic#DropletSize
 :DropletSize rdf:type owl:Class ;
              rdfs:subClassOf :ProductProperty ;
-             rdfs:isDefinedBy "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets"@en .
+             rdfs:comment "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets"@en .
 
 
 ###  https://purl.org/ontocosmetic#Efficiency
 :Efficiency rdf:type owl:Class ;
             rdfs:subClassOf :ThickenerProperty ;
-            rdfs:isDefinedBy "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."@en .
+            rdfs:comment "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."@en .
 
 
 ###  https://purl.org/ontocosmetic#ElectricalNature
@@ -484,7 +484,7 @@
 ###  https://purl.org/ontocosmetic#Emollient
 :Emollient rdf:type owl:Class ;
            rdfs:subClassOf :Ingredient ;
-           rdfs:isDefinedBy "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."@en .
+           rdfs:comment "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."@en .
 
 
 ###  https://purl.org/ontocosmetic#EmollientProperty
@@ -504,54 +504,54 @@
                                       ] ;
                   rdfs:subClassOf :Dosage ;
                   owl:disjointWith :Surfactant_Dosage ;
-                  rdfs:isDefinedBy "sub-type of dosage which concerns only the emollient."@en .
+                  rdfs:comment "sub-type of dosage which concerns only the emollient."@en .
 
 
 ###  https://purl.org/ontocosmetic#Emulsion
 :Emulsion rdf:type owl:Class ;
           rdfs:subClassOf :Colloid ;
-          rdfs:isDefinedBy "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."@en .
+          rdfs:comment "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."@en .
 
 
 ###  https://purl.org/ontocosmetic#EmulsionScienceHeuristic
 :EmulsionScienceHeuristic rdf:type owl:Class ;
                           rdfs:subClassOf :Heuristic ;
-                          rdfs:isDefinedBy "It is a sub-type of heuristic that come from scientific literature."@en .
+                          rdfs:comment "It is a sub-type of heuristic that come from scientific literature."@en .
 
 
 ###  https://purl.org/ontocosmetic#Ester_emollient
 :Ester_emollient rdf:type owl:Class ;
                  rdfs:subClassOf :Emollient ;
-                 rdfs:isDefinedBy "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."@en .
+                 rdfs:comment "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."@en .
 
 
 ###  https://purl.org/ontocosmetic#Ether_emollient
 :Ether_emollient rdf:type owl:Class ;
                  rdfs:subClassOf :Emollient ;
-                 rdfs:isDefinedBy "Sub type of emollient ingredient that are ether."@en .
+                 rdfs:comment "Sub type of emollient ingredient that are ether."@en .
 
 
 ###  https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic
 :ExpertKnowledgeHeuristic rdf:type owl:Class ;
                           rdfs:subClassOf :Heuristic ;
-                          rdfs:isDefinedBy "It is a sub-type of heuristic that come from expert  interview."@en .
+                          rdfs:comment "It is a sub-type of heuristic that come from expert  interview."@en .
 
 
 ###  https://purl.org/ontocosmetic#Fatty_alcohol_emollient
 :Fatty_alcohol_emollient rdf:type owl:Class ;
                          rdfs:subClassOf :Emollient ;
-                         rdfs:isDefinedBy "Sub type of emollient ingredient that are fatty alcohol."@en .
+                         rdfs:comment "Sub type of emollient ingredient that are fatty alcohol."@en .
 
 
 ###  https://purl.org/ontocosmetic#Foam
 :Foam rdf:type owl:Class ;
       rdfs:subClassOf :Colloid ;
-      rdfs:isDefinedBy "gas in liquid."@en .
+      rdfs:comment "gas in liquid."@en .
 
 
 ###  https://purl.org/ontocosmetic#Formulation
 :Formulation rdf:type owl:Class ;
-             rdfs:isDefinedBy "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."@en ;
+             rdfs:comment "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."@en ;
              rdfs:seeAlso :Mixture ,
                           "Blend"@en .
 
@@ -559,13 +559,13 @@
 ###  https://purl.org/ontocosmetic#Gel
 :Gel rdf:type owl:Class ;
      rdfs:subClassOf :Colloid ;
-     rdfs:isDefinedBy "liquids in solids."@en .
+     rdfs:comment "liquids in solids."@en .
 
 
 ###  https://purl.org/ontocosmetic#Glycols
 :Glycols rdf:type owl:Class ;
          rdfs:subClassOf :Humectant ;
-         rdfs:isDefinedBy "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."@en .
+         rdfs:comment "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."@en .
 
 
 ###  https://purl.org/ontocosmetic#HLB
@@ -576,13 +576,13 @@
 ###  https://purl.org/ontocosmetic#HeterogenousMixture
 :HeterogenousMixture rdf:type owl:Class ;
                      rdfs:subClassOf :Mixture ;
-                     rdfs:isDefinedBy "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."@en ;
+                     rdfs:comment "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."@en ;
                      rdfs:label "Heterogenous Mixture"@en .
 
 
 ###  https://purl.org/ontocosmetic#Heuristic
 :Heuristic rdf:type owl:Class ;
-           rdfs:isDefinedBy "Rules that are used by product formulator to anticipate what happens while combined different ingredients."@en .
+           rdfs:comment "Rules that are used by product formulator to anticipate what happens while combined different ingredients."@en .
 
 
 ###  https://purl.org/ontocosmetic#HeuristicBodyCream
@@ -606,7 +606,7 @@
                                           rdf:type owl:Class
                                         ] ;
                     rdfs:subClassOf :Heuristic ;
-                    rdfs:isDefinedBy "Sub group of heuristic that only concerns active ingredients."@en .
+                    rdfs:comment "Sub group of heuristic that only concerns active ingredients."@en .
 
 
 ###  https://purl.org/ontocosmetic#HeuristicForEmollient
@@ -620,7 +620,7 @@
                                              rdf:type owl:Class
                                            ] ;
                        rdfs:subClassOf :Heuristic ;
-                       rdfs:isDefinedBy "Sub group of heuristic that only concerns emollients."@en .
+                       rdfs:comment "Sub group of heuristic that only concerns emollients."@en .
 
 
 ###  https://purl.org/ontocosmetic#HeuristicForSurfactant
@@ -634,7 +634,7 @@
                                               rdf:type owl:Class
                                             ] ;
                         rdfs:subClassOf :Heuristic ;
-                        rdfs:isDefinedBy "Sub group of heuristic that only concerns surfactants."@en .
+                        rdfs:comment "Sub group of heuristic that only concerns surfactants."@en .
 
 
 ###  https://purl.org/ontocosmetic#HeuristicForThickener
@@ -648,7 +648,7 @@
                                              rdf:type owl:Class
                                            ] ;
                        rdfs:subClassOf :Heuristic ;
-                       rdfs:isDefinedBy "Sub group of heuristic that only concerns thickeners."@en .
+                       rdfs:comment "Sub group of heuristic that only concerns thickeners."@en .
 
 
 ###  https://purl.org/ontocosmetic#HeuristicHairCream
@@ -669,26 +669,26 @@
 ###  https://purl.org/ontocosmetic#HomogenousMixture
 :HomogenousMixture rdf:type owl:Class ;
                    rdfs:subClassOf :Mixture ;
-                   rdfs:isDefinedBy "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."@en ;
+                   rdfs:comment "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."@en ;
                    rdfs:label "Homogenous Mixture"@en .
 
 
 ###  https://purl.org/ontocosmetic#Humectant
 :Humectant rdf:type owl:Class ;
            rdfs:subClassOf :Active ;
-           rdfs:isDefinedBy "Hygroscopic substance used to keep things moist. Most common are glycols."@en .
+           rdfs:comment "Hygroscopic substance used to keep things moist. Most common are glycols."@en .
 
 
 ###  https://purl.org/ontocosmetic#Hydrocarbon_emollient
 :Hydrocarbon_emollient rdf:type owl:Class ;
                        rdfs:subClassOf :Emollient ;
-                       rdfs:isDefinedBy "Sub type of emollient ingredient that are hydrocarbon."@en .
+                       rdfs:comment "Sub type of emollient ingredient that are hydrocarbon."@en .
 
 
 ###  https://purl.org/ontocosmetic#Ingredient
 :Ingredient rdf:type owl:Class ;
             rdfs:subClassOf :Substance ;
-            rdfs:isDefinedBy "Substance that forms part of a formulation."@en .
+            rdfs:comment "Substance that forms part of a formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#IngredientProperty
@@ -723,13 +723,13 @@
 
 ###  https://purl.org/ontocosmetic#Microstructure
 :Microstructure rdf:type owl:Class ;
-                rdfs:isDefinedBy "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."@en .
+                rdfs:comment "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."@en .
 
 
 ###  https://purl.org/ontocosmetic#Mixture
 :Mixture rdf:type owl:Class ;
          rdfs:subClassOf :Substance ;
-         rdfs:isDefinedBy "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."@en .
+         rdfs:comment "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."@en .
 
 
 ###  https://purl.org/ontocosmetic#NonAqueousThickeners
@@ -766,7 +766,7 @@
 ###  https://purl.org/ontocosmetic#OilyPhase
 :OilyPhase rdf:type owl:Class ;
            rdfs:subClassOf :ProductProperty ;
-           rdfs:isDefinedBy "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase."@en .
+           rdfs:comment "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase."@en .
 
 
 ###  https://purl.org/ontocosmetic#OneIngredient
@@ -782,7 +782,7 @@
 ###  https://purl.org/ontocosmetic#Origin
 :Origin rdf:type owl:Class ;
         rdfs:subClassOf :IngredientProperty ;
-        rdfs:isDefinedBy "Origins of the ingredient."@en .
+        rdfs:comment "Origins of the ingredient."@en .
 
 
 ###  https://purl.org/ontocosmetic#OtherIngredient
@@ -798,31 +798,31 @@
 ###  https://purl.org/ontocosmetic#Phase
 :Phase rdf:type owl:Class ;
        rdfs:subClassOf :IngredientProperty ;
-       rdfs:isDefinedBy "It is a region of space throughout which all physical properties of a material are essentially uniform."@en .
+       rdfs:comment "It is a region of space throughout which all physical properties of a material are essentially uniform."@en .
 
 
 ###  https://purl.org/ontocosmetic#Polarity
 :Polarity rdf:type owl:Class ;
           rdfs:subClassOf :EmollientProperty ;
-          rdfs:isDefinedBy "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."@en .
+          rdfs:comment "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."@en .
 
 
 ###  https://purl.org/ontocosmetic#Preservative
 :Preservative rdf:type owl:Class ;
               rdfs:subClassOf :OtherIngredient ;
-              rdfs:isDefinedBy "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."@en .
+              rdfs:comment "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."@en .
 
 
 ###  https://purl.org/ontocosmetic#Process
 :Process rdf:type owl:Class ;
          rdfs:subClassOf :System ;
-         rdfs:isDefinedBy "Steps leading to the generation of a product."@en .
+         rdfs:comment "Steps leading to the generation of a product."@en .
 
 
 ###  https://purl.org/ontocosmetic#Product
 :Product rdf:type owl:Class ;
          rdfs:subClassOf :System ;
-         rdfs:isDefinedBy "Formulation ready to go to the market."@en .
+         rdfs:comment "Formulation ready to go to the market."@en .
 
 
 ###  https://purl.org/ontocosmetic#ProductProperty
@@ -838,7 +838,7 @@
 ###  https://purl.org/ontocosmetic#PureSubstance
 :PureSubstance rdf:type owl:Class ;
                rdfs:subClassOf :Substance ;
-               rdfs:isDefinedBy "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."@en ;
+               rdfs:comment "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."@en ;
                rdfs:label "Pure Substance"@en .
 
 
@@ -851,7 +851,7 @@
 ###  https://purl.org/ontocosmetic#Restrictive_Heuristic
 :Restrictive_Heuristic rdf:type owl:Class ;
                        rdfs:subClassOf :Heuristic ;
-                       rdfs:isDefinedBy "Heuristics that have to be satisfied to have a conform formulation"@en .
+                       rdfs:comment "Heuristics that have to be satisfied to have a conform formulation"@en .
 
 
 ###  https://purl.org/ontocosmetic#Rheology
@@ -869,37 +869,37 @@
 ###  https://purl.org/ontocosmetic#Silicone_emollient
 :Silicone_emollient rdf:type owl:Class ;
                     rdfs:subClassOf :Emollient ;
-                    rdfs:isDefinedBy "Sub type of emollient ingredient that are silicone."@en .
+                    rdfs:comment "Sub type of emollient ingredient that are silicone."@en .
 
 
 ###  https://purl.org/ontocosmetic#Sol
 :Sol rdf:type owl:Class ;
      rdfs:subClassOf :Colloid ;
-     rdfs:isDefinedBy "solid particles in a liquid."@en .
+     rdfs:comment "solid particles in a liquid."@en .
 
 
 ###  https://purl.org/ontocosmetic#SolidFoam
 :SolidFoam rdf:type owl:Class ;
            rdfs:subClassOf :Colloid ;
-           rdfs:isDefinedBy "gas in solid."@en .
+           rdfs:comment "gas in solid."@en .
 
 
 ###  https://purl.org/ontocosmetic#SolidSol
 :SolidSol rdf:type owl:Class ;
           rdfs:subClassOf :Colloid ;
-          rdfs:isDefinedBy "solid in solid."@en .
+          rdfs:comment "solid in solid."@en .
 
 
 ###  https://purl.org/ontocosmetic#SolubilityInWater
 :SolubilityInWater rdf:type owl:Class ;
                    rdfs:subClassOf :ThickenerProperty ;
-                   rdfs:isDefinedBy "The solubility in water is important to establish how to introduce the rheological modifier to the formula."@en .
+                   rdfs:comment "The solubility in water is important to establish how to introduce the rheological modifier to the formula."@en .
 
 
 ###  https://purl.org/ontocosmetic#Solution
 :Solution rdf:type owl:Class ;
           rdfs:subClassOf :HomogenousMixture ;
-          rdfs:isDefinedBy "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
+          rdfs:comment "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#SpecialFunction
@@ -915,7 +915,7 @@
 ###  https://purl.org/ontocosmetic#Spreading
 :Spreading rdf:type owl:Class ;
            rdfs:subClassOf :IngredientProperty ;
-           rdfs:isDefinedBy "The ability of the ingredient to spread on the skin"@en .
+           rdfs:comment "The ability of the ingredient to spread on the skin"@en .
 
 
 ###  https://purl.org/ontocosmetic#Stability
@@ -927,7 +927,7 @@
 ###  https://purl.org/ontocosmetic#Stabilizer
 :Stabilizer rdf:type owl:Class ;
             rdfs:subClassOf :Ingredient ;
-            rdfs:isDefinedBy "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"@en .
+            rdfs:comment "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"@en .
 
 
 ###  https://purl.org/ontocosmetic#StateOfMatter
@@ -944,7 +944,7 @@
 ###  https://purl.org/ontocosmetic#Substance
 :Substance rdf:type owl:Class ;
            rdfs:subClassOf :System ;
-           rdfs:isDefinedBy "Any chemical entity (pure and mixture) is a substance."@en .
+           rdfs:comment "Any chemical entity (pure and mixture) is a substance."@en .
 
 
 ###  https://purl.org/ontocosmetic#SubstanceProperty
@@ -955,7 +955,7 @@
 ###  https://purl.org/ontocosmetic#Surfactant
 :Surfactant rdf:type owl:Class ;
             rdfs:subClassOf :Ingredient ;
-            rdfs:isDefinedBy "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."@en ;
+            rdfs:comment "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."@en ;
             rdfs:seeAlso "emulsifier"@en .
 
 
@@ -980,12 +980,12 @@
 ###  https://purl.org/ontocosmetic#Suspension
 :Suspension rdf:type owl:Class ;
             rdfs:subClassOf :HeterogenousMixture ;
-            rdfs:isDefinedBy "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."@en .
+            rdfs:comment "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."@en .
 
 
 ###  https://purl.org/ontocosmetic#System
 :System rdf:type owl:Class ;
-        rdfs:isDefinedBy "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."@en .
+        rdfs:comment "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."@en .
 
 
 ###  https://purl.org/ontocosmetic#Texture
@@ -996,7 +996,7 @@
 ###  https://purl.org/ontocosmetic#Thickener
 :Thickener rdf:type owl:Class ;
            rdfs:subClassOf :Ingredient ;
-           rdfs:isDefinedBy "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."@en ;
+           rdfs:comment "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."@en ;
            rdfs:seeAlso "Rheological modifiers"@en .
 
 
@@ -1008,7 +1008,7 @@
 ###  https://purl.org/ontocosmetic#ThickenerStability
 :ThickenerStability rdf:type owl:Class ;
                     rdfs:subClassOf :ThickenerProperty ;
-                    rdfs:isDefinedBy "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."@en .
+                    rdfs:comment "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."@en .
 
 
 ###  https://purl.org/ontocosmetic#ToIngredient
@@ -1024,21 +1024,21 @@
 ###  https://purl.org/ontocosmetic#UvFilter
 :UvFilter rdf:type owl:Class ;
           rdfs:subClassOf :Active ;
-          rdfs:isDefinedBy "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."@en .
+          rdfs:comment "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."@en .
 
 
 ###  https://purl.org/ontocosmetic#Vegetable_oil_emollient
 :Vegetable_oil_emollient rdf:type owl:Class ;
                          rdfs:subClassOf :Emollient ;
-                         rdfs:isDefinedBy "Sub type of emollient ingredient that are vegetable oil."@en .
+                         rdfs:comment "Sub type of emollient ingredient that are vegetable oil."@en .
 
 
 ###  https://purl.org/ontocosmetic#Viscosity
 :Viscosity rdf:type owl:Class ;
            rdfs:subClassOf :EmollientProperty ;
-           rdfs:isDefinedBy """It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) 
+           rdfs:comment """It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) 
 Describe the level of viscosity of a formulated product. it can be low, medium or high.
-It is related to the sensorial term of thickness."""@en .
+It is related to the sensorial term of thickness.""" .
 
 
 ###  https://purl.org/ontocosmetic#VisualApperance
@@ -1049,21 +1049,21 @@ It is related to the sensorial term of thickness."""@en .
 ###  https://purl.org/ontocosmetic#anti-age
 :anti-age rdf:type owl:Class ;
           rdfs:subClassOf :Active ;
-          rdfs:isDefinedBy "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."@en .
+          rdfs:comment "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."@en .
 
 
 ###  https://purl.org/ontocosmetic#O/W_emulsion
 <https://purl.org/ontocosmetic#O/W_emulsion> rdf:type owl:Class ;
                                              rdfs:subClassOf :Microstructure ;
                                              owl:disjointWith <https://purl.org/ontocosmetic#W/O_emulsion> ;
-                                             rdfs:isDefinedBy "It is an emulsion where the oil phase corresponds to the disperse phase and the continuous phase corresponds to the aqueous phase."@en ;
+                                             rdfs:comment "It is an emulsion where the oil phase corresponds to the disperse phase and the continuous phase corresponds to the aqueous phase."@en ;
                                              rdfs:label "oil-in-water emulsion"@en .
 
 
 ###  https://purl.org/ontocosmetic#W/O_emulsion
 <https://purl.org/ontocosmetic#W/O_emulsion> rdf:type owl:Class ;
                                              rdfs:subClassOf :Microstructure ;
-                                             rdfs:isDefinedBy "It is the inverse of an O/W emulsion. In this emulsion the aqueous phase is dispersed within the oily phase."@en ;
+                                             rdfs:comment "It is the inverse of an O/W emulsion. In this emulsion the aqueous phase is dispersed within the oily phase."@en ;
                                              rdfs:label "water-in-oil emulsion"@en .
 
 
@@ -1244,6 +1244,18 @@ It is related to the sensorial term of thickness."""@en .
              :hasINCIcode "Cacao butter" ;
              :hasRequiredHLB "6.0"^^xsd:float ;
              rdfs:label "Cacao butter" .
+
+
+###  https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate
+:Ceteareth-15-GlycerylStearate rdf:type owl:NamedIndividual ,
+                                        :Ingredient ,
+                                        :Surfactant ;
+                               :hasIonicClass :nonionic ;
+                               :hasTexture :lotion ,
+                                           :spray ;
+                               :hasHLB "12.0"^^xsd:float ;
+                               :hasINCIcode "Ceteareth-15; Glyceryl Stearate" ;
+                               rdfs:label "Ceteareth-15; Glyceryl Stearate" .
 
 
 ###  https://purl.org/ontocosmetic#Ceteareth-20
@@ -1572,13 +1584,13 @@ It is related to the sensorial term of thickness."""@en .
 ###  https://purl.org/ontocosmetic#Fluid
 :Fluid rdf:type owl:NamedIndividual ,
                 :StateOfMatter ;
-       rdfs:isDefinedBy "Semi-liquid, liquid, gas, or other substance that can be continuously deformed (flows) under an applied external force."@en .
+       rdfs:comment "Semi-liquid, liquid, gas, or other substance that can be continuously deformed (flows) under an applied external force."@en .
 
 
 ###  https://purl.org/ontocosmetic#Gas
 :Gas rdf:type owl:NamedIndividual ,
               :StateOfMatter ;
-     rdfs:isDefinedBy "State of matter. It is a substance in a state that takes the shape and volume of its container."@en .
+     rdfs:comment "State of matter. It is a substance in a state that takes the shape and volume of its container."@en .
 
 
 ###  https://purl.org/ontocosmetic#Glycerin
@@ -1826,7 +1838,18 @@ It is related to the sensorial term of thickness."""@en .
 ###  https://purl.org/ontocosmetic#Liquid
 :Liquid rdf:type owl:NamedIndividual ,
                  :StateOfMatter ;
-        rdfs:isDefinedBy "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"@en .
+        rdfs:comment "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"@en .
+
+
+###  https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil
+:MacadamiaIntegrifoliaOil rdf:type owl:NamedIndividual ,
+                                   :Emollient ;
+                          :hasChemicalNature :vegetable_oil ;
+                          :hasSpreading :low_spreading ;
+                          :hasINCIcode "Macadamia Integrifolia (Macadamia) oil" ;
+                          :hasPricePerKilogram "18.38889"^^xsd:float ;
+                          :hasRequiredHLB "6.0"^^xsd:float ;
+                          rdfs:label "Macadamia Integrifolia (Macadamia) oil" .
 
 
 ###  https://purl.org/ontocosmetic#MethylGlucoseIsostearate
@@ -2408,6 +2431,18 @@ SRM = Synthetic Raw Material"""@en .
                        rdfs:label "Propylheptyl Caprylate" .
 
 
+###  https://purl.org/ontocosmetic#SesamumIndicumSeedOil
+:SesamumIndicumSeedOil rdf:type owl:NamedIndividual ,
+                                :Emollient ;
+                       :hasChemicalNature :vegetable_oil ;
+                       :hasOrigin :natural_raw_material ;
+                       :hasSpreading :low_spreading ;
+                       :hasINCIcode "Sesamum Indicum (Sesame) seed oil" ;
+                       :hasPricePerKilogram "22.529411"^^xsd:float ;
+                       :hasRequiredHLB "6.0"^^xsd:float ;
+                       rdfs:label "Sesamum Indicum (Sesame) seed oil" .
+
+
 ###  https://purl.org/ontocosmetic#SheaButter
 :SheaButter rdf:type owl:NamedIndividual ,
                      :Emollient ;
@@ -2448,7 +2483,7 @@ SRM = Synthetic Raw Material"""@en .
 ###  https://purl.org/ontocosmetic#Solid
 :Solid rdf:type owl:NamedIndividual ,
                 :StateOfMatter ;
-       rdfs:isDefinedBy "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."@en .
+       rdfs:comment "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."@en .
 
 
 ###  https://purl.org/ontocosmetic#SorbitanIsostearate
@@ -3258,18 +3293,6 @@ SRM = Synthetic Raw Material"""@en .
                                                           rdfs:label "Caprylyl Caprylate/Caprate" .
 
 
-###  https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> rdf:type owl:NamedIndividual ,
-                                                                       :Ingredient ,
-                                                                       :Surfactant ;
-                                                              :hasIonicClass :nonionic ;
-                                                              :hasTexture :lotion ,
-                                                                          :spray ;
-                                                              :hasHLB "12.0"^^xsd:float ;
-                                                              :hasINCIcode "Ceteareth-15; Glyceryl Stearate" ;
-                                                              rdfs:label "Ceteareth-15; Glyceryl Stearate" .
-
-
 ###  https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate
 <https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> rdf:type owl:NamedIndividual ,
                                                                                                            :Ingredient ,
@@ -3367,17 +3390,6 @@ SRM = Synthetic Raw Material"""@en .
                                                                    :hasPricePerKilogram "12.166667"^^xsd:float ;
                                                                    :hasRequiredHLB "6.0"^^xsd:float ;
                                                                    rdfs:label "Helianthus Annuus (sunflower seed) oil" .
-
-
-###  https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> rdf:type owl:NamedIndividual ,
-                                                                             :Emollient ;
-                                                                    :hasChemicalNature :vegetable_oil ;
-                                                                    :hasSpreading :low_spreading ;
-                                                                    :hasINCIcode "Macadamia Integrifolia (Macadamia) oil" ;
-                                                                    :hasPricePerKilogram "18.38889"^^xsd:float ;
-                                                                    :hasRequiredHLB "6.0"^^xsd:float ;
-                                                                    rdfs:label "Macadamia Integrifolia (Macadamia) oil" .
 
 
 ###  https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate
@@ -3487,18 +3499,6 @@ SRM = Synthetic Raw Material"""@en .
                                                            rdfs:label "Rosa Canina (Rose hip) seed oil" .
 
 
-###  https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> rdf:type owl:NamedIndividual ,
-                                                                       :Emollient ;
-                                                              :hasChemicalNature :vegetable_oil ;
-                                                              :hasOrigin :natural_raw_material ;
-                                                              :hasSpreading :low_spreading ;
-                                                              :hasINCIcode "Sesamum Indicum (Sesame) seed oil" ;
-                                                              :hasPricePerKilogram "22.529411"^^xsd:float ;
-                                                              :hasRequiredHLB "6.0"^^xsd:float ;
-                                                              rdfs:label "Sesamum Indicum (Sesame) seed oil" .
-
-
 ###  https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate
 <https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> rdf:type owl:NamedIndividual ,
                                                                                           :Ingredient ,
@@ -3584,7 +3584,7 @@ SRM = Synthetic Raw Material"""@en .
 #    Annotations
 #################################################################
 
-:HLB rdfs:isDefinedBy "The hydrophilic–lipophilic balance of a surfactant is a measure of the degree to which it is hydrophilic or lipophilic. It indicates how soluble a surfactant or a surfactant mixture is in water or in oil. Surfactants with low HLB are lipophilic and tend to form W/O emulsions. Surfactants with high HLB are hydrophilic and tend to form O/W emulsions. The HLB of surfactant mixtures is calculated with the average of the individual HLB weighted by their mass composition in the surfactant mixture."@en ;
+:HLB rdfs:comment "The hydrophilic–lipophilic balance of a surfactant is a measure of the degree to which it is hydrophilic or lipophilic. It indicates how soluble a surfactant or a surfactant mixture is in water or in oil. Surfactants with low HLB are lipophilic and tend to form W/O emulsions. Surfactants with high HLB are hydrophilic and tend to form O/W emulsions. The HLB of surfactant mixtures is calculated with the average of the individual HLB weighted by their mass composition in the surfactant mixture."@en ;
      rdfs:seeAlso "hydrophilic–lipophilic balance"@en .
 
 

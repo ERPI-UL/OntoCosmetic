@@ -34,62 +34,62 @@
 <https://purl.org/ontocosmetic#hasAfterfeeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasAfterfeeling> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Emollient> .
 <https://purl.org/ontocosmetic#hasAfterfeeling> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Afterfeeling> .
-<https://purl.org/ontocosmetic#hasAfterfeeling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Give one or several afterfeeling properties to an ingredient of type emollient."@en .
+<https://purl.org/ontocosmetic#hasAfterfeeling> <http://www.w3.org/2000/01/rdf-schema#comment> "Give one or several afterfeeling properties to an ingredient of type emollient."@en .
 # 
 # https://purl.org/ontocosmetic#hasChemicalNature
 <https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Ingredient> .
 <https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Chemical_nature> .
-<https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Give the chemical nature of an ingredient."@en .
+<https://purl.org/ontocosmetic#hasChemicalNature> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the chemical nature of an ingredient."@en .
 # 
 # https://purl.org/ontocosmetic#hasDosage
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Dosage> .
-<https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Give the dosages that compose a formulation."@en .
+<https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the dosages that compose a formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasDosageIngredient
 <https://purl.org/ontocosmetic#hasDosageIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasDosageIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Dosage> .
 <https://purl.org/ontocosmetic#hasDosageIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#hasDosageIngredient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Give the ingredient of a dosage."@en .
+<https://purl.org/ontocosmetic#hasDosageIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the ingredient of a dosage."@en .
 # 
 # https://purl.org/ontocosmetic#hasEmollience
 <https://purl.org/ontocosmetic#hasEmollience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasEmollience> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Emollient> .
 <https://purl.org/ontocosmetic#hasEmollience> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Emollience> .
-<https://purl.org/ontocosmetic#hasEmollience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Give the level of emollience of an ingredient of type emollient."@en .
+<https://purl.org/ontocosmetic#hasEmollience> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the level of emollience of an ingredient of type emollient."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicIngProp
 <https://purl.org/ontocosmetic#hasHeuristicIngProp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicIngProp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicIngProp> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#IngredientProperty> .
-<https://purl.org/ontocosmetic#hasHeuristicIngProp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Associate an heuristic to the ingredient property that is involved in the rule."@en .
+<https://purl.org/ontocosmetic#hasHeuristicIngProp> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate an heuristic to the ingredient property that is involved in the rule."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicIngType
 <https://purl.org/ontocosmetic#hasHeuristicIngType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicIngType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicIngType> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Ingredient_Type> .
-<https://purl.org/ontocosmetic#hasHeuristicIngType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Define which ingredient type is concerned by the heuristic."@en .
+<https://purl.org/ontocosmetic#hasHeuristicIngType> <http://www.w3.org/2000/01/rdf-schema#comment> "Define which ingredient type is concerned by the heuristic."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicProcessOutcome
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#DropletSize> .
-<https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
+<https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicProcessProp
 <https://purl.org/ontocosmetic#hasHeuristicProcessProp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessProp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessProp> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Process> .
-<https://purl.org/ontocosmetic#hasHeuristicProcessProp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."@en .
+<https://purl.org/ontocosmetic#hasHeuristicProcessProp> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicProdProp
 <https://purl.org/ontocosmetic#hasHeuristicProdProp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicProdProp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicProdProp> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#ProductProperty> .
-<https://purl.org/ontocosmetic#hasHeuristicProdProp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."@en .
+<https://purl.org/ontocosmetic#hasHeuristicProdProp> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."@en .
 # 
 # https://purl.org/ontocosmetic#hasIngredient
 <https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -101,55 +101,55 @@
 <https://purl.org/ontocosmetic#hasIonicClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://purl.org/ontocosmetic#hasIonicClass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Surfactant> .
 <https://purl.org/ontocosmetic#hasIonicClass> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Ionic_Nature> .
-<https://purl.org/ontocosmetic#hasIonicClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Define the ionic nature of an ingredient."@en .
+<https://purl.org/ontocosmetic#hasIonicClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the ionic nature of an ingredient."@en .
 # 
 # https://purl.org/ontocosmetic#hasOrigin
 <https://purl.org/ontocosmetic#hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Ingredient> .
 <https://purl.org/ontocosmetic#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Origin> .
-<https://purl.org/ontocosmetic#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provide the origin of an ingredient"@en .
+<https://purl.org/ontocosmetic#hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Provide the origin of an ingredient"@en .
 # 
 # https://purl.org/ontocosmetic#hasPhase
 <https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Ingredient> .
 <https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Phase> .
-<https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it define which phase the ingredient is soluble in."@en .
+<https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#comment> "it define which phase the ingredient is soluble in."@en .
 # 
 # https://purl.org/ontocosmetic#hasProcessing
 <https://purl.org/ontocosmetic#hasProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProcessing> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProcessing> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Process> .
-<https://purl.org/ontocosmetic#hasProcessing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Processing done on the ingredient of the formulation."@en .
+<https://purl.org/ontocosmetic#hasProcessing> <http://www.w3.org/2000/01/rdf-schema#comment> "Processing done on the ingredient of the formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductDropletSize
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#DropletSize> .
-<https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
+<https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductOiliness
 <https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Oiliness> .
-<https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Define the oiliness of formulated product."@en .
+<https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the oiliness of formulated product."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductStability
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Stability> .
-<https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Define the stability of a fomulation final product."@en .
+<https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the stability of a fomulation final product."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductViscosity
 <https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Viscosity> .
-<https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provides the viscosity of the formulation final product."@en .
+<https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the viscosity of the formulation final product."@en .
 # 
 # https://purl.org/ontocosmetic#hasRecommendationHeuristic
 <https://purl.org/ontocosmetic#hasRecommendationHeuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasRecommendationHeuristic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasRecommendationHeuristic> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#hasRecommendationHeuristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provide the heuristic that will be applied to a formulation as recommendation herustic."@en .
+<https://purl.org/ontocosmetic#hasRecommendationHeuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Provide the heuristic that will be applied to a formulation as recommendation herustic."@en .
 # 
 # https://purl.org/ontocosmetic#hasRestrictiveHeuristic
 <https://purl.org/ontocosmetic#hasRestrictiveHeuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -160,7 +160,7 @@
 <https://purl.org/ontocosmetic#hasSpreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasSpreading> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Emollient> .
 <https://purl.org/ontocosmetic#hasSpreading> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Spreading> .
-<https://purl.org/ontocosmetic#hasSpreading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Defines the spreading property of an emollient."@en .
+<https://purl.org/ontocosmetic#hasSpreading> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the spreading property of an emollient."@en .
 # 
 # https://purl.org/ontocosmetic#hasState
 <https://purl.org/ontocosmetic#hasState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -171,7 +171,7 @@
 <https://purl.org/ontocosmetic#hasTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasTexture> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Surfactant> .
 <https://purl.org/ontocosmetic#hasTexture> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Texture> .
-<https://purl.org/ontocosmetic#hasTexture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provides the texture that can be expected from a given surfactant."@en .
+<https://purl.org/ontocosmetic#hasTexture> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the texture that can be expected from a given surfactant."@en .
 # 
 # https://purl.org/ontocosmetic#isCommercializedAs
 <https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -182,7 +182,7 @@
 <https://purl.org/ontocosmetic#isValidatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#isValidatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#isValidatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#isValidatedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Defines that a formulation validate a given heuristic."@en .
+<https://purl.org/ontocosmetic#isValidatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines that a formulation validate a given heuristic."@en .
 # 
 # 
 # 
@@ -210,24 +210,24 @@
 # https://purl.org/ontocosmetic#hasHeuristicDescription
 <https://purl.org/ontocosmetic#hasHeuristicDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#hasHeuristicDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Data properties that provides a description of the heuristic."@en .
+<https://purl.org/ontocosmetic#hasHeuristicDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Data properties that provides a description of the heuristic."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicHighThreshold
 <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasHeuristicHighThreshold> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "High threshold in percentage for an heuristique."@en .
+<https://purl.org/ontocosmetic#hasHeuristicHighThreshold> <http://www.w3.org/2000/01/rdf-schema#comment> "High threshold in percentage for an heuristique."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicLowThreshold
 <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasHeuristicLowThreshold> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Low threshold in percentage for an heuristique."@en .
+<https://purl.org/ontocosmetic#hasHeuristicLowThreshold> <http://www.w3.org/2000/01/rdf-schema#comment> "Low threshold in percentage for an heuristique."@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicSource
 <https://purl.org/ontocosmetic#hasHeuristicSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicSource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#hasHeuristicSource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Provides the source of the heuristic (from literature or experience)"@en .
+<https://purl.org/ontocosmetic#hasHeuristicSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the source of the heuristic (from literature or experience)"@en .
 # 
 # https://purl.org/ontocosmetic#hasINCIcode
 <https://purl.org/ontocosmetic#hasINCIcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -239,7 +239,7 @@
 <https://purl.org/ontocosmetic#hasNbSurfactantIng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasNbSurfactantIng> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasNbSurfactantIng> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<https://purl.org/ontocosmetic#hasNbSurfactantIng> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Define the number of surfactants inside a given formulation."@en .
+<https://purl.org/ontocosmetic#hasNbSurfactantIng> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the number of surfactants inside a given formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasPricePerKilogram
 <https://purl.org/ontocosmetic#hasPricePerKilogram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -251,14 +251,14 @@
 <https://purl.org/ontocosmetic#hasProductOilyPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasProductOilyPhase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductOilyPhase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasProductOilyPhase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Percentage of the formulated product that represent oily ingrdient."@en .
+<https://purl.org/ontocosmetic#hasProductOilyPhase> <http://www.w3.org/2000/01/rdf-schema#comment> "Percentage of the formulated product that represent oily ingrdient."@en .
 # 
 # https://purl.org/ontocosmetic#hasQuantity
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Dosage> .
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
+<https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasQuantitySum
 <https://purl.org/ontocosmetic#hasQuantitySum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -294,13 +294,13 @@
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
+<https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
 # 
 # https://purl.org/ontocosmetic#isActive
 <https://purl.org/ontocosmetic#isActive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Property that allow to enable/ disable a heuristic"@en .
+<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that allow to enable/ disable a heuristic"@en .
 # 
 # https://purl.org/ontocosmetic#isConform
 <https://purl.org/ontocosmetic#isConform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -321,23 +321,23 @@
 # https://purl.org/ontocosmetic#AbsorptionRate
 <https://purl.org/ontocosmetic#AbsorptionRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#AbsorptionRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ProductProperty> .
-<https://purl.org/ontocosmetic#AbsorptionRate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Describe the capacity of the formulation product to be absopt by a skin."@en .
+<https://purl.org/ontocosmetic#AbsorptionRate> <http://www.w3.org/2000/01/rdf-schema#comment> "Describe the capacity of the formulation product to be absopt by a skin."@en .
 <https://purl.org/ontocosmetic#AbsorptionRate> <http://www.w3.org/2000/01/rdf-schema#label> "After Feel - Absorption Rate"@en .
 # 
 # https://purl.org/ontocosmetic#Active
 <https://purl.org/ontocosmetic#Active> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Active> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Active> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."@en .
+<https://purl.org/ontocosmetic#Active> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."@en .
 # 
 # https://purl.org/ontocosmetic#Aerosol
 <https://purl.org/ontocosmetic#Aerosol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Aerosol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#Aerosol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "solid or liquid particles in a gas"@en .
+<https://purl.org/ontocosmetic#Aerosol> <http://www.w3.org/2000/01/rdf-schema#comment> "solid or liquid particles in a gas"@en .
 # 
 # https://purl.org/ontocosmetic#Afterfeeling
 <https://purl.org/ontocosmetic#Afterfeeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Afterfeeling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#IngredientProperty> .
-<https://purl.org/ontocosmetic#Afterfeeling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ingredients have the property to influence the afterfeel of the formulated product."@en .
+<https://purl.org/ontocosmetic#Afterfeeling> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredients have the property to influence the afterfeel of the formulated product."@en .
 # 
 # https://purl.org/ontocosmetic#Agitation
 <https://purl.org/ontocosmetic#Agitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -358,7 +358,7 @@
 # https://purl.org/ontocosmetic#Antioxidant
 <https://purl.org/ontocosmetic#Antioxidant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Antioxidant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Active> .
-<https://purl.org/ontocosmetic#Antioxidant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."@en .
+<https://purl.org/ontocosmetic#Antioxidant> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."@en .
 # 
 # https://purl.org/ontocosmetic#AqueousThickeners
 <https://purl.org/ontocosmetic#AqueousThickeners> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -382,7 +382,7 @@
 # https://purl.org/ontocosmetic#Colloid
 <https://purl.org/ontocosmetic#Colloid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Colloid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#HeterogenousMixture> .
-<https://purl.org/ontocosmetic#Colloid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
+<https://purl.org/ontocosmetic#Colloid> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
 <https://purl.org/ontocosmetic#Colloid> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "colloidal system"@en .
 # 
 # https://purl.org/ontocosmetic#DegreeOfGenerality
@@ -392,7 +392,7 @@
 # https://purl.org/ontocosmetic#Density
 <https://purl.org/ontocosmetic#Density> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Density> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#EmollientProperty> .
-<https://purl.org/ontocosmetic#Density> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the mass per unit of volume. In emulsions it is related to emulsion stability."@en .
+<https://purl.org/ontocosmetic#Density> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the mass per unit of volume. In emulsions it is related to emulsion stability."@en .
 # 
 # https://purl.org/ontocosmetic#Descriptors
 <https://purl.org/ontocosmetic#Descriptors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -405,12 +405,12 @@
 # https://purl.org/ontocosmetic#DropletSize
 <https://purl.org/ontocosmetic#DropletSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#DropletSize> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ProductProperty> .
-<https://purl.org/ontocosmetic#DropletSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets"@en .
+<https://purl.org/ontocosmetic#DropletSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets"@en .
 # 
 # https://purl.org/ontocosmetic#Efficiency
 <https://purl.org/ontocosmetic#Efficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Efficiency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ThickenerProperty> .
-<https://purl.org/ontocosmetic#Efficiency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."@en .
+<https://purl.org/ontocosmetic#Efficiency> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."@en .
 # 
 # https://purl.org/ontocosmetic#ElectricalNature
 <https://purl.org/ontocosmetic#ElectricalNature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -423,7 +423,7 @@
 # https://purl.org/ontocosmetic#Emollient
 <https://purl.org/ontocosmetic#Emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."@en .
+<https://purl.org/ontocosmetic#Emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."@en .
 # 
 # https://purl.org/ontocosmetic#EmollientProperty
 <https://purl.org/ontocosmetic#EmollientProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -445,58 +445,58 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purl.org/on
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purl.org/ontocosmetic#Emollient_Dosage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Dosage> .
 <https://purl.org/ontocosmetic#Emollient_Dosage> <http://www.w3.org/2002/07/owl#disjointWith> <https://purl.org/ontocosmetic#Surfactant_Dosage> .
-<https://purl.org/ontocosmetic#Emollient_Dosage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "sub-type of dosage which concerns only the emollient."@en .
+<https://purl.org/ontocosmetic#Emollient_Dosage> <http://www.w3.org/2000/01/rdf-schema#comment> "sub-type of dosage which concerns only the emollient."@en .
 # 
 # https://purl.org/ontocosmetic#Emulsion
 <https://purl.org/ontocosmetic#Emulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Emulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#Emulsion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."@en .
+<https://purl.org/ontocosmetic#Emulsion> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."@en .
 # 
 # https://purl.org/ontocosmetic#EmulsionScienceHeuristic
 <https://purl.org/ontocosmetic#EmulsionScienceHeuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#EmulsionScienceHeuristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#EmulsionScienceHeuristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a sub-type of heuristic that come from scientific literature."@en .
+<https://purl.org/ontocosmetic#EmulsionScienceHeuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a sub-type of heuristic that come from scientific literature."@en .
 # 
 # https://purl.org/ontocosmetic#Ester_emollient
 <https://purl.org/ontocosmetic#Ester_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Ester_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Ester_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."@en .
+<https://purl.org/ontocosmetic#Ester_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."@en .
 # 
 # https://purl.org/ontocosmetic#Ether_emollient
 <https://purl.org/ontocosmetic#Ether_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Ether_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Ether_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub type of emollient ingredient that are ether."@en .
+<https://purl.org/ontocosmetic#Ether_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub type of emollient ingredient that are ether."@en .
 # 
 # https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic
 <https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a sub-type of heuristic that come from expert  interview."@en .
+<https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a sub-type of heuristic that come from expert  interview."@en .
 # 
 # https://purl.org/ontocosmetic#Fatty_alcohol_emollient
 <https://purl.org/ontocosmetic#Fatty_alcohol_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Fatty_alcohol_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Fatty_alcohol_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub type of emollient ingredient that are fatty alcohol."@en .
+<https://purl.org/ontocosmetic#Fatty_alcohol_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub type of emollient ingredient that are fatty alcohol."@en .
 # 
 # https://purl.org/ontocosmetic#Foam
 <https://purl.org/ontocosmetic#Foam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Foam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#Foam> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "gas in liquid."@en .
+<https://purl.org/ontocosmetic#Foam> <http://www.w3.org/2000/01/rdf-schema#comment> "gas in liquid."@en .
 # 
 # https://purl.org/ontocosmetic#Formulation
 <https://purl.org/ontocosmetic#Formulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontocosmetic#Formulation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."@en .
+<https://purl.org/ontocosmetic#Formulation> <http://www.w3.org/2000/01/rdf-schema#comment> "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."@en .
 <https://purl.org/ontocosmetic#Formulation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://purl.org/ontocosmetic#Mixture> .
 <https://purl.org/ontocosmetic#Formulation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Blend"@en .
 # 
 # https://purl.org/ontocosmetic#Gel
 <https://purl.org/ontocosmetic#Gel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Gel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#Gel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "liquids in solids."@en .
+<https://purl.org/ontocosmetic#Gel> <http://www.w3.org/2000/01/rdf-schema#comment> "liquids in solids."@en .
 # 
 # https://purl.org/ontocosmetic#Glycols
 <https://purl.org/ontocosmetic#Glycols> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Glycols> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Humectant> .
-<https://purl.org/ontocosmetic#Glycols> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."@en .
+<https://purl.org/ontocosmetic#Glycols> <http://www.w3.org/2000/01/rdf-schema#comment> "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."@en .
 # 
 # https://purl.org/ontocosmetic#HLB
 <https://purl.org/ontocosmetic#HLB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -505,12 +505,12 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # https://purl.org/ontocosmetic#HeterogenousMixture
 <https://purl.org/ontocosmetic#HeterogenousMixture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#HeterogenousMixture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Mixture> .
-<https://purl.org/ontocosmetic#HeterogenousMixture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."@en .
+<https://purl.org/ontocosmetic#HeterogenousMixture> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."@en .
 <https://purl.org/ontocosmetic#HeterogenousMixture> <http://www.w3.org/2000/01/rdf-schema#label> "Heterogenous Mixture"@en .
 # 
 # https://purl.org/ontocosmetic#Heuristic
 <https://purl.org/ontocosmetic#Heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontocosmetic#Heuristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Rules that are used by product formulator to anticipate what happens while combined different ingredients."@en .
+<https://purl.org/ontocosmetic#Heuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Rules that are used by product formulator to anticipate what happens while combined different ingredients."@en .
 # 
 # https://purl.org/ontocosmetic#HeuristicBodyCream
 <https://purl.org/ontocosmetic#HeuristicBodyCream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -535,7 +535,7 @@ _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purl.org/ontocosmetic#Heuristic> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purl.org/ontocosmetic#HeuristicForActive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#HeuristicForActive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub group of heuristic that only concerns active ingredients."@en .
+<https://purl.org/ontocosmetic#HeuristicForActive> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub group of heuristic that only concerns active ingredients."@en .
 # 
 # https://purl.org/ontocosmetic#HeuristicForEmollient
 <https://purl.org/ontocosmetic#HeuristicForEmollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -552,7 +552,7 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purl.org/ontocosmetic#Heuristic> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purl.org/ontocosmetic#HeuristicForEmollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#HeuristicForEmollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub group of heuristic that only concerns emollients."@en .
+<https://purl.org/ontocosmetic#HeuristicForEmollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub group of heuristic that only concerns emollients."@en .
 # 
 # https://purl.org/ontocosmetic#HeuristicForSurfactant
 <https://purl.org/ontocosmetic#HeuristicForSurfactant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -569,7 +569,7 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purl.org/ontocosmetic#Heuristic> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purl.org/ontocosmetic#HeuristicForSurfactant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#HeuristicForSurfactant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub group of heuristic that only concerns surfactants."@en .
+<https://purl.org/ontocosmetic#HeuristicForSurfactant> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub group of heuristic that only concerns surfactants."@en .
 # 
 # https://purl.org/ontocosmetic#HeuristicForThickener
 <https://purl.org/ontocosmetic#HeuristicForThickener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -586,7 +586,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://purl.org/ontocosmetic#Heuristic> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://purl.org/ontocosmetic#HeuristicForThickener> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#HeuristicForThickener> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub group of heuristic that only concerns thickeners."@en .
+<https://purl.org/ontocosmetic#HeuristicForThickener> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub group of heuristic that only concerns thickeners."@en .
 # 
 # https://purl.org/ontocosmetic#HeuristicHairCream
 <https://purl.org/ontocosmetic#HeuristicHairCream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -603,23 +603,23 @@ _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#HomogenousMixture
 <https://purl.org/ontocosmetic#HomogenousMixture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#HomogenousMixture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Mixture> .
-<https://purl.org/ontocosmetic#HomogenousMixture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."@en .
+<https://purl.org/ontocosmetic#HomogenousMixture> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."@en .
 <https://purl.org/ontocosmetic#HomogenousMixture> <http://www.w3.org/2000/01/rdf-schema#label> "Homogenous Mixture"@en .
 # 
 # https://purl.org/ontocosmetic#Humectant
 <https://purl.org/ontocosmetic#Humectant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Humectant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Active> .
-<https://purl.org/ontocosmetic#Humectant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Hygroscopic substance used to keep things moist. Most common are glycols."@en .
+<https://purl.org/ontocosmetic#Humectant> <http://www.w3.org/2000/01/rdf-schema#comment> "Hygroscopic substance used to keep things moist. Most common are glycols."@en .
 # 
 # https://purl.org/ontocosmetic#Hydrocarbon_emollient
 <https://purl.org/ontocosmetic#Hydrocarbon_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Hydrocarbon_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Hydrocarbon_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub type of emollient ingredient that are hydrocarbon."@en .
+<https://purl.org/ontocosmetic#Hydrocarbon_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub type of emollient ingredient that are hydrocarbon."@en .
 # 
 # https://purl.org/ontocosmetic#Ingredient
 <https://purl.org/ontocosmetic#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Ingredient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Substance> .
-<https://purl.org/ontocosmetic#Ingredient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Substance that forms part of a formulation."@en .
+<https://purl.org/ontocosmetic#Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Substance that forms part of a formulation."@en .
 # 
 # https://purl.org/ontocosmetic#IngredientProperty
 <https://purl.org/ontocosmetic#IngredientProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -647,12 +647,12 @@ _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # https://purl.org/ontocosmetic#Microstructure
 <https://purl.org/ontocosmetic#Microstructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontocosmetic#Microstructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."@en .
+<https://purl.org/ontocosmetic#Microstructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."@en .
 # 
 # https://purl.org/ontocosmetic#Mixture
 <https://purl.org/ontocosmetic#Mixture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Mixture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Substance> .
-<https://purl.org/ontocosmetic#Mixture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."@en .
+<https://purl.org/ontocosmetic#Mixture> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."@en .
 # 
 # https://purl.org/ontocosmetic#NonAqueousThickeners
 <https://purl.org/ontocosmetic#NonAqueousThickeners> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -682,7 +682,7 @@ _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#OilyPhase
 <https://purl.org/ontocosmetic#OilyPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#OilyPhase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ProductProperty> .
-<https://purl.org/ontocosmetic#OilyPhase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase."@en .
+<https://purl.org/ontocosmetic#OilyPhase> <http://www.w3.org/2000/01/rdf-schema#comment> "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase."@en .
 # 
 # https://purl.org/ontocosmetic#OneIngredient
 <https://purl.org/ontocosmetic#OneIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -696,7 +696,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Origin
 <https://purl.org/ontocosmetic#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#IngredientProperty> .
-<https://purl.org/ontocosmetic#Origin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Origins of the ingredient."@en .
+<https://purl.org/ontocosmetic#Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "Origins of the ingredient."@en .
 # 
 # https://purl.org/ontocosmetic#OtherIngredient
 <https://purl.org/ontocosmetic#OtherIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -709,27 +709,27 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Phase
 <https://purl.org/ontocosmetic#Phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Phase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#IngredientProperty> .
-<https://purl.org/ontocosmetic#Phase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a region of space throughout which all physical properties of a material are essentially uniform."@en .
+<https://purl.org/ontocosmetic#Phase> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a region of space throughout which all physical properties of a material are essentially uniform."@en .
 # 
 # https://purl.org/ontocosmetic#Polarity
 <https://purl.org/ontocosmetic#Polarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Polarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#EmollientProperty> .
-<https://purl.org/ontocosmetic#Polarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."@en .
+<https://purl.org/ontocosmetic#Polarity> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."@en .
 # 
 # https://purl.org/ontocosmetic#Preservative
 <https://purl.org/ontocosmetic#Preservative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Preservative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#OtherIngredient> .
-<https://purl.org/ontocosmetic#Preservative> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."@en .
+<https://purl.org/ontocosmetic#Preservative> <http://www.w3.org/2000/01/rdf-schema#comment> "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."@en .
 # 
 # https://purl.org/ontocosmetic#Process
 <https://purl.org/ontocosmetic#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#System> .
-<https://purl.org/ontocosmetic#Process> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Steps leading to the generation of a product."@en .
+<https://purl.org/ontocosmetic#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "Steps leading to the generation of a product."@en .
 # 
 # https://purl.org/ontocosmetic#Product
 <https://purl.org/ontocosmetic#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#System> .
-<https://purl.org/ontocosmetic#Product> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Formulation ready to go to the market."@en .
+<https://purl.org/ontocosmetic#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Formulation ready to go to the market."@en .
 # 
 # https://purl.org/ontocosmetic#ProductProperty
 <https://purl.org/ontocosmetic#ProductProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -742,7 +742,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#PureSubstance
 <https://purl.org/ontocosmetic#PureSubstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#PureSubstance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Substance> .
-<https://purl.org/ontocosmetic#PureSubstance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."@en .
+<https://purl.org/ontocosmetic#PureSubstance> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."@en .
 <https://purl.org/ontocosmetic#PureSubstance> <http://www.w3.org/2000/01/rdf-schema#label> "Pure Substance"@en .
 # 
 # https://purl.org/ontocosmetic#RecommendationHeuristic
@@ -753,7 +753,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Restrictive_Heuristic
 <https://purl.org/ontocosmetic#Restrictive_Heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Restrictive_Heuristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#Restrictive_Heuristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Heuristics that have to be satisfied to have a conform formulation"@en .
+<https://purl.org/ontocosmetic#Restrictive_Heuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Heuristics that have to be satisfied to have a conform formulation"@en .
 # 
 # https://purl.org/ontocosmetic#Rheology
 <https://purl.org/ontocosmetic#Rheology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -768,32 +768,32 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Silicone_emollient
 <https://purl.org/ontocosmetic#Silicone_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Silicone_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Silicone_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub type of emollient ingredient that are silicone."@en .
+<https://purl.org/ontocosmetic#Silicone_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub type of emollient ingredient that are silicone."@en .
 # 
 # https://purl.org/ontocosmetic#Sol
 <https://purl.org/ontocosmetic#Sol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Sol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#Sol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "solid particles in a liquid."@en .
+<https://purl.org/ontocosmetic#Sol> <http://www.w3.org/2000/01/rdf-schema#comment> "solid particles in a liquid."@en .
 # 
 # https://purl.org/ontocosmetic#SolidFoam
 <https://purl.org/ontocosmetic#SolidFoam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#SolidFoam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#SolidFoam> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "gas in solid."@en .
+<https://purl.org/ontocosmetic#SolidFoam> <http://www.w3.org/2000/01/rdf-schema#comment> "gas in solid."@en .
 # 
 # https://purl.org/ontocosmetic#SolidSol
 <https://purl.org/ontocosmetic#SolidSol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#SolidSol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Colloid> .
-<https://purl.org/ontocosmetic#SolidSol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "solid in solid."@en .
+<https://purl.org/ontocosmetic#SolidSol> <http://www.w3.org/2000/01/rdf-schema#comment> "solid in solid."@en .
 # 
 # https://purl.org/ontocosmetic#SolubilityInWater
 <https://purl.org/ontocosmetic#SolubilityInWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#SolubilityInWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ThickenerProperty> .
-<https://purl.org/ontocosmetic#SolubilityInWater> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The solubility in water is important to establish how to introduce the rheological modifier to the formula."@en .
+<https://purl.org/ontocosmetic#SolubilityInWater> <http://www.w3.org/2000/01/rdf-schema#comment> "The solubility in water is important to establish how to introduce the rheological modifier to the formula."@en .
 # 
 # https://purl.org/ontocosmetic#Solution
 <https://purl.org/ontocosmetic#Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#HomogenousMixture> .
-<https://purl.org/ontocosmetic#Solution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
+<https://purl.org/ontocosmetic#Solution> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."@en .
 # 
 # https://purl.org/ontocosmetic#SpecialFunction
 <https://purl.org/ontocosmetic#SpecialFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -806,7 +806,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Spreading
 <https://purl.org/ontocosmetic#Spreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Spreading> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#IngredientProperty> .
-<https://purl.org/ontocosmetic#Spreading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The ability of the ingredient to spread on the skin"@en .
+<https://purl.org/ontocosmetic#Spreading> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability of the ingredient to spread on the skin"@en .
 # 
 # https://purl.org/ontocosmetic#Stability
 <https://purl.org/ontocosmetic#Stability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -816,7 +816,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Stabilizer
 <https://purl.org/ontocosmetic#Stabilizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Stabilizer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Stabilizer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"@en .
+<https://purl.org/ontocosmetic#Stabilizer> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"@en .
 # 
 # https://purl.org/ontocosmetic#StateOfMatter
 <https://purl.org/ontocosmetic#StateOfMatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -830,7 +830,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Substance
 <https://purl.org/ontocosmetic#Substance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Substance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#System> .
-<https://purl.org/ontocosmetic#Substance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any chemical entity (pure and mixture) is a substance."@en .
+<https://purl.org/ontocosmetic#Substance> <http://www.w3.org/2000/01/rdf-schema#comment> "Any chemical entity (pure and mixture) is a substance."@en .
 # 
 # https://purl.org/ontocosmetic#SubstanceProperty
 <https://purl.org/ontocosmetic#SubstanceProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -839,7 +839,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#Surfactant
 <https://purl.org/ontocosmetic#Surfactant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Surfactant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Surfactant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."@en .
+<https://purl.org/ontocosmetic#Surfactant> <http://www.w3.org/2000/01/rdf-schema#comment> "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."@en .
 <https://purl.org/ontocosmetic#Surfactant> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "emulsifier"@en .
 # 
 # https://purl.org/ontocosmetic#SurfactantProperty
@@ -865,11 +865,11 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#Suspension
 <https://purl.org/ontocosmetic#Suspension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Suspension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#HeterogenousMixture> .
-<https://purl.org/ontocosmetic#Suspension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."@en .
+<https://purl.org/ontocosmetic#Suspension> <http://www.w3.org/2000/01/rdf-schema#comment> "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."@en .
 # 
 # https://purl.org/ontocosmetic#System
 <https://purl.org/ontocosmetic#System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontocosmetic#System> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."@en .
+<https://purl.org/ontocosmetic#System> <http://www.w3.org/2000/01/rdf-schema#comment> "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."@en .
 # 
 # https://purl.org/ontocosmetic#Texture
 <https://purl.org/ontocosmetic#Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -878,7 +878,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#Thickener
 <https://purl.org/ontocosmetic#Thickener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Thickener> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Thickener> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."@en .
+<https://purl.org/ontocosmetic#Thickener> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."@en .
 <https://purl.org/ontocosmetic#Thickener> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Rheological modifiers"@en .
 # 
 # https://purl.org/ontocosmetic#ThickenerProperty
@@ -888,7 +888,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#ThickenerStability
 <https://purl.org/ontocosmetic#ThickenerStability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#ThickenerStability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#ThickenerProperty> .
-<https://purl.org/ontocosmetic#ThickenerStability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."@en .
+<https://purl.org/ontocosmetic#ThickenerStability> <http://www.w3.org/2000/01/rdf-schema#comment> "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."@en .
 # 
 # https://purl.org/ontocosmetic#ToIngredient
 <https://purl.org/ontocosmetic#ToIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -901,17 +901,17 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#UvFilter
 <https://purl.org/ontocosmetic#UvFilter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#UvFilter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Active> .
-<https://purl.org/ontocosmetic#UvFilter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."@en .
+<https://purl.org/ontocosmetic#UvFilter> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."@en .
 # 
 # https://purl.org/ontocosmetic#Vegetable_oil_emollient
 <https://purl.org/ontocosmetic#Vegetable_oil_emollient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Vegetable_oil_emollient> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#Vegetable_oil_emollient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sub type of emollient ingredient that are vegetable oil."@en .
+<https://purl.org/ontocosmetic#Vegetable_oil_emollient> <http://www.w3.org/2000/01/rdf-schema#comment> "Sub type of emollient ingredient that are vegetable oil."@en .
 # 
 # https://purl.org/ontocosmetic#Viscosity
 <https://purl.org/ontocosmetic#Viscosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#Viscosity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#EmollientProperty> .
-<https://purl.org/ontocosmetic#Viscosity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) \nDescribe the level of viscosity of a formulated product. it can be low, medium or high.\nIt is related to the sensorial term of thickness."@en .
+<https://purl.org/ontocosmetic#Viscosity> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) \nDescribe the level of viscosity of a formulated product. it can be low, medium or high.\nIt is related to the sensorial term of thickness." .
 # 
 # https://purl.org/ontocosmetic#VisualApperance
 <https://purl.org/ontocosmetic#VisualApperance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -920,19 +920,19 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#anti-age
 <https://purl.org/ontocosmetic#anti-age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#anti-age> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Active> .
-<https://purl.org/ontocosmetic#anti-age> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."@en .
+<https://purl.org/ontocosmetic#anti-age> <http://www.w3.org/2000/01/rdf-schema#comment> "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."@en .
 # 
 # https://purl.org/ontocosmetic#O/W_emulsion
 <https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Microstructure> .
 <https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/2002/07/owl#disjointWith> <https://purl.org/ontocosmetic#W/O_emulsion> .
-<https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an emulsion where the oil phase corresponds to the disperse phase and the continuous phase corresponds to the aqueous phase."@en .
+<https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an emulsion where the oil phase corresponds to the disperse phase and the continuous phase corresponds to the aqueous phase."@en .
 <https://purl.org/ontocosmetic#O/W_emulsion> <http://www.w3.org/2000/01/rdf-schema#label> "oil-in-water emulsion"@en .
 # 
 # https://purl.org/ontocosmetic#W/O_emulsion
 <https://purl.org/ontocosmetic#W/O_emulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontocosmetic#W/O_emulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontocosmetic#Microstructure> .
-<https://purl.org/ontocosmetic#W/O_emulsion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the inverse of an O/W emulsion. In this emulsion the aqueous phase is dispersed within the oily phase."@en .
+<https://purl.org/ontocosmetic#W/O_emulsion> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the inverse of an O/W emulsion. In this emulsion the aqueous phase is dispersed within the oily phase."@en .
 <https://purl.org/ontocosmetic#W/O_emulsion> <http://www.w3.org/2000/01/rdf-schema#label> "water-in-oil emulsion"@en .
 # 
 # 
@@ -1100,6 +1100,17 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasINCIcode> "Cacao butter" .
 <https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#CacaoButter> <http://www.w3.org/2000/01/rdf-schema#label> "Cacao butter" .
+# 
+# https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Ingredient> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Surfactant> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-15; Glyceryl Stearate" .
+<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-15; Glyceryl Stearate" .
 # 
 # https://purl.org/ontocosmetic#Ceteareth-20
 <https://purl.org/ontocosmetic#Ceteareth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1396,12 +1407,12 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#Fluid
 <https://purl.org/ontocosmetic#Fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#Fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StateOfMatter> .
-<https://purl.org/ontocosmetic#Fluid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Semi-liquid, liquid, gas, or other substance that can be continuously deformed (flows) under an applied external force."@en .
+<https://purl.org/ontocosmetic#Fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "Semi-liquid, liquid, gas, or other substance that can be continuously deformed (flows) under an applied external force."@en .
 # 
 # https://purl.org/ontocosmetic#Gas
 <https://purl.org/ontocosmetic#Gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#Gas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StateOfMatter> .
-<https://purl.org/ontocosmetic#Gas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "State of matter. It is a substance in a state that takes the shape and volume of its container."@en .
+<https://purl.org/ontocosmetic#Gas> <http://www.w3.org/2000/01/rdf-schema#comment> "State of matter. It is a substance in a state that takes the shape and volume of its container."@en .
 # 
 # https://purl.org/ontocosmetic#Glycerin
 <https://purl.org/ontocosmetic#Glycerin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1625,7 +1636,17 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#Liquid
 <https://purl.org/ontocosmetic#Liquid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#Liquid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StateOfMatter> .
-<https://purl.org/ontocosmetic#Liquid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"@en .
+<https://purl.org/ontocosmetic#Liquid> <http://www.w3.org/2000/01/rdf-schema#comment> "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"@en .
+# 
+# https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Emollient> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasINCIcode> "Macadamia Integrifolia (Macadamia) oil" .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "18.38889"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <http://www.w3.org/2000/01/rdf-schema#label> "Macadamia Integrifolia (Macadamia) oil" .
 # 
 # https://purl.org/ontocosmetic#MethylGlucoseIsostearate
 <https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2148,6 +2169,17 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://purl.org/ontocosmetic#PropylheptylCaprylate> <https://purl.org/ontocosmetic#hasINCIcode> "Propylheptyl Caprylate" .
 <https://purl.org/ontocosmetic#PropylheptylCaprylate> <http://www.w3.org/2000/01/rdf-schema#label> "Propylheptyl Caprylate" .
 # 
+# https://purl.org/ontocosmetic#SesamumIndicumSeedOil
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Emollient> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasINCIcode> "Sesamum Indicum (Sesame) seed oil" .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "22.529411"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Sesamum Indicum (Sesame) seed oil" .
+# 
 # https://purl.org/ontocosmetic#SheaButter
 <https://purl.org/ontocosmetic#SheaButter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#SheaButter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Emollient> .
@@ -2185,7 +2217,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://purl.org/ontocosmetic#Solid
 <https://purl.org/ontocosmetic#Solid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#Solid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StateOfMatter> .
-<https://purl.org/ontocosmetic#Solid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."@en .
+<https://purl.org/ontocosmetic#Solid> <http://www.w3.org/2000/01/rdf-schema#comment> "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."@en .
 # 
 # https://purl.org/ontocosmetic#SorbitanIsostearate
 <https://purl.org/ontocosmetic#SorbitanIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2876,17 +2908,6 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <https://purl.org/ontocosmetic#hasINCIcode> "Caprylyl Caprylate/Caprate" .
 <https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <http://www.w3.org/2000/01/rdf-schema#label> "Caprylyl Caprylate/Caprate" .
 # 
-# https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Surfactant> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-15; Glyceryl Stearate" .
-<https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-15; Glyceryl Stearate" .
-# 
 # https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate
 <https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Ingredient> .
@@ -2976,16 +2997,6 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "12.166667"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Helianthus Annuus (sunflower seed) oil" .
-# 
-# https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <https://purl.org/ontocosmetic#hasINCIcode> "Macadamia Integrifolia (Macadamia) oil" .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "18.38889"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Macadamia Integrifolia (Macadamia) oil" .
 # 
 # https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate
 <https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3084,17 +3095,6 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Rosa Canina (Rose hip) seed oil" .
 # 
-# https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Emollient> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasINCIcode> "Sesamum Indicum (Sesame) seed oil" .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "22.529411"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Sesamum Indicum (Sesame) seed oil" .
-# 
 # https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate
 <https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Ingredient> .
@@ -3178,7 +3178,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # #################################################################
 # 
 # 
-<https://purl.org/ontocosmetic#HLB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The hydrophilic–lipophilic balance of a surfactant is a measure of the degree to which it is hydrophilic or lipophilic. It indicates how soluble a surfactant or a surfactant mixture is in water or in oil. Surfactants with low HLB are lipophilic and tend to form W/O emulsions. Surfactants with high HLB are hydrophilic and tend to form O/W emulsions. The HLB of surfactant mixtures is calculated with the average of the individual HLB weighted by their mass composition in the surfactant mixture."@en .
+<https://purl.org/ontocosmetic#HLB> <http://www.w3.org/2000/01/rdf-schema#comment> "The hydrophilic–lipophilic balance of a surfactant is a measure of the degree to which it is hydrophilic or lipophilic. It indicates how soluble a surfactant or a surfactant mixture is in water or in oil. Surfactants with low HLB are lipophilic and tend to form W/O emulsions. Surfactants with high HLB are hydrophilic and tend to form O/W emulsions. The HLB of surfactant mixtures is calculated with the average of the individual HLB weighted by their mass composition in the surfactant mixture."@en .
 <https://purl.org/ontocosmetic#HLB> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "hydrophilic–lipophilic balance"@en .
 # 
 # 

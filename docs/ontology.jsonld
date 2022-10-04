@@ -433,7 +433,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#AbsorptionRate",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Describe the capacity of the formulation product to be absopt by a skin."
   } ],
@@ -447,7 +447,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Active",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."
   } ],
@@ -457,7 +457,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Aerosol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "solid or liquid particles in a gas"
   } ],
@@ -467,7 +467,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Afterfeeling",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ingredients have the property to influence the afterfeel of the formulated product."
   } ],
@@ -501,7 +501,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Antioxidant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."
   } ],
@@ -1013,7 +1013,7 @@
     "@id" : "https://purl.org/ontocosmetic#IonicThickener"
   } ]
 }, {
-  "@id" : "https://purl.org/ontocosmetic#Ceteareth-15;GlycerylStearate",
+  "@id" : "https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#Ingredient"
@@ -1516,7 +1516,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Colloid",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."
   } ],
@@ -1615,7 +1615,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Density",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is the mass per unit of volume. In emulsions it is related to emulsion stability."
   } ],
@@ -1875,7 +1875,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#DropletSize",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets"
   } ],
@@ -1885,7 +1885,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Efficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."
   } ],
@@ -1907,7 +1907,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."
   } ],
@@ -1923,7 +1923,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Emollient_Dosage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "sub-type of dosage which concerns only the emollient."
   } ],
@@ -1939,7 +1939,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Emulsion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."
   } ],
@@ -1949,7 +1949,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#EmulsionScienceHeuristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a sub-type of heuristic that come from scientific literature."
   } ],
@@ -1959,7 +1959,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Ester_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."
   } ],
@@ -1969,7 +1969,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Ether_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub type of emollient ingredient that are ether."
   } ],
@@ -2039,7 +2039,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a sub-type of heuristic that come from expert  interview."
   } ],
@@ -2049,7 +2049,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Fatty_alcohol_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub type of emollient ingredient that are fatty alcohol."
   } ],
@@ -2062,14 +2062,14 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#StateOfMatter"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Semi-liquid, liquid, gas, or other substance that can be continuously deformed (flows) under an applied external force."
   } ]
 }, {
   "@id" : "https://purl.org/ontocosmetic#Foam",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "gas in liquid."
   } ],
@@ -2079,7 +2079,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Formulation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."
   } ],
@@ -2095,14 +2095,14 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#StateOfMatter"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "State of matter. It is a substance in a state that takes the shape and volume of its container."
   } ]
 }, {
   "@id" : "https://purl.org/ontocosmetic#Gel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "liquids in solids."
   } ],
@@ -2319,7 +2319,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Glycols",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."
   } ],
@@ -2332,7 +2332,7 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#IngredientProperty"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The hydrophilic–lipophilic balance of a surfactant is a measure of the degree to which it is hydrophilic or lipophilic. It indicates how soluble a surfactant or a surfactant mixture is in water or in oil. Surfactants with low HLB are lipophilic and tend to form W/O emulsions. Surfactants with high HLB are hydrophilic and tend to form O/W emulsions. The HLB of surfactant mixtures is calculated with the average of the individual HLB weighted by their mass composition in the surfactant mixture."
   } ],
@@ -2375,7 +2375,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HeterogenousMixture",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."
   } ],
@@ -2389,7 +2389,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Heuristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Rules that are used by product formulator to anticipate what happens while combined different ingredients."
   } ]
@@ -2408,7 +2408,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HeuristicForActive",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub group of heuristic that only concerns active ingredients."
   } ],
@@ -2421,7 +2421,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HeuristicForEmollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub group of heuristic that only concerns emollients."
   } ],
@@ -2434,7 +2434,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HeuristicForSurfactant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub group of heuristic that only concerns surfactants."
   } ],
@@ -2447,7 +2447,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HeuristicForThickener",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub group of heuristic that only concerns thickeners."
   } ],
@@ -2539,7 +2539,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#HomogenousMixture",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."
   } ],
@@ -2553,7 +2553,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Humectant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Hygroscopic substance used to keep things moist. Most common are glycols."
   } ],
@@ -2563,7 +2563,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Hydrocarbon_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub type of emollient ingredient that are hydrocarbon."
   } ],
@@ -2591,7 +2591,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Ingredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Substance that forms part of a formulation."
   } ],
@@ -2921,12 +2921,12 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#StateOfMatter"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"
   } ]
 }, {
-  "@id" : "https://purl.org/ontocosmetic#MacadamiaIntegrifolia(Macadamia)Oil",
+  "@id" : "https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#Emollient"
@@ -3007,7 +3007,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Microstructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."
   } ]
@@ -3039,7 +3039,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Mixture",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."
   } ],
@@ -3128,7 +3128,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#O/W_emulsion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is an emulsion where the oil phase corresponds to the disperse phase and the continuous phase corresponds to the aqueous phase."
   } ],
@@ -3199,7 +3199,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#OilyPhase",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The formulated product will be composed by a defined quantity of oily ingredient that will produce an oily phase."
   } ],
@@ -3394,7 +3394,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Origin",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Origins of the ingredient."
   } ],
@@ -4004,7 +4004,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Phase",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a region of space throughout which all physical properties of a material are essentially uniform."
   } ],
@@ -4032,7 +4032,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Polarity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."
   } ],
@@ -4387,7 +4387,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Preservative",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."
   } ],
@@ -4397,7 +4397,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Process",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Steps leading to the generation of a product."
   } ],
@@ -4407,7 +4407,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Product",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Formulation ready to go to the market."
   } ],
@@ -4553,7 +4553,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#PureSubstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."
   } ],
@@ -4576,7 +4576,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Restrictive_Heuristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Heuristics that have to be satisfied to have a conform formulation"
   } ],
@@ -4662,7 +4662,7 @@
     "@id" : "https://purl.org/ontocosmetic#ProductProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontocosmetic#SesamumIndicum(Sesame)SeedOil",
+  "@id" : "https://purl.org/ontocosmetic#SesamumIndicumSeedOil",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#Emollient"
@@ -4718,7 +4718,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Silicone_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub type of emollient ingredient that are silicone."
   } ],
@@ -4784,7 +4784,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Sol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "solid particles in a liquid."
   } ],
@@ -4797,14 +4797,14 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontocosmetic#StateOfMatter"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."
   } ]
 }, {
   "@id" : "https://purl.org/ontocosmetic#SolidFoam",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "gas in solid."
   } ],
@@ -4814,7 +4814,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#SolidSol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "solid in solid."
   } ],
@@ -4824,7 +4824,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#SolubilityInWater",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The solubility in water is important to establish how to introduce the rheological modifier to the formula."
   } ],
@@ -4834,7 +4834,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Solution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."
   } ],
@@ -5042,7 +5042,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Spreading",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The ability of the ingredient to spread on the skin"
   } ],
@@ -5084,7 +5084,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Stabilizer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"
   } ],
@@ -5285,7 +5285,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Substance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Any chemical entity (pure and mixture) is a substance."
   } ],
@@ -5452,7 +5452,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Surfactant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."
   } ],
@@ -5481,7 +5481,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Suspension",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."
   } ],
@@ -5491,7 +5491,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#System",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."
   } ]
@@ -5530,7 +5530,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Thickener",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."
   } ],
@@ -5550,7 +5550,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#ThickenerStability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."
   } ],
@@ -5685,7 +5685,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#UvFilter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."
   } ],
@@ -5695,7 +5695,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Vegetable_oil_emollient",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Sub type of emollient ingredient that are vegetable oil."
   } ],
@@ -5705,8 +5705,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#Viscosity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) \nDescribe the level of viscosity of a formulated product. it can be low, medium or high.\nIt is related to the sensorial term of thickness."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -5732,7 +5731,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#W/O_emulsion",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It is the inverse of an O/W emulsion. In this emulsion the aqueous phase is dispersed within the oily phase."
   } ],
@@ -5758,7 +5757,7 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#anti-age",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."
   } ],
@@ -5985,12 +5984,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasAfterfeeling",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Emollient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Give one or several afterfeeling properties to an ingredient of type emollient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Emollient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Afterfeeling"
@@ -6011,12 +6010,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasChemicalNature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Ingredient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Give the chemical nature of an ingredient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Chemical_nature"
@@ -6024,12 +6023,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasDosage",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Give the dosages that compose a formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Dosage"
@@ -6037,12 +6036,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasDosageIngredient",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Dosage"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Give the ingredient of a dosage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Dosage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Ingredient"
@@ -6050,12 +6049,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasEmollience",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Emollient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Give the level of emollience of an ingredient of type emollient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Emollient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Emollience"
@@ -6076,22 +6075,22 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Data properties that provides a description of the heuristic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ]
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicHighThreshold",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "High threshold in percentage for an heuristique."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -6099,12 +6098,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicIngProp",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Associate an heuristic to the ingredient property that is involved in the rule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#IngredientProperty"
@@ -6112,12 +6111,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicIngType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Define which ingredient type is concerned by the heuristic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Ingredient_Type"
@@ -6125,12 +6124,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicLowThreshold",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Low threshold in percentage for an heuristique."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -6138,12 +6137,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicProcessOutcome",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#DropletSize"
@@ -6151,12 +6150,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicProcessProp",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Process"
@@ -6164,12 +6163,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicProdProp",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#ProductProperty"
@@ -6177,12 +6176,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasHeuristicSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the source of the heuristic (from literature or experience)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ]
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasINCIcode",
@@ -6209,12 +6208,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasIonicClass",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Surfactant"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Define the ionic nature of an ingredient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Surfactant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Ionic_Nature"
@@ -6222,12 +6221,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasNbSurfactantIng",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Define the number of surfactants inside a given formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
@@ -6235,12 +6234,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasOrigin",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Ingredient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provide the origin of an ingredient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Origin"
@@ -6248,12 +6247,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasPhase",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Ingredient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "it define which phase the ingredient is soluble in."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Ingredient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Phase"
@@ -6274,12 +6273,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProcessing",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Processing done on the ingredient of the formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Process"
@@ -6287,12 +6286,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProductDropletSize",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#DropletSize"
@@ -6300,12 +6299,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProductOiliness",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Define the oiliness of formulated product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Oiliness"
@@ -6313,12 +6312,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProductOilyPhase",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Percentage of the formulated product that represent oily ingrdient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -6326,12 +6325,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProductStability",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Define the stability of a fomulation final product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Stability"
@@ -6339,12 +6338,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasProductViscosity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the viscosity of the formulation final product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Viscosity"
@@ -6352,12 +6351,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasQuantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Dosage"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Dosage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -6378,12 +6377,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasRecommendationHeuristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provide the heuristic that will be applied to a formulation as recommendation herustic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Heuristic"
@@ -6410,12 +6409,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasSpreading",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Emollient"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Defines the spreading property of an emollient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Emollient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Spreading"
@@ -6445,12 +6444,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasTexture",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Surfactant"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Provides the texture that can be expected from a given surfactant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Surfactant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Texture"
@@ -6480,12 +6479,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#hasTotalThickenerQuantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -6548,12 +6547,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#isActive",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Heuristic"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Property that allow to enable/ disable a heuristic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Heuristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -6583,12 +6582,12 @@
 }, {
   "@id" : "https://purl.org/ontocosmetic#isValidatedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontocosmetic#Formulation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Defines that a formulation validate a given heuristic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontocosmetic#Formulation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://purl.org/ontocosmetic#Heuristic"
