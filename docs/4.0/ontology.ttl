@@ -8,12 +8,10 @@
 
 <https://purl.org/ontocosmetic> rdf:type owl:Ontology ;
                                  owl:versionIRI <https://purl.org/ontocosmetic/4.0> ;
-                                 <http://purl.org/dc/elements/1.1/contributor> "" ,
-                                                                               "Juliana Serna Rodas" ;
+                                 <http://purl.org/dc/elements/1.1/contributor> "Juliana Serna Rodas" ;
                                  <http://purl.org/dc/elements/1.1/creator> "Alex Gabriel" ;
                                  <http://purl.org/dc/elements/1.1/description> "An ontology that describes chemical formulation in the perspective to assist the design process of cosmetic product."@en ;
                                  <http://purl.org/dc/elements/1.1/title> "Onto Cosmetic"@en ;
-                                 rdfs:comment "" ;
                                  owl:priorVersion "3.0"@en ;
                                  owl:versionInfo "4.0"@en .
 
@@ -78,7 +76,7 @@
 :hasDosage rdf:type owl:ObjectProperty ;
            rdfs:domain :Formulation ;
            rdfs:range :Dosage ;
-           rdfs:comment "Give the dosages that compose a formulation."@en ;
+           rdfs:comment "Give the dosages that composes a formulation."@en ;
            rdfs:label "has dosage"@en .
 
 
@@ -110,7 +108,7 @@
 :hasHeuristicProcessOutcome rdf:type owl:ObjectProperty ;
                             rdfs:domain :Heuristic ;
                             rdfs:range :DropletSizeState ;
-                            rdfs:comment "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en ;
+                            rdfs:comment "Associate a heuristic to the structure property of the formulation final product  that is involved in the rule."@en ;
                             rdfs:label "has structural property"@en .
 
 
@@ -140,7 +138,7 @@
 :hasIngredient rdf:type owl:ObjectProperty ;
                rdfs:domain :Formulation ;
                rdfs:range :Ingredient ;
-               rdfs:comment "Relationship that defines the ingredients that are used in a fomulation."@en ;
+               rdfs:comment "Relationship that defines the ingredients that are used in a formulation."@en ;
                rdfs:label "has ingredient"@en .
 
 
@@ -175,18 +173,18 @@
           rdfs:comment "it define which phase the ingredient is soluble in."@en .
 
 
-###  https://purl.org/ontocosmetic#hasProcessUnit
-:hasProcessUnit rdf:type owl:ObjectProperty ;
-                rdfs:domain :Formulation ;
-                rdfs:range :UnitOperation ;
-                rdfs:comment "Processing done on the ingredient of the formulation."@en .
+###  https://purl.org/ontocosmetic#hasProcess
+:hasProcess rdf:type owl:ObjectProperty ;
+            rdfs:domain :Formulation ;
+            rdfs:range :Process ;
+            rdfs:comment "Processing done on the ingredient of the formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductDropletSize
 :hasProductDropletSize rdf:type owl:ObjectProperty ;
                        rdfs:domain :Formulation ;
                        rdfs:range :DropletSizeState ;
-                       rdfs:comment "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
+                       rdfs:comment "Provides the size of the droplet of the final product of a formulation. This droplet will depends on process."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductOiliness
@@ -200,7 +198,7 @@
 :hasProductStability rdf:type owl:ObjectProperty ;
                      rdfs:domain :Formulation ;
                      rdfs:range :StabilityState ;
-                     rdfs:comment "Define the stability of a fomulation final product."@en .
+                     rdfs:comment "Define the stability of a formulation final product."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasProductViscosity
@@ -241,7 +239,9 @@
 ###  https://purl.org/ontocosmetic#isCommercializedAs
 :isCommercializedAs rdf:type owl:ObjectProperty ;
                     rdfs:domain :Formulation ;
-                    rdfs:range :Product .
+                    rdfs:range :Product ;
+                    rdfs:comment "Relate a formulation with a product that is commercialized or will be."@en ;
+                    rdfs:label "is commercialized as"@en .
 
 
 ###  https://purl.org/ontocosmetic#isPropertyOf
@@ -350,25 +350,10 @@
              rdfs:comment "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
 
 
-###  https://purl.org/ontocosmetic#hasQuantitySum
-:hasQuantitySum rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Dosage ;
-                rdfs:range xsd:float ;
-                rdfs:comment "the quantity sum is an intermediary value that allow the calculation of the total quantity of product in a formulation, except the water. This quantity sum will be used in the calculation of the water quantity."@en .
-
-
 ###  https://purl.org/ontocosmetic#hasRequiredHLB
 :hasRequiredHLB rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Emollient ;
                 rdfs:comment "the RHLB that an emollient can have."@en .
-
-
-###  https://purl.org/ontocosmetic#hasSurfactantQuantitySum
-:hasSurfactantQuantitySum rdf:type owl:DatatypeProperty ,
-                                   owl:FunctionalProperty ;
-                          rdfs:domain :Dosage ;
-                          rdfs:range xsd:float ;
-                          rdfs:comment "The surfactant quantity sum is an intermediary value that allow the calculation of the total quantity of surfactant in a formulation."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasTotalOilyPhase
@@ -382,29 +367,14 @@
                                      owl:FunctionalProperty ;
                             rdfs:domain :Formulation ;
                             rdfs:range xsd:float ;
-                            rdfs:comment "The total quantity of surfactant that a formulation have. This quantity is in percentage of volume."@en .
+                            rdfs:comment "The total quantity of surfactant that a formulation has. This quantity is in percentage of volume."@en .
 
 
 ###  https://purl.org/ontocosmetic#hasTotalThickenerQuantity
 :hasTotalThickenerQuantity rdf:type owl:DatatypeProperty ;
                            rdfs:domain :Formulation ;
                            rdfs:range xsd:float ;
-                           rdfs:comment "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
-
-
-###  https://purl.org/ontocosmetic#isActive
-:isActive rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Heuristic ;
-          rdfs:range xsd:boolean ;
-          rdfs:comment "Property that allow to enable/ disable a heuristic"@en .
-
-
-###  https://purl.org/ontocosmetic#isConform
-:isConform rdf:type owl:DatatypeProperty ,
-                    owl:FunctionalProperty ;
-           rdfs:domain :Formulation ;
-           rdfs:range xsd:boolean ;
-           rdfs:comment "the data property idicates if a formulation is conform to the restricive heuristics that correspond to formulation specification."@en .
+                           rdfs:comment "The total quantity of thickener that a formulation has. This quantity is in percentage of volume."@en .
 
 
 #################################################################
@@ -1153,560 +1123,6 @@ It is related to the sensorial term of thickness.""" .
 #    Individuals
 #################################################################
 
-###  https://purl.org/ontocosmetic#A1
-:A1 rdf:type owl:NamedIndividual ;
-    :hasHeuristicIngProp :HLB ;
-    :hasHeuristicIngType :surfactant_type ;
-    :hasHeuristicProdProp :stability ;
-    :hasHeuristicProductPropertyState :Stable ;
-    :hasHeuristicDescription "An emulsion tends to be more stable using a suitable combination of surfactants with a HLB equivalent to the HLB required by the emollients."@en ;
-    :hasHeuristicSource "General"@en ;
-    rdfs:comment "An emulsion tends to be more stable using a suitable combination of surfactants with a HLB equivalent to the HLB required by the emollients."@en .
-
-
-###  https://purl.org/ontocosmetic#A2
-:A2 rdf:type owl:NamedIndividual ;
-    :hasHeuristicIngType :surfactant_type ;
-    :hasHeuristicProdProp :stability ;
-    :hasHeuristicProductPropertyState :Stable ;
-    :hasHeuristicDescription "It is recommended to use more than one surfactant."@en ;
-    :hasHeuristicSource "General"@en ;
-    rdfs:comment "It is recommended to use more than one surfactant."@en .
-
-
-###  https://purl.org/ontocosmetic#A3
-:A3 rdf:type owl:NamedIndividual ;
-    :hasHeuristicIngType :surfactant_type ;
-    :hasHeuristicProdProp :stability ;
-    :hasHeuristicProductPropertyState :Stable ;
-    :hasHeuristicDescription "The quantity of surfactant should be  between 14 to 20% of the total oily phase."@en ;
-    :hasHeuristicHighThreshold "20.0"^^xsd:float ;
-    :hasHeuristicLowThreshold "14.0"^^xsd:float ;
-    :hasHeuristicSource "General"@en ;
-    rdfs:comment "The quantity of surfactant should be  between 14 to 20% of the total oily phase."@en .
-
-
-###  https://purl.org/ontocosmetic#AvocadoOil
-:AvocadoOil rdf:type owl:NamedIndividual ;
-            :hasChemicalNature :vegetable_oil ;
-            :hasOrigin :natural ;
-            :hasPhase :oily_phase ;
-            :hasSpreading :low_spreading ;
-            :hasINCIcode "Persea Gratissima (Avocado) Oil" ;
-            :hasPricePerKilogram "16.0"^^xsd:float ;
-            :hasRequiredHLB "7.0"^^xsd:float ;
-            rdfs:label "Persea Gratissima (Avocado) Oil" .
-
-
-###  https://purl.org/ontocosmetic#B11
-:B11 rdf:type owl:NamedIndividual ;
-     :hasHeuristicProcessOutcome :small_droplet ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :high_viscosity ;
-     :hasHeuristicDescription "Viscosity is high if droplet size is small."@en ;
-     :hasHeuristicSource "Matrix" ;
-     rdfs:comment "Viscosity is high if droplet size is small."@en .
-
-
-###  https://purl.org/ontocosmetic#B12
-:B12 rdf:type owl:NamedIndividual ;
-     :hasHeuristicProcessOutcome :med_droplet ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :med_viscosity ;
-     :hasHeuristicDescription "Viscosity is medium if droplet size is medium."@en ;
-     :hasHeuristicSource "Matrix"@en ;
-     rdfs:comment "Viscosity is medium if droplet size is medium."@en .
-
-
-###  https://purl.org/ontocosmetic#B13
-:B13 rdf:type owl:NamedIndividual ;
-     :hasHeuristicProcessOutcome :small_droplet ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :low_viscosity ;
-     :hasHeuristicDescription "Viscosity is low if droplet size is high."@en ;
-     :hasHeuristicSource "Matrix"@en ;
-     rdfs:comment "Viscosity is low if droplet size is high."@en .
-
-
-###  https://purl.org/ontocosmetic#C11
-:C11 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngProp :phase ;
-     :hasHeuristicProdProp :oiliness ;
-     :hasHeuristicProductPropertyState :non_oily ;
-     :hasIngredientPropertyState :oily_phase ;
-     :hasHeuristicDescription "If the oily phase is less than 15%, final sensation is : watery, non-oily, fresh."@en ;
-     :hasHeuristicHighThreshold "15.0"^^xsd:float ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "If the oily phase is less than 15%, final sensation is : watery, non-oily, fresh."@en .
-
-
-###  https://purl.org/ontocosmetic#C12
-:C12 rdf:type owl:NamedIndividual ;
-     :hasHeuristicProdProp :oiliness ;
-     :hasHeuristicProductPropertyState :oily ;
-     :hasHeuristicDescription "If the oily phase is more than 25%, final sensation is : rich, oily."@en ;
-     :hasHeuristicLowThreshold "25.0"^^xsd:float ;
-     :hasHeuristicSource "Heuristic" ;
-     rdfs:comment "If the oily phase is more than 25%, final sensation is : rich, oily."@en .
-
-
-###  https://purl.org/ontocosmetic#C12-15AlkylBenzoate
-:C12-15AlkylBenzoate rdf:type owl:NamedIndividual ;
-                     :hasChemicalNature :ester ;
-                     :hasOrigin :natural_raw_material ;
-                     :hasPhase :oily_phase ;
-                     :hasSpreading :low_spreading ;
-                     :hasINCIcode "C12-15 Alkyl Benzoate" ;
-                     :hasPricePerKilogram "20.722221"^^xsd:float ;
-                     :hasRequiredHLB "13.0"^^xsd:float ;
-                     rdfs:label "C12-15 Alkyl Benzoate" .
-
-
-###  https://purl.org/ontocosmetic#C21
-:C21 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngProp :spreading ;
-     :hasHeuristicIngType :emollient_type ;
-     :hasHeuristicProdProp :absorption_rate ;
-     :hasHeuristicProductPropertyState :high_absorption_rate ;
-     :hasHeuristicDescription "If most of the emollients are of high absorption, product absorption sensation is : high."@en ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "If most of the emollients are of high absorption, product absorption sensation is : high."@en .
-
-
-###  https://purl.org/ontocosmetic#C22
-:C22 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngProp :spreading ;
-     :hasHeuristicIngType :emollient_type ;
-     :hasHeuristicProdProp :absorption_rate ;
-     :hasHeuristicProductPropertyState :med_absorption_rate ;
-     :hasHeuristicDescription "If most of the emollients are of high absorption, product absorption sensation is : medium."@en ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "If most of the emollients are of high absorption, product absorption sensation is : medium."@en .
-
-
-###  https://purl.org/ontocosmetic#C23
-:C23 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngProp :spreading ;
-     :hasHeuristicIngType :emollient_type ;
-     :hasHeuristicProdProp :absorption_rate ;
-     :hasHeuristicProductPropertyState :low_absorption_rate ;
-     :hasHeuristicSource "Heuristic"@en .
-
-
-###  https://purl.org/ontocosmetic#C31
-:C31 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngType :thickener ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :high_viscosity ;
-     :hasHeuristicDescription "Viscosity is high if the proportion of thickener is high (0.8-1%)."@en ;
-     :hasHeuristicLowThreshold "0.8"^^xsd:float ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "Viscosity is high if the proportion of thickener is high (0.8-1%)."@en .
-
-
-###  https://purl.org/ontocosmetic#C32
-:C32 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngType :thickener ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :med_viscosity ;
-     :hasHeuristicDescription "Viscosity is medium if the proportion of thickener is medium (0.2-0.8%)."@en ;
-     :hasHeuristicHighThreshold "0.8"^^xsd:float ;
-     :hasHeuristicLowThreshold "0.2"^^xsd:float ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "Viscosity is medium if the proportion of thickener is medium (0.2-0.8%)."@en .
-
-
-###  https://purl.org/ontocosmetic#C33
-:C33 rdf:type owl:NamedIndividual ;
-     :hasHeuristicIngType :thickener ;
-     :hasHeuristicProdProp :viscosity ;
-     :hasHeuristicProductPropertyState :low_viscosity ;
-     :hasHeuristicDescription "Viscosity is low if the proportion of thickener is low (0 - 0.2%)."@en ;
-     :hasHeuristicHighThreshold "0.2"^^xsd:float ;
-     :hasHeuristicSource "Heuristic"@en ;
-     rdfs:comment "Viscosity is low if the proportion of thickener is low (0 - 0.2%)."@en .
-
-
-###  https://purl.org/ontocosmetic#C4
-:C4 rdf:type owl:NamedIndividual ;
-    :hasHeuristicIngType :surfactant_type ;
-    :hasHeuristicProdProp :stickiness ;
-    :hasHeuristicProductPropertyState :sticky_sensation ;
-    :hasHeuristicDescription "Sticky sensation may increase if there is too much surfactant."@en ;
-    :hasHeuristicSource "Heuristic"@en ;
-    rdfs:comment "Sticky sensation may increase if there is too much surfactant."@en .
-
-
-###  https://purl.org/ontocosmetic#C5
-:C5 rdf:type owl:NamedIndividual ;
-    :hasHeuristicIngType :fatty_alcohol ;
-    :hasHeuristicProdProp :viscosity .
-
-
-###  https://purl.org/ontocosmetic#CacaoButter
-:CacaoButter rdf:type owl:NamedIndividual ;
-             :hasChemicalNature :vegetable_oil ;
-             :hasOrigin :natural_raw_material ;
-             :hasINCIcode "Cacao butter" ;
-             :hasRequiredHLB "6.0"^^xsd:float ;
-             rdfs:label "Cacao butter" .
-
-
-###  https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate
-:Ceteareth-15-GlycerylStearate rdf:type owl:NamedIndividual ;
-                               :hasIonicClass :nonionic ;
-                               :hasTexture :lotion ,
-                                           :spray ;
-                               :hasHLB "12.0"^^xsd:float ;
-                               :hasINCIcode "Ceteareth-15; Glyceryl Stearate" ;
-                               rdfs:label "Ceteareth-15; Glyceryl Stearate" .
-
-
-###  https://purl.org/ontocosmetic#Ceteareth-20
-:Ceteareth-20 rdf:type owl:NamedIndividual ;
-              :hasIonicClass :nonionic ;
-              :hasHLB "15.0"^^xsd:float ;
-              :hasINCIcode "Ceteareth-20 " ;
-              :hasPricePerKilogram "15.84"^^xsd:float ;
-              rdfs:label "Ceteareth-20 " .
-
-
-###  https://purl.org/ontocosmetic#Ceteareth-25
-:Ceteareth-25 rdf:type owl:NamedIndividual ;
-              :hasIonicClass :nonionic ;
-              :hasTexture :cream ;
-              :hasHLB "16.0"^^xsd:float ;
-              :hasINCIcode "Ceteareth-25" ;
-              :hasPricePerKilogram "15.68"^^xsd:float ;
-              rdfs:label "Ceteareth-25" .
-
-
-###  https://purl.org/ontocosmetic#Ceteareth-30
-:Ceteareth-30 rdf:type owl:NamedIndividual ;
-              :hasIonicClass :nonionic ;
-              :hasHLB "17.0"^^xsd:float ;
-              :hasINCIcode "Ceteareth-30" ;
-              rdfs:label "Ceteareth-30" .
-
-
-###  https://purl.org/ontocosmetic#CetearylEthylhexanoate
-:CetearylEthylhexanoate rdf:type owl:NamedIndividual ;
-                        :hasChemicalNature :ester ;
-                        :hasOrigin :NRM_and_SRM ;
-                        :hasPhase :oily_phase ;
-                        :hasSpreading :high_spreading ;
-                        :hasINCIcode "Cetearyl Ethylhexanoate" ;
-                        :hasPricePerKilogram "32.625"^^xsd:float ;
-                        :hasRequiredHLB "8.0"^^xsd:float ;
-                        rdfs:label "Cetearyl Ethylhexanoate" .
-
-
-###  https://purl.org/ontocosmetic#CetearylGlucoside
-:CetearylGlucoside rdf:type owl:NamedIndividual ;
-                   :hasIonicClass :nonionic ;
-                   :hasTexture :cream ,
-                               :lotion ,
-                               :spray ;
-                   :hasHLB "13.0"^^xsd:float ;
-                   :hasINCIcode "Cetearyl Glucoside " ;
-                   rdfs:label "Cetearyl Glucoside " .
-
-
-###  https://purl.org/ontocosmetic#CetearylIsononanoate
-:CetearylIsononanoate rdf:type owl:NamedIndividual ;
-                      :hasChemicalNature :ester ;
-                      :hasSpreading :medium_spreading ;
-                      :hasINCIcode "Cetearyl Isononanoate" ;
-                      rdfs:label "Cetearyl Isononanoate" .
-
-
-###  https://purl.org/ontocosmetic#Ceteth-10
-:Ceteth-10 rdf:type owl:NamedIndividual ;
-           :hasIonicClass :nonionic ;
-           :hasHLB "12.9"^^xsd:float ;
-           :hasINCIcode "Ceteth-10" ;
-           rdfs:label "Ceteth-10" .
-
-
-###  https://purl.org/ontocosmetic#Ceteth-2
-:Ceteth-2 rdf:type owl:NamedIndividual ;
-          :hasIonicClass :nonionic ;
-          :hasHLB "5.3"^^xsd:float ;
-          :hasINCIcode "Ceteth-2" ;
-          rdfs:label "Ceteth-2" .
-
-
-###  https://purl.org/ontocosmetic#Ceteth-20
-:Ceteth-20 rdf:type owl:NamedIndividual ;
-           :hasIonicClass :nonionic ;
-           :hasHLB "15.7"^^xsd:float ;
-           :hasINCIcode "Ceteth-20" ;
-           rdfs:label "Ceteth-20" .
-
-
-###  https://purl.org/ontocosmetic#CetylAlcohol
-:CetylAlcohol rdf:type owl:NamedIndividual ;
-              :hasChemicalNature :fatty_alcohol ;
-              :hasOrigin :natural_raw_material ;
-              :hasINCIcode "Cetyl Alcohol" ;
-              :hasRequiredHLB "15.5"^^xsd:float ;
-              rdfs:label "Cetyl Alcohol" .
-
-
-###  https://purl.org/ontocosmetic#CetylEthylhexanoate
-:CetylEthylhexanoate rdf:type owl:NamedIndividual ;
-                     :hasChemicalNature :ester ;
-                     :hasOrigin :natural_and_SRM ;
-                     :hasPhase :oily_phase ;
-                     :hasSpreading :high_spreading ;
-                     :hasINCIcode "Cetyl Ethylhexanoate" ;
-                     :hasRequiredHLB "11.0"^^xsd:float ;
-                     rdfs:label "Cetyl Ethylhexanoate" .
-
-
-###  https://purl.org/ontocosmetic#CetylPalmitate
-:CetylPalmitate rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :ester ;
-                :hasOrigin :natural_raw_material ;
-                :hasINCIcode "Cetyl palmitate" ;
-                :hasRequiredHLB "10.0"^^xsd:float ;
-                rdfs:label "Cetyl palmitate" .
-
-
-###  https://purl.org/ontocosmetic#Coco-Caprylate
-:Coco-Caprylate rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :ester ;
-                :hasSpreading :high_spreading ;
-                :hasINCIcode "Coco-Caprylate" ;
-                rdfs:label "Coco-Caprylate" .
-
-
-###  https://purl.org/ontocosmetic#Cocoglycerides
-:Cocoglycerides rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :triglyceride ;
-                :hasSpreading :medium_spreading ;
-                :hasINCIcode "Cocoglycerides" ;
-                rdfs:label "Cocoglycerides" .
-
-
-###  https://purl.org/ontocosmetic#CoconutOil
-:CoconutOil rdf:type owl:NamedIndividual ;
-            :hasChemicalNature :vegetable_oil ;
-            :hasOrigin :natural_raw_material ;
-            :hasINCIcode "Coconut oil" ;
-            :hasRequiredHLB "6.0"^^xsd:float ;
-            rdfs:label "Coconut oil" .
-
-
-###  https://purl.org/ontocosmetic#Cosgard
-:Cosgard rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontocosmetic#DecylCocoate
-:DecylCocoate rdf:type owl:NamedIndividual ;
-              :hasChemicalNature :ester ;
-              :hasOrigin :natural_raw_material_enzymatic_processed ;
-              :hasSpreading :low_spreading ;
-              :hasINCIcode "Decyl Cocoate" ;
-              :hasRequiredHLB "10.0"^^xsd:float ;
-              rdfs:label "Decyl Cocoate" .
-
-
-###  https://purl.org/ontocosmetic#DecylOleate
-:DecylOleate rdf:type owl:NamedIndividual ;
-             :hasChemicalNature :ester ;
-             :hasOrigin :natural_raw_material ;
-             :hasSpreading :medium_spreading ;
-             :hasINCIcode "Decyl Oleate" ;
-             :hasPricePerKilogram "25.125"^^xsd:float ;
-             :hasRequiredHLB "10.0"^^xsd:float ;
-             rdfs:label "Decyl Oleate" .
-
-
-###  https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate
-:Di-PPG-2Myreth-10Adipate rdf:type owl:NamedIndividual ;
-                          :hasChemicalNature :ester ;
-                          :hasSpreading :low_spreading ;
-                          :hasINCIcode "Di-PPG-2 Myreth-10 Adipate" ;
-                          rdfs:label "Di-PPG-2 Myreth-10 Adipate" .
-
-
-###  https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate
-:Di-PPG-3MyristylEtherAdipate rdf:type owl:NamedIndividual ;
-                              :hasChemicalNature :ester ;
-                              :hasSpreading :low_spreading ;
-                              :hasINCIcode "Di-PPG-3 Myristyl ether Adipate" ;
-                              :hasRequiredHLB "11.0"^^xsd:float ;
-                              rdfs:label "Di-PPG-3 Myristyl ether Adipate" .
-
-
-###  https://purl.org/ontocosmetic#DibutylAdipate
-:DibutylAdipate rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :ester ;
-                :hasSpreading :high_spreading ;
-                :hasINCIcode "Dibutyl Adipate" ;
-                rdfs:label "Dibutyl Adipate" .
-
-
-###  https://purl.org/ontocosmetic#DicaprylylCarbonate
-:DicaprylylCarbonate rdf:type owl:NamedIndividual ;
-                     :hasChemicalNature :ester ;
-                     :hasSpreading :high_spreading ;
-                     :hasINCIcode "Dicaprylyl Carbonate" ;
-                     rdfs:label "Dicaprylyl Carbonate" .
-
-
-###  https://purl.org/ontocosmetic#DicaprylylEther
-:DicaprylylEther rdf:type owl:NamedIndividual ;
-                 :hasChemicalNature :ether ;
-                 :hasSpreading :high_spreading ;
-                 :hasINCIcode "Dicaprylyl ether" ;
-                 rdfs:label "Dicaprylyl ether" .
-
-
-###  https://purl.org/ontocosmetic#DiethylhexylCarbonate
-:DiethylhexylCarbonate rdf:type owl:NamedIndividual ;
-                       :hasChemicalNature :ester ;
-                       :hasSpreading :very_high_spreading ;
-                       :hasINCIcode "Diethylhexyl Carbonate" ;
-                       rdfs:label "Diethylhexyl Carbonate" .
-
-
-###  https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate
-:DiisopropylDimerDilinoleate rdf:type owl:NamedIndividual ;
-                             :hasChemicalNature :ester ;
-                             :hasSpreading :low_spreading ;
-                             :hasINCIcode "Diisopropyl Dimer Dilinoleate" ;
-                             :hasRequiredHLB "6.0"^^xsd:float ;
-                             rdfs:label "Diisopropyl Dimer Dilinoleate" .
-
-
-###  https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate
-:DiisostearoylPolyglyceryl-3DimerDilinoleate rdf:type owl:NamedIndividual ;
-                                             :hasIonicClass :nonionic ;
-                                             :hasTexture :cream ,
-                                                         :lotion ;
-                                             :hasHLB "5.0"^^xsd:float ;
-                                             :hasINCIcode "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate" ;
-                                             rdfs:label "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate" .
-
-
-###  https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate
-:DiisostearylDimerDilinoleate rdf:type owl:NamedIndividual ;
-                              :hasChemicalNature :ester ;
-                              :hasSpreading :low_spreading ;
-                              :hasINCIcode "Diisostearyl Dimer Dilinoleate" ;
-                              :hasRequiredHLB "7.0"^^xsd:float ;
-                              rdfs:label "Diisostearyl Dimer Dilinoleate" .
-
-
-###  https://purl.org/ontocosmetic#Dimethicone
-:Dimethicone rdf:type owl:NamedIndividual ;
-             :hasChemicalNature :silicone ;
-             :hasOrigin :synthetic ;
-             :hasSpreading :low_spreading ;
-             :hasINCIcode "Dimethicone" ;
-             :hasPricePerKilogram "30.4"^^xsd:float ;
-             rdfs:label "Dimethicone" .
-
-
-###  https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite
-:DisodiumCetearylSulfosuccite rdf:type owl:NamedIndividual ;
-                              :hasIonicClass :anionic ;
-                              :hasTexture :cream ,
-                                          :gel ,
-                                          :lotion ,
-                                          :spray ;
-                              :hasHLB "31.0"^^xsd:float ;
-                              :hasINCIcode "Disodium CetearylSulfosuccite" ;
-                              rdfs:label "Disodium CetearylSulfosuccite" .
-
-
-###  https://purl.org/ontocosmetic#EthylhexylPalmitate
-:EthylhexylPalmitate rdf:type owl:NamedIndividual ;
-                     :hasChemicalNature :ester ;
-                     :hasOrigin :natural_and_SRM ;
-                     :hasPhase :oily_phase ;
-                     :hasSpreading :medium_spreading ;
-                     :hasINCIcode "Ethylhexyl Palmitate" ;
-                     :hasPricePerKilogram "14.6875"^^xsd:float ;
-                     :hasRequiredHLB "8.0"^^xsd:float ;
-                     rdfs:label "Ethylhexyl Palmitate" .
-
-
-###  https://purl.org/ontocosmetic#EthylhexylStearate
-:EthylhexylStearate rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ester ;
-                    :hasOrigin :natural_and_SRM ;
-                    :hasPhase :oily_phase ;
-                    :hasSpreading :medium_spreading ;
-                    :hasINCIcode "Ethylhexyl Stearate" ;
-                    :hasRequiredHLB "8.0"^^xsd:float ;
-                    rdfs:label "Ethylhexyl Stearate" .
-
-
-###  https://purl.org/ontocosmetic#Glycerin
-:Glycerin rdf:type owl:NamedIndividual ;
-          :hasINCIcode "Humectant" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylIsostearate
-:GlycerylIsostearate rdf:type owl:NamedIndividual ;
-                     :hasChemicalNature :ester ;
-                     :hasSpreading :low_spreading ;
-                     :hasINCIcode "Glyceryl Isostearate" ;
-                     :hasPricePerKilogram "35.6875"^^xsd:float ;
-                     rdfs:label "Glyceryl Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylMyristate
-:GlycerylMyristate rdf:type owl:NamedIndividual ;
-                   :hasChemicalNature :ester ;
-                   :hasINCIcode "Glyceryl Myristate" ;
-                   rdfs:label "Glyceryl Myristate" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylOleate
-:GlycerylOleate rdf:type owl:NamedIndividual ;
-                :hasIonicClass :nonionic ;
-                :hasHLB "3.0"^^xsd:float ;
-                :hasINCIcode "Glyceryl Oleate" ;
-                :hasPricePerKilogram "18.61111"^^xsd:float ;
-                rdfs:label "Glyceryl Oleate" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylStearate
-:GlycerylStearate rdf:type owl:NamedIndividual ;
-                  :hasIonicClass :nonionic ;
-                  :hasHLB "4.0"^^xsd:float ;
-                  :hasINCIcode "Glyceryl Stearate" ;
-                  :hasPricePerKilogram "8.92"^^xsd:float ;
-                  rdfs:label "Glyceryl Stearate" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylStearateCitrate
-:GlycerylStearateCitrate rdf:type owl:NamedIndividual ;
-                         :hasIonicClass :nonionic ;
-                         :hasTexture :cream ,
-                                     :lotion ,
-                                     :spray ;
-                         :hasHLB "12.0"^^xsd:float ;
-                         :hasINCIcode "Glyceryl Stearate Citrate " ;
-                         :hasPricePerKilogram "15.16"^^xsd:float ;
-                         rdfs:label "Glyceryl Stearate Citrate " .
-
-
-###  https://purl.org/ontocosmetic#GlycerylStearateSE
-:GlycerylStearateSE rdf:type owl:NamedIndividual ;
-                    :hasIonicClass :nonionic ;
-                    :hasTexture :cream ,
-                                :lotion ;
-                    :hasHLB "12.0"^^xsd:float ;
-                    :hasINCIcode "Glyceryl Stearate SE" ;
-                    :hasPricePerKilogram "8.92"^^xsd:float ;
-                    rdfs:label "Glyceryl Stearate SE" .
-
-
 ###  https://purl.org/ontocosmetic#HLB
 :HLB rdf:type owl:NamedIndividual ,
               :Property ;
@@ -1740,181 +1156,6 @@ It is related to the sensorial term of thickness.""" .
                     rdfs:label "Hexyldecyl Stearate" .
 
 
-###  https://purl.org/ontocosmetic#HydrogenatedPolyisobutene
-:HydrogenatedPolyisobutene rdf:type owl:NamedIndividual ;
-                           :hasChemicalNature :hydrocarbon ;
-                           :hasSpreading :high_spreading ;
-                           :hasINCIcode "Hydrogenated Polyisobutene" ;
-                           rdfs:label "Hydrogenated Polyisobutene" .
-
-
-###  https://purl.org/ontocosmetic#IsoamylCocoate
-:IsoamylCocoate rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :ester ;
-                :hasOrigin :natural_raw_material_enzymatic_processed ;
-                :hasSpreading :medium_spreading ;
-                :hasINCIcode "Isoamyl Cocoate" ;
-                :hasRequiredHLB "10.0"^^xsd:float ;
-                rdfs:label "Isoamyl Cocoate" .
-
-
-###  https://purl.org/ontocosmetic#Isoceteth-20
-:Isoceteth-20 rdf:type owl:NamedIndividual ;
-              :hasIonicClass :nonionic ;
-              :hasTexture :cream ,
-                          :lotion ;
-              :hasHLB "16.0"^^xsd:float ;
-              :hasINCIcode "Isoceteth-20" ;
-              rdfs:label "Isoceteth-20" .
-
-
-###  https://purl.org/ontocosmetic#Isohexadecane
-:Isohexadecane rdf:type owl:NamedIndividual ;
-               :hasChemicalNature :hydrocarbon ;
-               :hasSpreading :medium_to_high_spreading ;
-               :hasINCIcode "Isohexadecane" ;
-               :hasPricePerKilogram "22.0"^^xsd:float ;
-               :hasRequiredHLB "12.0"^^xsd:float ;
-               rdfs:label "Isohexadecane" .
-
-
-###  https://purl.org/ontocosmetic#IsopropylIsostearate
-:IsopropylIsostearate rdf:type owl:NamedIndividual ;
-                      :hasChemicalNature :ester ;
-                      :hasOrigin :NRM_and_SRM ;
-                      :hasPhase :oily_phase ;
-                      :hasSpreading :medium_to_high_spreading ;
-                      :hasINCIcode "Isopropyl Isostearate" ;
-                      :hasPricePerKilogram "38.8125"^^xsd:float ;
-                      :hasRequiredHLB "9.0"^^xsd:float ;
-                      rdfs:label "Isopropyl Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#IsopropylLanolate
-:IsopropylLanolate rdf:type owl:NamedIndividual ;
-                   :hasChemicalNature :ester ;
-                   :hasINCIcode "Isopropyl Lanolate" ;
-                   :hasRequiredHLB "11.0"^^xsd:float ;
-                   rdfs:label "Isopropyl Lanolate" .
-
-
-###  https://purl.org/ontocosmetic#IsopropylMyristate
-:IsopropylMyristate rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ester ;
-                    :hasOrigin :NRM_and_SRM ;
-                    :hasPhase :oily_phase ;
-                    :hasSpreading :high_spreading ;
-                    :hasINCIcode "Isopropyl Myristate" ;
-                    :hasPricePerKilogram "17.1875"^^xsd:float ;
-                    :hasRequiredHLB "11.5"^^xsd:float ;
-                    rdfs:label "Isopropyl Myristate" .
-
-
-###  https://purl.org/ontocosmetic#IsopropylPalmitate
-:IsopropylPalmitate rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ester ;
-                    :hasOrigin :NRM_and_SRM ;
-                    :hasPhase :oily_phase ;
-                    :hasSpreading :high_spreading ;
-                    :hasINCIcode "Isopropyl Palmitate" ;
-                    :hasPricePerKilogram "17.125"^^xsd:float ;
-                    :hasRequiredHLB "10.0"^^xsd:float ;
-                    rdfs:label "Isopropyl Palmitate" .
-
-
-###  https://purl.org/ontocosmetic#IsostearylIsostearate
-:IsostearylIsostearate rdf:type owl:NamedIndividual ;
-                       :hasChemicalNature :ester ;
-                       :hasOrigin :NRM_and_SRM ;
-                       :hasSpreading :low_spreading ;
-                       :hasINCIcode "Isostearyl Isostearate" ;
-                       :hasRequiredHLB "11.0"^^xsd:float ;
-                       rdfs:label "Isostearyl Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#IsotridecylIsononanoate
-:IsotridecylIsononanoate rdf:type owl:NamedIndividual ;
-                         :hasChemicalNature :ester ;
-                         :hasSpreading :medium_to_high_spreading ;
-                         :hasINCIcode "Isotridecyl Isononanoate" ;
-                         :hasRequiredHLB "10.0"^^xsd:float ;
-                         rdfs:label "Isotridecyl Isononanoate" .
-
-
-###  https://purl.org/ontocosmetic#Laureth-23
-:Laureth-23 rdf:type owl:NamedIndividual ;
-            :hasIonicClass :nonionic ;
-            :hasTexture :cream ,
-                        :lotion ;
-            :hasHLB "16.9"^^xsd:float ;
-            :hasINCIcode "Laureth-23" ;
-            rdfs:label "Laureth-23" .
-
-
-###  https://purl.org/ontocosmetic#Laureth-4
-:Laureth-4 rdf:type owl:NamedIndividual ;
-           :hasIonicClass :nonionic ;
-           :hasHLB "9.7"^^xsd:float ;
-           :hasINCIcode "Laureth-4" ;
-           rdfs:label "Laureth-4" .
-
-
-###  https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil
-:MacadamiaIntegrifoliaOil rdf:type owl:NamedIndividual ;
-                          :hasChemicalNature :vegetable_oil ;
-                          :hasSpreading :low_spreading ;
-                          :hasINCIcode "Macadamia Integrifolia (Macadamia) oil" ;
-                          :hasPricePerKilogram "18.38889"^^xsd:float ;
-                          :hasRequiredHLB "6.0"^^xsd:float ;
-                          rdfs:label "Macadamia Integrifolia (Macadamia) oil" .
-
-
-###  https://purl.org/ontocosmetic#MethylGlucoseIsostearate
-:MethylGlucoseIsostearate rdf:type owl:NamedIndividual ;
-                          :hasIonicClass :nonionic ;
-                          :hasHLB "5.0"^^xsd:float ;
-                          :hasINCIcode "Methyl Glucose Isostearate" ;
-                          rdfs:label "Methyl Glucose Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#MethylGlucoseSesquistearate
-:MethylGlucoseSesquistearate rdf:type owl:NamedIndividual ;
-                             :hasIonicClass :nonionic ;
-                             :hasTexture :cream ,
-                                         :lotion ;
-                             :hasHLB "12.0"^^xsd:float ;
-                             :hasINCIcode "Methyl Glucose Sesquistearate" ;
-                             rdfs:label "Methyl Glucose Sesquistearate" .
-
-
-###  https://purl.org/ontocosmetic#MineralOil
-:MineralOil rdf:type owl:NamedIndividual ;
-            :hasChemicalNature :hydrocarbon ;
-            :hasOrigin :synthetic ;
-            :hasSpreading :medium_spreading ;
-            :hasINCIcode "Mineral oil" ;
-            :hasRequiredHLB "10.0"^^xsd:float ;
-            rdfs:label "Mineral oil" .
-
-
-###  https://purl.org/ontocosmetic#MyristylLactate
-:MyristylLactate rdf:type owl:NamedIndividual ;
-                 :hasChemicalNature :ester ;
-                 :hasINCIcode "Myristyl Lactate" ;
-                 :hasRequiredHLB "12.0"^^xsd:float ;
-                 rdfs:label "Myristyl Lactate" .
-
-
-###  https://purl.org/ontocosmetic#MyristylMyristate
-:MyristylMyristate rdf:type owl:NamedIndividual ;
-                   :hasChemicalNature :ester ;
-                   :hasSpreading :high_spreading ;
-                   :hasINCIcode "Myristyl Myristate" ;
-                   :hasPricePerKilogram "18.105726"^^xsd:float ;
-                   :hasRequiredHLB "8.0"^^xsd:float ;
-                   rdfs:label "Myristyl Myristate" .
-
-
 ###  https://purl.org/ontocosmetic#NRM_and_SRM
 :NRM_and_SRM rdf:type owl:NamedIndividual ,
                       :Origin ;
@@ -1928,297 +1169,9 @@ SRM = Synthetic Raw Material"""@en .
            rdfs:label "Non stable"@en .
 
 
-###  https://purl.org/ontocosmetic#Octyldodecanol
-:Octyldodecanol rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :fatty_alcohol ;
-                :hasOrigin :natural_raw_material ;
-                :hasPhase :oily_phase ;
-                :hasSpreading :low_spreading ;
-                :hasINCIcode "Octyldodecanol" ;
-                :hasPricePerKilogram "23.0"^^xsd:float ;
-                :hasRequiredHLB "11.0"^^xsd:float ;
-                rdfs:label "Octyldodecanol" .
-
-
 ###  https://purl.org/ontocosmetic#OilyPhaseConcentration
 :OilyPhaseConcentration rdf:type owl:NamedIndividual ,
                                  :StructurePropertyState .
-
-
-###  https://purl.org/ontocosmetic#Oleth-10
-:Oleth-10 rdf:type owl:NamedIndividual ;
-          :hasIonicClass :nonionic ;
-          :hasHLB "12.4"^^xsd:float ;
-          :hasINCIcode "Oleth-10" ;
-          rdfs:label "Oleth-10" .
-
-
-###  https://purl.org/ontocosmetic#Oleth-2
-:Oleth-2 rdf:type owl:NamedIndividual ;
-         :hasIonicClass :nonionic ;
-         :hasHLB "4.9"^^xsd:float ;
-         :hasINCIcode "Oleth-2" ;
-         rdfs:label "Oleth-2" .
-
-
-###  https://purl.org/ontocosmetic#Oleth-20
-:Oleth-20 rdf:type owl:NamedIndividual ;
-          :hasIonicClass :nonionic ;
-          :hasHLB "15.3"^^xsd:float ;
-          :hasINCIcode "Oleth-20" ;
-          rdfs:label "Oleth-20" .
-
-
-###  https://purl.org/ontocosmetic#Oleth-3
-:Oleth-3 rdf:type owl:NamedIndividual ;
-         :hasIonicClass :nonionic ;
-         :hasHLB "6.6"^^xsd:float ;
-         :hasINCIcode "Oleth-3" ;
-         rdfs:label "Oleth-3" .
-
-
-###  https://purl.org/ontocosmetic#Oleth-5
-:Oleth-5 rdf:type owl:NamedIndividual ;
-         :hasIonicClass :nonionic ;
-         :hasHLB "8.8"^^xsd:float ;
-         :hasINCIcode "Oleth-5" ;
-         rdfs:label "Oleth-5" .
-
-
-###  https://purl.org/ontocosmetic#OleylErucate
-:OleylErucate rdf:type owl:NamedIndividual ;
-              :hasChemicalNature :ester ;
-              :hasOrigin :natural_raw_material ;
-              :hasSpreading :low_spreading ;
-              :hasINCIcode "Oleyl Erucate" ;
-              :hasRequiredHLB "13.0"^^xsd:float ;
-              rdfs:label "Oleyl Erucate" .
-
-
-###  https://purl.org/ontocosmetic#OliveOil
-:OliveOil rdf:type owl:NamedIndividual ;
-          :hasChemicalNature :vegetable_oil ;
-          :hasOrigin :natural ;
-          :hasPhase :oily_phase ;
-          :hasSpreading :low_spreading ;
-          :hasINCIcode "Olea Europaea (Olive) Fruit Oil" ;
-          :hasRequiredHLB "7.0"^^xsd:float ;
-          rdfs:label "Olea Europaea (Olive) Fruit Oil" .
-
-
-###  https://purl.org/ontocosmetic#OlusOil
-:OlusOil rdf:type owl:NamedIndividual ;
-         :hasChemicalNature :vegetable_oil ;
-         :hasSpreading :low_spreading ;
-         :hasINCIcode "Olus Oil" ;
-         rdfs:label "Olus Oil" .
-
-
-###  https://purl.org/ontocosmetic#PCADimethicone
-:PCADimethicone rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :silicone ;
-                :hasSpreading :low_spreading ;
-                :hasINCIcode "PCA Dimethicone" ;
-                :hasRequiredHLB "10.0"^^xsd:float ;
-                rdfs:label "PCA Dimethicone" .
-
-
-###  https://purl.org/ontocosmetic#PEG-100Stearate
-:PEG-100Stearate rdf:type owl:NamedIndividual ;
-                 :hasIonicClass :nonionic ;
-                 :hasTexture :cream ,
-                             :lotion ;
-                 :hasHLB "19.0"^^xsd:float ;
-                 :hasINCIcode "PEG-100 Stearate" ;
-                 :hasPricePerKilogram "19.0"^^xsd:float ;
-                 rdfs:label "PEG-100 Stearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20AlmondGlycerides
-:PEG-20AlmondGlycerides rdf:type owl:NamedIndividual ;
-                        :hasIonicClass :nonionic ;
-                        :hasINCIcode "PEG-20 Almond Glycerides" ;
-                        rdfs:label "PEG-20 Almond Glycerides" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate
-:PEG-20SorbitanMonolaurate rdf:type owl:NamedIndividual ;
-                           :hasIonicClass :nonionic ;
-                           :hasHLB "16.7"^^xsd:float ;
-                           :hasINCIcode "PEG-20 Sorbitan Monolaurate" ;
-                           :hasPricePerKilogram "15.277778"^^xsd:float ;
-                           rdfs:label "PEG-20 Sorbitan Monolaurate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate
-:PEG-20SorbitanMonooleate rdf:type owl:NamedIndividual ;
-                          :hasIonicClass :nonionic ;
-                          :hasHLB "15.0"^^xsd:float ;
-                          :hasINCIcode "PEG-20 sorbitan monooleate" ;
-                          :hasPricePerKilogram "14.944445"^^xsd:float ;
-                          rdfs:label "PEG-20 sorbitan monooleate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate
-:PEG-20SorbitanMonopalmitate rdf:type owl:NamedIndividual ;
-                             :hasIonicClass :nonionic ;
-                             :hasHLB "15.6"^^xsd:float ;
-                             :hasINCIcode "PEG-20 sorbitan monopalmitate" ;
-                             rdfs:label "PEG-20 sorbitan monopalmitate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate
-:PEG-20SorbitanMonostearate rdf:type owl:NamedIndividual ;
-                            :hasIonicClass :nonionic ;
-                            :hasHLB "14.9"^^xsd:float ;
-                            :hasINCIcode "PEG-20 sorbitan monostearate" ;
-                            :hasPricePerKilogram "15.444445"^^xsd:float ;
-                            rdfs:label "PEG-20 sorbitan monostearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate
-:PEG-20SorbitanTrioleate rdf:type owl:NamedIndividual ;
-                         :hasIonicClass :nonionic ;
-                         :hasHLB "11.0"^^xsd:float ;
-                         :hasINCIcode "PEG-20 sorbitan trioleate" ;
-                         rdfs:label "PEG-20 sorbitan trioleate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-20SorbitanTristearate
-:PEG-20SorbitanTristearate rdf:type owl:NamedIndividual ;
-                           :hasIonicClass :nonionic ;
-                           :hasHLB "10.5"^^xsd:float ;
-                           :hasINCIcode "PEG-20 sorbitan tristearate" ;
-                           rdfs:label "PEG-20 sorbitan tristearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-40Stearate
-:PEG-40Stearate rdf:type owl:NamedIndividual ;
-                :hasIonicClass :nonionic ;
-                :hasTexture :cream ,
-                            :lotion ;
-                :hasHLB "17.0"^^xsd:float ;
-                :hasINCIcode "PEG-40 Stearate" ;
-                rdfs:label "PEG-40 Stearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate
-:PEG-4SorbitanMonolaurate rdf:type owl:NamedIndividual ;
-                          :hasIonicClass :nonionic ;
-                          :hasHLB "13.3"^^xsd:float ;
-                          :hasINCIcode "PEG-4 Sorbitan Monolaurate" ;
-                          rdfs:label "PEG-4 Sorbitan Monolaurate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate
-:PEG-4SorbitanMonostearate rdf:type owl:NamedIndividual ;
-                           :hasIonicClass :nonionic ;
-                           :hasHLB "9.6"^^xsd:float ;
-                           :hasINCIcode "PEG-4 sorbitan monostearate" ;
-                           rdfs:label "PEG-4 sorbitan monostearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-50Stearate
-:PEG-50Stearate rdf:type owl:NamedIndividual ;
-                :hasIonicClass :nonionic ;
-                :hasHLB "17.9"^^xsd:float ;
-                :hasINCIcode "PEG-50 stearate" ;
-                rdfs:label "PEG-50 stearate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-80SorbitanLaurate
-:PEG-80SorbitanLaurate rdf:type owl:NamedIndividual ;
-                       :hasIonicClass :nonionic ;
-                       :hasHLB "19.1"^^xsd:float ;
-                       :hasINCIcode "PEG-80 Sorbitan Laurate" ;
-                       rdfs:label "PEG-80 Sorbitan Laurate" .
-
-
-###  https://purl.org/ontocosmetic#PEG-8Stearate
-:PEG-8Stearate rdf:type owl:NamedIndividual ;
-               :hasIonicClass :nonionic ;
-               :hasHLB "11.1"^^xsd:float ;
-               :hasINCIcode "PEG-8 Stearate" ;
-               rdfs:label "PEG-8 Stearate" .
-
-
-###  https://purl.org/ontocosmetic#PPG-11StearylEther
-:PPG-11StearylEther rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ether ;
-                    :hasSpreading :medium_to_low_spreading ;
-                    :hasINCIcode "PPG-11 Stearyl ether" ;
-                    :hasPricePerKilogram "23.375"^^xsd:float ;
-                    rdfs:label "PPG-11 Stearyl ether" .
-
-
-###  https://purl.org/ontocosmetic#PPG-14ButylEther
-:PPG-14ButylEther rdf:type owl:NamedIndividual ;
-                  :hasChemicalNature :ether ;
-                  :hasSpreading :low_spreading ;
-                  :hasINCIcode "PPG-14 Butyl ether" ;
-                  rdfs:label "PPG-14 Butyl ether" .
-
-
-###  https://purl.org/ontocosmetic#PPG-15StearylEther
-:PPG-15StearylEther rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ether ;
-                    :hasSpreading :low_spreading ;
-                    :hasINCIcode "PPG-15 Stearyl ether" ;
-                    :hasPricePerKilogram "23.375"^^xsd:float ;
-                    :hasRequiredHLB "10.0"^^xsd:float ;
-                    rdfs:label "PPG-15 Stearyl ether" .
-
-
-###  https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate
-:PPG-3BenzylEtherEthylhexanoate rdf:type owl:NamedIndividual ;
-                                :hasChemicalNature :ether ;
-                                :hasSpreading :low_spreading ;
-                                :hasINCIcode "PPG-3 Benzyl ether Ethylhexanoate" ;
-                                :hasRequiredHLB "14.0"^^xsd:float ;
-                                rdfs:label "PPG-3 Benzyl ether Ethylhexanoate" .
-
-
-###  https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate
-:PPG-3BenzylEtherMyristate rdf:type owl:NamedIndividual ;
-                           :hasChemicalNature :ether ;
-                           :hasSpreading :low_spreading ;
-                           :hasINCIcode "PPG-3 Benzyl ether Myristate" ;
-                           :hasRequiredHLB "9.0"^^xsd:float ;
-                           rdfs:label "PPG-3 Benzyl ether Myristate" .
-
-
-###  https://purl.org/ontocosmetic#PPG-3MyristylEther
-:PPG-3MyristylEther rdf:type owl:NamedIndividual ;
-                    :hasChemicalNature :ether ;
-                    :hasSpreading :low_spreading ;
-                    :hasINCIcode "PPG-3 Myristyl ether" ;
-                    :hasPricePerKilogram "26.125"^^xsd:float ;
-                    rdfs:label "PPG-3 Myristyl ether" .
-
-
-###  https://purl.org/ontocosmetic#PPG-5-Ceteth-20
-:PPG-5-Ceteth-20 rdf:type owl:NamedIndividual ;
-                 :hasChemicalNature :ether ;
-                 :hasSpreading :low_spreading ;
-                 :hasINCIcode "PPG-5-Ceteth-20" ;
-                 rdfs:label "PPG-5-Ceteth-20" .
-
-
-###  https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil
-:PassifloraIncarnataSeedOil rdf:type owl:NamedIndividual ;
-                            :hasChemicalNature :vegetable_oil ;
-                            :hasSpreading :low_spreading ;
-                            :hasINCIcode "Passiflora Incarnata Seed Oil" ;
-                            rdfs:label "Passiflora Incarnata Seed Oil" .
-
-
-###  https://purl.org/ontocosmetic#PentaerythritylTetraisostearate
-:PentaerythritylTetraisostearate rdf:type owl:NamedIndividual ;
-                                 :hasChemicalNature :ester ;
-                                 :hasSpreading :low_spreading ;
-                                 :hasINCIcode "Pentaerythrityl Tetraisostearate" ;
-                                 :hasRequiredHLB "7.0"^^xsd:float ;
-                                 rdfs:label "Pentaerythrityl Tetraisostearate" .
 
 
 ###  https://purl.org/ontocosmetic#Petrolatum
@@ -2227,248 +1180,6 @@ SRM = Synthetic Raw Material"""@en .
             :hasINCIcode "Petrolatum" ;
             :hasPricePerKilogram "14.111111"^^xsd:float ;
             rdfs:label "Petrolatum" .
-
-
-###  https://purl.org/ontocosmetic#PhenoxyethylCaprylate
-:PhenoxyethylCaprylate rdf:type owl:NamedIndividual ;
-                       :hasChemicalNature :ester ;
-                       :hasSpreading :low_spreading ;
-                       :hasINCIcode "Phenoxyethyl Caprylate" ;
-                       rdfs:label "Phenoxyethyl Caprylate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate
-:Polyglyceryl-2Dipolyhydroxystearate rdf:type owl:NamedIndividual ;
-                                     :hasIonicClass :nonionic ;
-                                     :hasTexture :cream ,
-                                                 :lotion ,
-                                                 :spray ;
-                                     :hasHLB "5.0"^^xsd:float ;
-                                     :hasINCIcode "Polyglyceryl-2 Dipolyhydroxystearate" ;
-                                     rdfs:label "Polyglyceryl-2 Dipolyhydroxystearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate
-:Polyglyceryl-2Isostearate rdf:type owl:NamedIndividual ;
-                           :hasChemicalNature :ester ;
-                           :hasSpreading :low_spreading ;
-                           :hasINCIcode "Polyglyceryl-2 Isostearate" ;
-                           rdfs:label "Polyglyceryl-2 Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate
-:Polyglyceryl-2Triisostearate rdf:type owl:NamedIndividual ;
-                              :hasChemicalNature :ester ;
-                              :hasSpreading :low_spreading ;
-                              :hasINCIcode "Polyglyceryl-2 Triisostearate" ;
-                              rdfs:label "Polyglyceryl-2 Triisostearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate
-:Polyglyceryl-3Diisostearate rdf:type owl:NamedIndividual ;
-                             :hasChemicalNature :ester ;
-                             :hasIonicClass :nonionic ;
-                             :hasSpreading :low_spreading ;
-                             :hasHLB "4.0"^^xsd:float ;
-                             :hasINCIcode "Polyglyceryl-3 Diisostearate" ;
-                             rdfs:label "Polyglyceryl-3 Diisostearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3Distearate
-:Polyglyceryl-3Distearate rdf:type owl:NamedIndividual ;
-                          :hasIonicClass :nonionic ;
-                          :hasTexture :cream ,
-                                      :lotion ,
-                                      :spray ;
-                          :hasHLB "9.0"^^xsd:float ;
-                          :hasINCIcode "Polyglyceryl-3 Distearate" ;
-                          rdfs:label "Polyglyceryl-3 Distearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate
-:Polyglyceryl-3MethylglucoseDistearate rdf:type owl:NamedIndividual ;
-                                       :hasIonicClass :nonionic ;
-                                       :hasTexture :cream ,
-                                                   :lotion ;
-                                       :hasHLB "12.0"^^xsd:float ;
-                                       :hasINCIcode "Polyglyceryl-3 Methylglucose Distearate" ;
-                                       rdfs:label "Polyglyceryl-3 Methylglucose Distearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3Oleate
-:Polyglyceryl-3Oleate rdf:type owl:NamedIndividual ;
-                      :hasIonicClass :nonionic ;
-                      :hasHLB "5.0"^^xsd:float ;
-                      :hasINCIcode "Polyglyceryl-3 Oleate" ;
-                      :hasPricePerKilogram "27.444445"^^xsd:float ;
-                      rdfs:label "Polyglyceryl-3 Oleate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate
-:Polyglyceryl-3Polyricinoleate rdf:type owl:NamedIndividual ;
-                               :hasChemicalNature :ester ;
-                               :hasSpreading :low_spreading ;
-                               :hasINCIcode "Polyglyceryl-3 Polyricinoleate" ;
-                               rdfs:label "Polyglyceryl-3 Polyricinoleate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate
-:Polyglyceryl-4Isostearate rdf:type owl:NamedIndividual ;
-                           :hasIonicClass :nonionic ;
-                           :hasTexture :cream ;
-                           :hasHLB "5.0"^^xsd:float ;
-                           :hasINCIcode "Polyglyceryl-4 Isostearate" ;
-                           rdfs:label "Polyglyceryl-4 Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-4Laurate
-:Polyglyceryl-4Laurate rdf:type owl:NamedIndividual ;
-                       :hasIonicClass :nonionic ;
-                       :hasHLB "11.0"^^xsd:float ;
-                       :hasINCIcode "Polyglyceryl-4 Laurate" ;
-                       rdfs:label "Polyglyceryl-4 Laurate" .
-
-
-###  https://purl.org/ontocosmetic#Polysorbate60
-:Polysorbate60 rdf:type owl:NamedIndividual ;
-               :hasIonicClass :nonionic ;
-               :hasHLB "15.0"^^xsd:float ;
-               :hasINCIcode "Polysorbate 60" ;
-               rdfs:label "Polysorbate 60" .
-
-
-###  https://purl.org/ontocosmetic#Polysorbate80
-:Polysorbate80 rdf:type owl:NamedIndividual ;
-               :hasIonicClass :nonionic ;
-               :hasHLB "15.0"^^xsd:float ;
-               :hasINCIcode "Polysorbate 80" ;
-               rdfs:label "Polysorbate 80" .
-
-
-###  https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate
-:PropyleneGlycolIsoceteth-3Acetate rdf:type owl:NamedIndividual ;
-                                   :hasChemicalNature :ether ;
-                                   :hasINCIcode "Propylene Glycol Isoceteth-3 Acetate" ;
-                                   rdfs:label "Propylene Glycol Isoceteth-3 Acetate" .
-
-
-###  https://purl.org/ontocosmetic#PropyleneGlycolIsostearate
-:PropyleneGlycolIsostearate rdf:type owl:NamedIndividual ;
-                            :hasChemicalNature :ester ;
-                            :hasSpreading :medium_spreading ;
-                            :hasINCIcode "Propylene Glycol Isostearate" ;
-                            rdfs:label "Propylene Glycol Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#PropylheptylCaprylate
-:PropylheptylCaprylate rdf:type owl:NamedIndividual ;
-                       :hasChemicalNature :ester ;
-                       :hasSpreading :high_spreading ;
-                       :hasINCIcode "Propylheptyl Caprylate" ;
-                       rdfs:label "Propylheptyl Caprylate" .
-
-
-###  https://purl.org/ontocosmetic#SesamumIndicumSeedOil
-:SesamumIndicumSeedOil rdf:type owl:NamedIndividual ;
-                       :hasChemicalNature :vegetable_oil ;
-                       :hasOrigin :natural_raw_material ;
-                       :hasSpreading :low_spreading ;
-                       :hasINCIcode "Sesamum Indicum (Sesame) seed oil" ;
-                       :hasPricePerKilogram "22.529411"^^xsd:float ;
-                       :hasRequiredHLB "6.0"^^xsd:float ;
-                       rdfs:label "Sesamum Indicum (Sesame) seed oil" .
-
-
-###  https://purl.org/ontocosmetic#SheaButter
-:SheaButter rdf:type owl:NamedIndividual ;
-            :hasChemicalNature :vegetable_oil ;
-            :hasOrigin :natural ;
-            :hasSpreading :low_spreading ;
-            :hasINCIcode "Shea butter" ;
-            :hasRequiredHLB "8.0"^^xsd:float ;
-            rdfs:label "Shea butter" .
-
-
-###  https://purl.org/ontocosmetic#SodiumCetearylSulfate
-:SodiumCetearylSulfate rdf:type owl:NamedIndividual ;
-                       :hasIonicClass :anionic ;
-                       :hasTexture :cream ,
-                                   :lotion ;
-                       :hasHLB "38.0"^^xsd:float ;
-                       :hasINCIcode "Sodium Cetearyl Sulfate" ;
-                       rdfs:label "Sodium Cetearyl Sulfate" .
-
-
-###  https://purl.org/ontocosmetic#SodiumStearoylGlutamate
-:SodiumStearoylGlutamate rdf:type owl:NamedIndividual ;
-                         :hasIonicClass :anionic ;
-                         :hasTexture :cream ,
-                                     :gel ,
-                                     :lotion ,
-                                     :spray ;
-                         :hasHLB "23.0"^^xsd:float ;
-                         :hasINCIcode "Sodium Stearoyl Glutamate" ;
-                         rdfs:label "Sodium Stearoyl Glutamate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanIsostearate
-:SorbitanIsostearate rdf:type owl:NamedIndividual ;
-                     :hasIonicClass :nonionic ;
-                     :hasHLB "4.7"^^xsd:float ;
-                     :hasINCIcode "Sorbitan isostearate" ;
-                     rdfs:label "Sorbitan isostearate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanLaurate
-:SorbitanLaurate rdf:type owl:NamedIndividual ;
-                 :hasIonicClass :nonionic ;
-                 :hasHLB "9.0"^^xsd:float ;
-                 :hasINCIcode "Sorbitan Laurate" ;
-                 rdfs:label "Sorbitan Laurate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanMonopalmitate
-:SorbitanMonopalmitate rdf:type owl:NamedIndividual ;
-                       :hasIonicClass :nonionic ;
-                       :hasHLB "6.7"^^xsd:float ;
-                       :hasINCIcode "Sorbitan Monopalmitate" ;
-                       rdfs:label "Sorbitan Monopalmitate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanMonostearate
-:SorbitanMonostearate rdf:type owl:NamedIndividual ;
-                      :hasIonicClass :nonionic ;
-                      :hasHLB "4.7"^^xsd:float ;
-                      :hasINCIcode "Sorbitan Monostearate" ;
-                      :hasPricePerKilogram "12.48"^^xsd:float ;
-                      rdfs:label "Sorbitan Monostearate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanOleate
-:SorbitanOleate rdf:type owl:NamedIndividual ;
-                :hasIonicClass :nonionic ;
-                :hasTexture :cream ,
-                            :lotion ;
-                :hasHLB "4.3"^^xsd:float ;
-                :hasINCIcode "Sorbitan Oleate" ;
-                :hasPricePerKilogram "16.222221"^^xsd:float ;
-                rdfs:label "Sorbitan Oleate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanSesquioleate
-:SorbitanSesquioleate rdf:type owl:NamedIndividual ;
-                      :hasIonicClass :nonionic ;
-                      :hasHLB "3.7"^^xsd:float ;
-                      :hasINCIcode "Sorbitan sesquioleate" ;
-                      rdfs:label "Sorbitan sesquioleate" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanTrioleate
-:SorbitanTrioleate rdf:type owl:NamedIndividual ;
-                   :hasIonicClass :nonionic ;
-                   :hasHLB "1.8"^^xsd:float ;
-                   :hasINCIcode "Sorbitan trioleate" ;
-                   rdfs:label "Sorbitan trioleate" .
 
 
 ###  https://purl.org/ontocosmetic#Squalane
@@ -2484,133 +1195,6 @@ SRM = Synthetic Raw Material"""@en .
 :Stable rdf:type owl:NamedIndividual ,
                  :StabilityState ;
         rdfs:label "Stable"@en .
-
-
-###  https://purl.org/ontocosmetic#Steareth-10
-:Steareth-10 rdf:type owl:NamedIndividual ;
-             :hasIonicClass :nonionic ;
-             :hasHLB "12.4"^^xsd:float ;
-             :hasINCIcode "Steareth-10" ;
-             rdfs:label "Steareth-10" .
-
-
-###  https://purl.org/ontocosmetic#Steareth-100
-:Steareth-100 rdf:type owl:NamedIndividual ;
-              :hasIonicClass :nonionic ;
-              :hasHLB "18.8"^^xsd:float ;
-              :hasINCIcode "Steareth-100" ;
-              rdfs:label "Steareth-100" .
-
-
-###  https://purl.org/ontocosmetic#Steareth-2
-:Steareth-2 rdf:type owl:NamedIndividual ;
-            :hasIonicClass :nonionic ;
-            :hasTexture :cream ,
-                        :lotion ,
-                        :spray ;
-            :hasHLB "4.9"^^xsd:float ;
-            :hasINCIcode "Steareth-2" ;
-            rdfs:label "Steareth-2" .
-
-
-###  https://purl.org/ontocosmetic#Steareth-20
-:Steareth-20 rdf:type owl:NamedIndividual ;
-             :hasIonicClass :nonionic ;
-             :hasTexture :cream ,
-                         :lotion ,
-                         :spray ;
-             :hasHLB "15.3"^^xsd:float ;
-             :hasINCIcode "Steareth-20" ;
-             rdfs:label "Steareth-20" .
-
-
-###  https://purl.org/ontocosmetic#Steareth-21
-:Steareth-21 rdf:type owl:NamedIndividual ;
-             :hasIonicClass :nonionic ;
-             :hasTexture :cream ,
-                         :lotion ,
-                         :spray ;
-             :hasHLB "15.5"^^xsd:float ;
-             :hasINCIcode "Steareth-21" ;
-             rdfs:label "Steareth-21" .
-
-
-###  https://purl.org/ontocosmetic#StearylAlcohol
-:StearylAlcohol rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :fatty_alcohol ;
-                :hasOrigin :natural_raw_material ;
-                :hasINCIcode "Stearyl Alcohol" ;
-                :hasRequiredHLB "15.5"^^xsd:float ;
-                rdfs:label "Stearyl Alcohol" .
-
-
-###  https://purl.org/ontocosmetic#SucroseDistearate
-:SucroseDistearate rdf:type owl:NamedIndividual ;
-                   :hasIonicClass :nonionic ;
-                   :hasTexture :cream ;
-                   :hasHLB "3.0"^^xsd:float ;
-                   :hasINCIcode "Sucrose Distearate" ;
-                   rdfs:label "Sucrose Distearate" .
-
-
-###  https://purl.org/ontocosmetic#SucrosePolysoyate
-:SucrosePolysoyate rdf:type owl:NamedIndividual ;
-                   :hasChemicalNature :ester ;
-                   :hasSpreading :low_spreading ;
-                   :hasINCIcode "Sucrose Polysoyate" ;
-                   :hasRequiredHLB "6.0"^^xsd:float ;
-                   rdfs:label "Sucrose Polysoyate" .
-
-
-###  https://purl.org/ontocosmetic#SucroseStearate
-:SucroseStearate rdf:type owl:NamedIndividual ;
-                 :hasIonicClass :nonionic ;
-                 :hasHLB "13.0"^^xsd:float ,
-                         "14.5"^^xsd:float ;
-                 :hasINCIcode "Sucrose Stearate" ;
-                 rdfs:label "Sucrose Stearate" .
-
-
-###  https://purl.org/ontocosmetic#Triethylhexanoin
-:Triethylhexanoin rdf:type owl:NamedIndividual ;
-                  :hasChemicalNature :ester ;
-                  :hasSpreading :low_spreading ;
-                  :hasINCIcode "Triethylhexanoin" ;
-                  :hasRequiredHLB "10.0"^^xsd:float ;
-                  rdfs:label "Triethylhexanoin" .
-
-
-###  https://purl.org/ontocosmetic#Triisononanoin
-:Triisononanoin rdf:type owl:NamedIndividual ;
-                :hasChemicalNature :ester ;
-                :hasSpreading :low_spreading ;
-                :hasINCIcode "Triisononanoin" ;
-                :hasRequiredHLB "11.0"^^xsd:float ;
-                rdfs:label "Triisononanoin" .
-
-
-###  https://purl.org/ontocosmetic#Triisostearin
-:Triisostearin rdf:type owl:NamedIndividual ;
-               :hasChemicalNature :triglyceride ;
-               :hasOrigin :natural_raw_material ;
-               :hasSpreading :low_spreading ;
-               :hasINCIcode "Triisostearin" ;
-               :hasRequiredHLB "8.0"^^xsd:float ;
-               rdfs:label "Triisostearin" .
-
-
-###  https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate
-:TrimethylolpropaneTriisostearate rdf:type owl:NamedIndividual ;
-                                  :hasChemicalNature :ester ;
-                                  :hasSpreading :low_spreading ;
-                                  :hasINCIcode "Trimethylolpropane Triisostearate" ;
-                                  :hasRequiredHLB "6.0"^^xsd:float ;
-                                  rdfs:label "Trimethylolpropane Triisostearate" .
-
-
-###  https://purl.org/ontocosmetic#Vitamine_E_tocopherol_acetate
-:Vitamine_E_tocopherol_acetate rdf:type owl:NamedIndividual ;
-                               :hasINCIcode "Vitamine E" .
 
 
 ###  https://purl.org/ontocosmetic#WaterPhaseConcentration
@@ -2646,11 +1230,6 @@ SRM = Synthetic Raw Material"""@en .
 ###  https://purl.org/ontocosmetic#anionic
 :anionic rdf:type owl:NamedIndividual ,
                   :IonicState .
-
-
-###  https://purl.org/ontocosmetic#cetearyl_alcohol
-:cetearyl_alcohol rdf:type owl:NamedIndividual ;
-                  rdfs:label "Cetearyl alcohol"@en .
 
 
 ###  https://purl.org/ontocosmetic#cloud_point
@@ -2826,16 +1405,6 @@ SRM = Synthetic Raw Material"""@en .
                  rdfs:label "Ingredient type"@en .
 
 
-###  https://purl.org/ontocosmetic#jojobaOil
-:jojobaOil rdf:type owl:NamedIndividual ;
-           :hasChemicalNature :vegetable_wax ;
-           :hasOrigin :natural ;
-           :hasSpreading :high_spreading ;
-           :hasINCIcode "jojoba oil" ;
-           :hasRequiredHLB "6.0"^^xsd:float ;
-           rdfs:label "jojoba oil" .
-
-
 ###  https://purl.org/ontocosmetic#kraft_point
 :kraft_point rdf:type owl:NamedIndividual ,
                       :Property ;
@@ -2926,7 +1495,8 @@ SRM = Synthetic Raw Material"""@en .
 
 ###  https://purl.org/ontocosmetic#medium_to_high_spreading
 :medium_to_high_spreading rdf:type owl:NamedIndividual ,
-                                   :SpreadingState .
+                                   :SpreadingState ;
+                          rdfs:label "Medium to high spreading"@en .
 
 
 ###  https://purl.org/ontocosmetic#medium_to_light_emollience
@@ -2937,7 +1507,8 @@ SRM = Synthetic Raw Material"""@en .
 
 ###  https://purl.org/ontocosmetic#medium_to_low_spreading
 :medium_to_low_spreading rdf:type owl:NamedIndividual ,
-                                  :SpreadingState .
+                                  :SpreadingState ;
+                         rdfs:label "Medium to low psreading"@en .
 
 
 ###  https://purl.org/ontocosmetic#medium_to_rich_emollience
@@ -3265,10 +1836,6 @@ It is related to the sensorial term of thickness."""@en ;
                    rdfs:label "Visual appearance"@en .
 
 
-###  https://purl.org/ontocosmetic#water
-:water rdf:type owl:NamedIndividual .
-
-
 ###  https://purl.org/ontocosmetic#water-in-oil
 :water-in-oil rdf:type owl:NamedIndividual ,
                        :MicrostructureState ;
@@ -3293,139 +1860,6 @@ It is related to the sensorial term of thickness."""@en ;
                :AfterfeelingState .
 
 
-###  https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> rdf:type owl:NamedIndividual ;
-                                                                                                           :hasIonicClass :nonionic ;
-                                                                                                           :hasHLB "4.0"^^xsd:float ;
-                                                                                                           :hasINCIcode "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone; Caprylic/Capric Triglyceride" ;
-                                                                                                           rdfs:label "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone" ,
-                                                                                                                      "Caprylic/Capric Triglyceride" .
-
-
-###  https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> rdf:type owl:NamedIndividual ;
-                                                                         :hasIonicClass :nonionic ;
-                                                                         :hasTexture :cream ,
-                                                                                     :lotion ;
-                                                                         :hasHLB "5.0"^^xsd:float ;
-                                                                         :hasINCIcode "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone" ;
-                                                                         rdfs:label "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone" .
-
-
-###  https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> rdf:type owl:NamedIndividual ;
-                                                                                                      :hasIonicClass :nonionic ;
-                                                                                                      :hasTexture :cream ,
-                                                                                                                  :lotion ,
-                                                                                                                  :spray ;
-                                                                                                      :hasHLB "10.0"^^xsd:float ;
-                                                                                                      :hasINCIcode "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride" ;
-                                                                                                      rdfs:label "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride" .
-
-
-###  https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> rdf:type owl:NamedIndividual ;
-                                                                   :hasChemicalNature :ester ;
-                                                                   :hasSpreading :low_spreading ;
-                                                                   :hasINCIcode "C10-30 Cholesterol/Lanosterol esters" ;
-                                                                   :hasRequiredHLB "6.0"^^xsd:float ;
-                                                                   rdfs:label "C10-30 Cholesterol/Lanosterol esters" .
-
-
-###  https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> rdf:type owl:NamedIndividual ;
-                                                            :hasChemicalNature :triglyceride ;
-                                                            :hasOrigin :natural_raw_material ;
-                                                            :hasPhase :oily_phase ;
-                                                            :hasSpreading :medium_spreading ;
-                                                            :hasINCIcode "Caprylic/Capric triglyceride" ;
-                                                            :hasPricePerKilogram "16.0"^^xsd:float ;
-                                                            :hasRequiredHLB "11.0"^^xsd:float ;
-                                                            rdfs:label "Caprylic/Capric triglyceride" .
-
-
-###  https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> rdf:type owl:NamedIndividual ;
-                                                          :hasChemicalNature :ester ;
-                                                          :hasSpreading :high_spreading ;
-                                                          :hasINCIcode "Caprylyl Caprylate/Caprate" ;
-                                                          rdfs:label "Caprylyl Caprylate/Caprate" .
-
-
-###  https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> rdf:type owl:NamedIndividual ;
-                                                                                                  :hasIonicClass :anionic ;
-                                                                                                  :hasHLB "39.0"^^xsd:float ;
-                                                                                                  :hasINCIcode "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate" ;
-                                                                                                  rdfs:label "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate" .
-
-
-###  https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> rdf:type owl:NamedIndividual ;
-                                                                      :hasIonicClass :nonionic ;
-                                                                      :hasTexture :cream ,
-                                                                                  :gel ,
-                                                                                  :lotion ;
-                                                                      :hasHLB "11.0"^^xsd:float ;
-                                                                      :hasINCIcode "Cetearyl Glucoside (and) CetearylAlcohol" ;
-                                                                      rdfs:label "Cetearyl Glucoside (and) CetearylAlcohol" .
-
-
-###  https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> rdf:type owl:NamedIndividual ;
-                                                                             :hasChemicalNature :silicone ;
-                                                                             :hasOrigin :synthetic ;
-                                                                             :hasSpreading :low_spreading ;
-                                                                             :hasINCIcode "Cetyl Dimethicone (very high  viscosity,nonpolar)" ;
-                                                                             rdfs:label "Cetyl Dimethicone (very high  viscosity,nonpolar)" .
-
-
-###  https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> rdf:type owl:NamedIndividual ;
-                                                             :hasIonicClass :nonionic ;
-                                                             :hasTexture :cream ,
-                                                                         :lotion ;
-                                                             :hasHLB "5.0"^^xsd:float ;
-                                                             :hasINCIcode "Cetyl PEG/PPG-10/1 Dimethicone" ;
-                                                             rdfs:label "Cetyl PEG/PPG-10/1 Dimethicone" .
-
-
-###  https://purl.org/ontocosmetic#Coco-Caprylate/Caprate
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> rdf:type owl:NamedIndividual ;
-                                                       :hasChemicalNature :ester ;
-                                                       :hasOrigin :natural_raw_material ;
-                                                       :hasSpreading :medium_spreading ;
-                                                       :hasINCIcode "Coco-Caprylate/Caprate" ;
-                                                       :hasPricePerKilogram "19.9375"^^xsd:float ;
-                                                       rdfs:label "Coco-Caprylate/Caprate" .
-
-
-###  https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> rdf:type owl:NamedIndividual ;
-                                                                       :hasChemicalNature :ester ;
-                                                                       :hasINCIcode "Decyl Isostearate, Isostearyl Isostearate" ;
-                                                                       :hasRequiredHLB "9.0"^^xsd:float ;
-                                                                       rdfs:label "Decyl Isostearate, Isostearyl Isostearate" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> rdf:type owl:NamedIndividual ;
-                                                              :hasIonicClass :nonionic ;
-                                                              :hasHLB "12.0"^^xsd:float ;
-                                                              :hasINCIcode "Glyceryl Stearate; Ceteareth-20" ;
-                                                              rdfs:label "Glyceryl Stearate; Ceteareth-20" .
-
-
-###  https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> rdf:type owl:NamedIndividual ;
-                                                                 :hasIonicClass :nonionic ;
-                                                                 :hasTexture :cream ,
-                                                                             :lotion ;
-                                                                 :hasHLB "11.0"^^xsd:float ;
-                                                                 :hasINCIcode "Glyceryl Stearate; PEG-100 Stearate" ;
-                                                                 rdfs:label "Glyceryl Stearate; PEG-100 Stearate" .
-
-
 ###  https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> rdf:type owl:NamedIndividual ;
                                                                    :hasChemicalNature :vegetable_oil ;
@@ -3437,149 +1871,6 @@ It is related to the sensorial term of thickness."""@en ;
                                                                    rdfs:label "Helianthus Annuus (sunflower seed) oil" .
 
 
-###  https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> rdf:type owl:NamedIndividual ;
-                                                                                     :hasChemicalNature :ester ;
-                                                                                     :hasSpreading :low_spreading ;
-                                                                                     :hasINCIcode "Pentaerythrityl Isostearate/Caprate/Caprylate/Adipate" ;
-                                                                                     :hasRequiredHLB "5.0"^^xsd:float ;
-                                                                                     rdfs:label "Pentaerythrityl Isostearate/Caprate/Caprylate/Adipate" .
-
-
-###  https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> rdf:type owl:NamedIndividual ;
-                                                                                  :hasChemicalNature :ester ;
-                                                                                  :hasINCIcode "Pentaerythrityl Stearate/Caprate/Caprylate/Adipate" ;
-                                                                                  :hasRequiredHLB "11.0"^^xsd:float ;
-                                                                                  rdfs:label "Pentaerythrityl Stearate/Caprate/Caprylate/Adipate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> rdf:type owl:NamedIndividual ;
-                                                                 :hasIonicClass :nonionic ;
-                                                                 :hasHLB "11.0"^^xsd:float ;
-                                                                 :hasINCIcode "Polyglyceryl-3 Dicitrate/Stearate" ;
-                                                                 rdfs:label "Polyglyceryl-3 Dicitrate/Stearate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> rdf:type owl:NamedIndividual ;
-                                                                                         :hasIonicClass :nonionic ;
-                                                                                         :hasTexture :cream ,
-                                                                                                     :lotion ;
-                                                                                         :hasHLB "5.0"^^xsd:float ;
-                                                                                         :hasINCIcode "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate" ;
-                                                                                         rdfs:label "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate" .
-
-
-###  https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> rdf:type owl:NamedIndividual ;
-                                                                            :hasIonicClass :nonionic ;
-                                                                            :hasHLB "13.0"^^xsd:float ;
-                                                                            :hasINCIcode "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete" ;
-                                                                            rdfs:label "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete" .
-
-
-###  https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> rdf:type owl:NamedIndividual ;
-                                                                     :hasChemicalNature :ester ;
-                                                                     :hasSpreading :medium_to_high_spreading ;
-                                                                     :hasINCIcode "Propylene Glycol Dicaprylate/ Dicaprate" ;
-                                                                     rdfs:label "Propylene Glycol Dicaprylate/ Dicaprate" .
-
-
-###  https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> rdf:type owl:NamedIndividual ;
-                                                                  :hasChemicalNature :vegetable_oil ;
-                                                                  :hasOrigin :natural_raw_material ;
-                                                                  :hasPhase :oily_phase ;
-                                                                  :hasINCIcode "Prunus Armeniaca (Apricot) kernel oil" ;
-                                                                  :hasPricePerKilogram "15.222222"^^xsd:float ;
-                                                                  :hasRequiredHLB "6.0"^^xsd:float ;
-                                                                  rdfs:label "Prunus Armeniaca (Apricot) kernel oil" .
-
-
-###  https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> rdf:type owl:NamedIndividual ;
-                                                                           :hasChemicalNature :vegetable_oil ;
-                                                                           :hasOrigin :natural ;
-                                                                           :hasINCIcode "Prunus Amygdalus Dulcis (Sweet Almond) Oil" ;
-                                                                           :hasRequiredHLB "6.0"^^xsd:float ;
-                                                                           rdfs:label "Prunus Amygdalus Dulcis (Sweet Almond) Oil"@en .
-
-
-###  https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> rdf:type owl:NamedIndividual ;
-                                                           :hasChemicalNature :vegetable_oil ;
-                                                           :hasOrigin :natural_raw_material ;
-                                                           :hasSpreading :low_spreading ;
-                                                           :hasINCIcode "Ricinus communis (Castor) oil" ;
-                                                           :hasPricePerKilogram "12.388889"^^xsd:float ;
-                                                           :hasRequiredHLB "6.0"^^xsd:float ;
-                                                           rdfs:label "Ricinus communis (Castor) oil" .
-
-
-###  https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> rdf:type owl:NamedIndividual ;
-                                                           :hasChemicalNature :vegetable_oil ;
-                                                           :hasOrigin :natural_raw_material ;
-                                                           :hasSpreading :low_spreading ;
-                                                           :hasINCIcode "Rosa Canina (Rose hip) seed oil" ;
-                                                           :hasPricePerKilogram "61.11111"^^xsd:float ;
-                                                           :hasRequiredHLB "6.0"^^xsd:float ;
-                                                           rdfs:label "Rosa Canina (Rose hip) seed oil" .
-
-
-###  https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> rdf:type owl:NamedIndividual ;
-                                                                                 :hasIonicClass :nonionic ;
-                                                                                 :hasTexture :cream ,
-                                                                                             :lotion ;
-                                                                                 :hasHLB "3.5"^^xsd:float ;
-                                                                                 :hasINCIcode "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate" ;
-                                                                                 rdfs:label "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate" .
-
-
-###  https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> rdf:type owl:NamedIndividual ;
-                                                             :hasIonicClass :anionic ;
-                                                             :hasHLB "18.0"^^xsd:float ;
-                                                             :hasINCIcode "Stearic Acid (and) Palmitic Acid" ;
-                                                             rdfs:label "Stearic Acid (and) Palmitic Acid" .
-
-
-###  https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> rdf:type owl:NamedIndividual ;
-                                                                       :hasIonicClass :nonionic ;
-                                                                       :hasTexture :cream ,
-                                                                                   :gel ,
-                                                                                   :lotion ,
-                                                                                   :spray ;
-                                                                       :hasHLB "10.0"^^xsd:float ;
-                                                                       :hasINCIcode "Sucrose Polystearate(and) CetylPalmitate" ;
-                                                                       rdfs:label "Sucrose Polystearate(and) CetylPalmitate" .
-
-
-###  https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> rdf:type owl:NamedIndividual ;
-                                                                                :hasIonicClass :nonionic ;
-                                                                                :hasTexture :cream ,
-                                                                                            :gel ,
-                                                                                            :lotion ,
-                                                                                            :spray ;
-                                                                                :hasHLB "10.0"^^xsd:float ;
-                                                                                :hasINCIcode "Sucrose Polystearate(and) Hydrogeted Polyisobutene" ;
-                                                                                rdfs:label "Sucrose Polystearate(and) Hydrogeted Polyisobutene" .
-
-
-###  https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> rdf:type owl:NamedIndividual ;
-                                                                      :hasIonicClass :nonionic ;
-                                                                      :hasHLB "12.0"^^xsd:float ;
-                                                                      :hasINCIcode "Sucrose Stearate (and) Sucrose Distearate" ;
-                                                                      rdfs:label "Sucrose Stearate (and) Sucrose Distearate" .
-
-
 ###  https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> rdf:type owl:NamedIndividual ;
                                                             :hasChemicalNature :vegetable_oil ;
@@ -3588,15 +1879,6 @@ It is related to the sensorial term of thickness."""@en ;
                                                             :hasPricePerKilogram "20.2"^^xsd:float ;
                                                             :hasRequiredHLB "6.0"^^xsd:float ;
                                                             rdfs:label "Theobroma cacao (Cocoa butter)" .
-
-
-###  https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> rdf:type owl:NamedIndividual ;
-                                                              :hasChemicalNature :ester ;
-                                                              :hasSpreading :low_spreading ;
-                                                              :hasINCIcode "Tris(PPG-3 Benzyl ether) Citrate" ;
-                                                              :hasRequiredHLB "13.0"^^xsd:float ;
-                                                              rdfs:label "Tris(PPG-3 Benzyl ether) Citrate" .
 
 
 #################################################################

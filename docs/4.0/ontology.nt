@@ -1,11 +1,9 @@
 <https://purl.org/ontocosmetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://purl.org/ontocosmetic> <http://www.w3.org/2002/07/owl#versionIRI> <https://purl.org/ontocosmetic/4.0> .
-<https://purl.org/ontocosmetic> <http://purl.org/dc/elements/1.1/contributor> "" .
 <https://purl.org/ontocosmetic> <http://purl.org/dc/elements/1.1/contributor> "Juliana Serna Rodas" .
 <https://purl.org/ontocosmetic> <http://purl.org/dc/elements/1.1/creator> "Alex Gabriel" .
 <https://purl.org/ontocosmetic> <http://purl.org/dc/elements/1.1/description> "An ontology that describes chemical formulation in the perspective to assist the design process of cosmetic product."@en .
 <https://purl.org/ontocosmetic> <http://purl.org/dc/elements/1.1/title> "Onto Cosmetic"@en .
-<https://purl.org/ontocosmetic> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://purl.org/ontocosmetic> <http://www.w3.org/2002/07/owl#priorVersion> "3.0"@en .
 <https://purl.org/ontocosmetic> <http://www.w3.org/2002/07/owl#versionInfo> "4.0"@en .
 # 
@@ -70,7 +68,7 @@
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Dosage> .
-<https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the dosages that compose a formulation."@en .
+<https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#comment> "Give the dosages that composes a formulation."@en .
 <https://purl.org/ontocosmetic#hasDosage> <http://www.w3.org/2000/01/rdf-schema#label> "has dosage"@en .
 # 
 # https://purl.org/ontocosmetic#hasEmollience
@@ -98,7 +96,7 @@
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#DropletSizeState> .
-<https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
+<https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Associate a heuristic to the structure property of the formulation final product  that is involved in the rule."@en .
 <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has structural property"@en .
 # 
 # https://purl.org/ontocosmetic#hasHeuristicProcessProp
@@ -124,7 +122,7 @@
 <https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Ingredient> .
-<https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship that defines the ingredients that are used in a fomulation."@en .
+<https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship that defines the ingredients that are used in a formulation."@en .
 <https://purl.org/ontocosmetic#hasIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "has ingredient"@en .
 # 
 # https://purl.org/ontocosmetic#hasIngredientPropertyState
@@ -154,17 +152,17 @@
 <https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#PhaseState> .
 <https://purl.org/ontocosmetic#hasPhase> <http://www.w3.org/2000/01/rdf-schema#comment> "it define which phase the ingredient is soluble in."@en .
 # 
-# https://purl.org/ontocosmetic#hasProcessUnit
-<https://purl.org/ontocosmetic#hasProcessUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://purl.org/ontocosmetic#hasProcessUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
-<https://purl.org/ontocosmetic#hasProcessUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#UnitOperation> .
-<https://purl.org/ontocosmetic#hasProcessUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Processing done on the ingredient of the formulation."@en .
+# https://purl.org/ontocosmetic#hasProcess
+<https://purl.org/ontocosmetic#hasProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://purl.org/ontocosmetic#hasProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
+<https://purl.org/ontocosmetic#hasProcess> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Process> .
+<https://purl.org/ontocosmetic#hasProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Processing done on the ingredient of the formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductDropletSize
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#DropletSizeState> .
-<https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."@en .
+<https://purl.org/ontocosmetic#hasProductDropletSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides the size of the droplet of the final product of a formulation. This droplet will depends on process."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductOiliness
 <https://purl.org/ontocosmetic#hasProductOiliness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -176,7 +174,7 @@
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#StabilityState> .
-<https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the stability of a fomulation final product."@en .
+<https://purl.org/ontocosmetic#hasProductStability> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the stability of a formulation final product."@en .
 # 
 # https://purl.org/ontocosmetic#hasProductViscosity
 <https://purl.org/ontocosmetic#hasProductViscosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -212,6 +210,8 @@
 <https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/2000/01/rdf-schema#range> <https://purl.org/ontocosmetic#Product> .
+<https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Relate a formulation with a product that is commercialized or will be."@en .
+<https://purl.org/ontocosmetic#isCommercializedAs> <http://www.w3.org/2000/01/rdf-schema#label> "is commercialized as"@en .
 # 
 # https://purl.org/ontocosmetic#isPropertyOf
 <https://purl.org/ontocosmetic#isPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -309,23 +309,10 @@
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#hasQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."@en .
 # 
-# https://purl.org/ontocosmetic#hasQuantitySum
-<https://purl.org/ontocosmetic#hasQuantitySum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://purl.org/ontocosmetic#hasQuantitySum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Dosage> .
-<https://purl.org/ontocosmetic#hasQuantitySum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasQuantitySum> <http://www.w3.org/2000/01/rdf-schema#comment> "the quantity sum is an intermediary value that allow the calculation of the total quantity of product in a formulation, except the water. This quantity sum will be used in the calculation of the water quantity."@en .
-# 
 # https://purl.org/ontocosmetic#hasRequiredHLB
 <https://purl.org/ontocosmetic#hasRequiredHLB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasRequiredHLB> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Emollient> .
 <https://purl.org/ontocosmetic#hasRequiredHLB> <http://www.w3.org/2000/01/rdf-schema#comment> "the RHLB that an emollient can have."@en .
-# 
-# https://purl.org/ontocosmetic#hasSurfactantQuantitySum
-<https://purl.org/ontocosmetic#hasSurfactantQuantitySum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://purl.org/ontocosmetic#hasSurfactantQuantitySum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<https://purl.org/ontocosmetic#hasSurfactantQuantitySum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Dosage> .
-<https://purl.org/ontocosmetic#hasSurfactantQuantitySum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasSurfactantQuantitySum> <http://www.w3.org/2000/01/rdf-schema#comment> "The surfactant quantity sum is an intermediary value that allow the calculation of the total quantity of surfactant in a formulation."@en .
 # 
 # https://purl.org/ontocosmetic#hasTotalOilyPhase
 <https://purl.org/ontocosmetic#hasTotalOilyPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -337,26 +324,13 @@
 <https://purl.org/ontocosmetic#hasTotalSurfactantQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://purl.org/ontocosmetic#hasTotalSurfactantQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasTotalSurfactantQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasTotalSurfactantQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total quantity of surfactant that a formulation have. This quantity is in percentage of volume."@en .
+<https://purl.org/ontocosmetic#hasTotalSurfactantQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total quantity of surfactant that a formulation has. This quantity is in percentage of volume."@en .
 # 
 # https://purl.org/ontocosmetic#hasTotalThickenerQuantity
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
 <https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."@en .
-# 
-# https://purl.org/ontocosmetic#isActive
-<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Heuristic> .
-<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<https://purl.org/ontocosmetic#isActive> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that allow to enable/ disable a heuristic"@en .
-# 
-# https://purl.org/ontocosmetic#isConform
-<https://purl.org/ontocosmetic#isConform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://purl.org/ontocosmetic#isConform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<https://purl.org/ontocosmetic#isConform> <http://www.w3.org/2000/01/rdf-schema#domain> <https://purl.org/ontocosmetic#Formulation> .
-<https://purl.org/ontocosmetic#isConform> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<https://purl.org/ontocosmetic#isConform> <http://www.w3.org/2000/01/rdf-schema#comment> "the data property idicates if a formulation is conform to the restricive heuristics that correspond to formulation specification."@en .
+<https://purl.org/ontocosmetic#hasTotalThickenerQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total quantity of thickener that a formulation has. This quantity is in percentage of volume."@en .
 # 
 # 
 # 
@@ -1065,502 +1039,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# https://purl.org/ontocosmetic#A1
-<https://purl.org/ontocosmetic#A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicIngProp> <https://purl.org/ontocosmetic#HLB> .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#surfactant_type> .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#stability> .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#Stable> .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicDescription> "An emulsion tends to be more stable using a suitable combination of surfactants with a HLB equivalent to the HLB required by the emollients."@en .
-<https://purl.org/ontocosmetic#A1> <https://purl.org/ontocosmetic#hasHeuristicSource> "General"@en .
-<https://purl.org/ontocosmetic#A1> <http://www.w3.org/2000/01/rdf-schema#comment> "An emulsion tends to be more stable using a suitable combination of surfactants with a HLB equivalent to the HLB required by the emollients."@en .
-# 
-# https://purl.org/ontocosmetic#A2
-<https://purl.org/ontocosmetic#A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#A2> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#surfactant_type> .
-<https://purl.org/ontocosmetic#A2> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#stability> .
-<https://purl.org/ontocosmetic#A2> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#Stable> .
-<https://purl.org/ontocosmetic#A2> <https://purl.org/ontocosmetic#hasHeuristicDescription> "It is recommended to use more than one surfactant."@en .
-<https://purl.org/ontocosmetic#A2> <https://purl.org/ontocosmetic#hasHeuristicSource> "General"@en .
-<https://purl.org/ontocosmetic#A2> <http://www.w3.org/2000/01/rdf-schema#comment> "It is recommended to use more than one surfactant."@en .
-# 
-# https://purl.org/ontocosmetic#A3
-<https://purl.org/ontocosmetic#A3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#surfactant_type> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#stability> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#Stable> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicDescription> "The quantity of surfactant should be  between 14 to 20% of the total oily phase."@en .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> "20.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> "14.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#A3> <https://purl.org/ontocosmetic#hasHeuristicSource> "General"@en .
-<https://purl.org/ontocosmetic#A3> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantity of surfactant should be  between 14 to 20% of the total oily phase."@en .
-# 
-# https://purl.org/ontocosmetic#AvocadoOil
-<https://purl.org/ontocosmetic#AvocadoOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasINCIcode> "Persea Gratissima (Avocado) Oil" .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "16.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#AvocadoOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "7.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#AvocadoOil> <http://www.w3.org/2000/01/rdf-schema#label> "Persea Gratissima (Avocado) Oil" .
-# 
-# https://purl.org/ontocosmetic#B11
-<https://purl.org/ontocosmetic#B11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#B11> <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <https://purl.org/ontocosmetic#small_droplet> .
-<https://purl.org/ontocosmetic#B11> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#B11> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#high_viscosity> .
-<https://purl.org/ontocosmetic#B11> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is high if droplet size is small."@en .
-<https://purl.org/ontocosmetic#B11> <https://purl.org/ontocosmetic#hasHeuristicSource> "Matrix" .
-<https://purl.org/ontocosmetic#B11> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is high if droplet size is small."@en .
-# 
-# https://purl.org/ontocosmetic#B12
-<https://purl.org/ontocosmetic#B12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#B12> <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <https://purl.org/ontocosmetic#med_droplet> .
-<https://purl.org/ontocosmetic#B12> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#B12> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#med_viscosity> .
-<https://purl.org/ontocosmetic#B12> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is medium if droplet size is medium."@en .
-<https://purl.org/ontocosmetic#B12> <https://purl.org/ontocosmetic#hasHeuristicSource> "Matrix"@en .
-<https://purl.org/ontocosmetic#B12> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is medium if droplet size is medium."@en .
-# 
-# https://purl.org/ontocosmetic#B13
-<https://purl.org/ontocosmetic#B13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#B13> <https://purl.org/ontocosmetic#hasHeuristicProcessOutcome> <https://purl.org/ontocosmetic#small_droplet> .
-<https://purl.org/ontocosmetic#B13> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#B13> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#low_viscosity> .
-<https://purl.org/ontocosmetic#B13> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is low if droplet size is high."@en .
-<https://purl.org/ontocosmetic#B13> <https://purl.org/ontocosmetic#hasHeuristicSource> "Matrix"@en .
-<https://purl.org/ontocosmetic#B13> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is low if droplet size is high."@en .
-# 
-# https://purl.org/ontocosmetic#C11
-<https://purl.org/ontocosmetic#C11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicIngProp> <https://purl.org/ontocosmetic#phase> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#oiliness> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#non_oily> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasIngredientPropertyState> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicDescription> "If the oily phase is less than 15%, final sensation is : watery, non-oily, fresh."@en .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C11> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C11> <http://www.w3.org/2000/01/rdf-schema#comment> "If the oily phase is less than 15%, final sensation is : watery, non-oily, fresh."@en .
-# 
-# https://purl.org/ontocosmetic#C12
-<https://purl.org/ontocosmetic#C12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C12> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#oiliness> .
-<https://purl.org/ontocosmetic#C12> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#oily> .
-<https://purl.org/ontocosmetic#C12> <https://purl.org/ontocosmetic#hasHeuristicDescription> "If the oily phase is more than 25%, final sensation is : rich, oily."@en .
-<https://purl.org/ontocosmetic#C12> <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> "25.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C12> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic" .
-<https://purl.org/ontocosmetic#C12> <http://www.w3.org/2000/01/rdf-schema#comment> "If the oily phase is more than 25%, final sensation is : rich, oily."@en .
-# 
-# https://purl.org/ontocosmetic#C12-15AlkylBenzoate
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasINCIcode> "C12-15 Alkyl Benzoate" .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "20.722221"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C12-15AlkylBenzoate> <http://www.w3.org/2000/01/rdf-schema#label> "C12-15 Alkyl Benzoate" .
-# 
-# https://purl.org/ontocosmetic#C21
-<https://purl.org/ontocosmetic#C21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicIngProp> <https://purl.org/ontocosmetic#spreading> .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#emollient_type> .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#absorption_rate> .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#high_absorption_rate> .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicDescription> "If most of the emollients are of high absorption, product absorption sensation is : high."@en .
-<https://purl.org/ontocosmetic#C21> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C21> <http://www.w3.org/2000/01/rdf-schema#comment> "If most of the emollients are of high absorption, product absorption sensation is : high."@en .
-# 
-# https://purl.org/ontocosmetic#C22
-<https://purl.org/ontocosmetic#C22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicIngProp> <https://purl.org/ontocosmetic#spreading> .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#emollient_type> .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#absorption_rate> .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#med_absorption_rate> .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicDescription> "If most of the emollients are of high absorption, product absorption sensation is : medium."@en .
-<https://purl.org/ontocosmetic#C22> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C22> <http://www.w3.org/2000/01/rdf-schema#comment> "If most of the emollients are of high absorption, product absorption sensation is : medium."@en .
-# 
-# https://purl.org/ontocosmetic#C23
-<https://purl.org/ontocosmetic#C23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C23> <https://purl.org/ontocosmetic#hasHeuristicIngProp> <https://purl.org/ontocosmetic#spreading> .
-<https://purl.org/ontocosmetic#C23> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#emollient_type> .
-<https://purl.org/ontocosmetic#C23> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#absorption_rate> .
-<https://purl.org/ontocosmetic#C23> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#low_absorption_rate> .
-<https://purl.org/ontocosmetic#C23> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-# 
-# https://purl.org/ontocosmetic#C31
-<https://purl.org/ontocosmetic#C31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#thickener> .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#high_viscosity> .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is high if the proportion of thickener is high (0.8-1%)."@en .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> "0.8"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C31> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C31> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is high if the proportion of thickener is high (0.8-1%)."@en .
-# 
-# https://purl.org/ontocosmetic#C32
-<https://purl.org/ontocosmetic#C32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#thickener> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#med_viscosity> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is medium if the proportion of thickener is medium (0.2-0.8%)."@en .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> "0.8"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicLowThreshold> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C32> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C32> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is medium if the proportion of thickener is medium (0.2-0.8%)."@en .
-# 
-# https://purl.org/ontocosmetic#C33
-<https://purl.org/ontocosmetic#C33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#thickener> .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#low_viscosity> .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Viscosity is low if the proportion of thickener is low (0 - 0.2%)."@en .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicHighThreshold> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C33> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C33> <http://www.w3.org/2000/01/rdf-schema#comment> "Viscosity is low if the proportion of thickener is low (0 - 0.2%)."@en .
-# 
-# https://purl.org/ontocosmetic#C4
-<https://purl.org/ontocosmetic#C4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C4> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#surfactant_type> .
-<https://purl.org/ontocosmetic#C4> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#stickiness> .
-<https://purl.org/ontocosmetic#C4> <https://purl.org/ontocosmetic#hasHeuristicProductPropertyState> <https://purl.org/ontocosmetic#sticky_sensation> .
-<https://purl.org/ontocosmetic#C4> <https://purl.org/ontocosmetic#hasHeuristicDescription> "Sticky sensation may increase if there is too much surfactant."@en .
-<https://purl.org/ontocosmetic#C4> <https://purl.org/ontocosmetic#hasHeuristicSource> "Heuristic"@en .
-<https://purl.org/ontocosmetic#C4> <http://www.w3.org/2000/01/rdf-schema#comment> "Sticky sensation may increase if there is too much surfactant."@en .
-# 
-# https://purl.org/ontocosmetic#C5
-<https://purl.org/ontocosmetic#C5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C5> <https://purl.org/ontocosmetic#hasHeuristicIngType> <https://purl.org/ontocosmetic#fatty_alcohol> .
-<https://purl.org/ontocosmetic#C5> <https://purl.org/ontocosmetic#hasHeuristicProdProp> <https://purl.org/ontocosmetic#viscosity> .
-# 
-# https://purl.org/ontocosmetic#CacaoButter
-<https://purl.org/ontocosmetic#CacaoButter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasINCIcode> "Cacao butter" .
-<https://purl.org/ontocosmetic#CacaoButter> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CacaoButter> <http://www.w3.org/2000/01/rdf-schema#label> "Cacao butter" .
-# 
-# https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-15; Glyceryl Stearate" .
-<https://purl.org/ontocosmetic#Ceteareth-15-GlycerylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-15; Glyceryl Stearate" .
-# 
-# https://purl.org/ontocosmetic#Ceteareth-20
-<https://purl.org/ontocosmetic#Ceteareth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteareth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteareth-20> <https://purl.org/ontocosmetic#hasHLB> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-20 " .
-<https://purl.org/ontocosmetic#Ceteareth-20> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.84"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-20 " .
-# 
-# https://purl.org/ontocosmetic#Ceteareth-25
-<https://purl.org/ontocosmetic#Ceteareth-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteareth-25> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteareth-25> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Ceteareth-25> <https://purl.org/ontocosmetic#hasHLB> "16.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-25> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-25" .
-<https://purl.org/ontocosmetic#Ceteareth-25> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.68"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-25> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-25" .
-# 
-# https://purl.org/ontocosmetic#Ceteareth-30
-<https://purl.org/ontocosmetic#Ceteareth-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteareth-30> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteareth-30> <https://purl.org/ontocosmetic#hasHLB> "17.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteareth-30> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteareth-30" .
-<https://purl.org/ontocosmetic#Ceteareth-30> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteareth-30" .
-# 
-# https://purl.org/ontocosmetic#CetearylEthylhexanoate
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#NRM_and_SRM> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasINCIcode> "Cetearyl Ethylhexanoate" .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "32.625"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetearylEthylhexanoate> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl Ethylhexanoate" .
-# 
-# https://purl.org/ontocosmetic#CetearylGlucoside
-<https://purl.org/ontocosmetic#CetearylGlucoside> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <https://purl.org/ontocosmetic#hasINCIcode> "Cetearyl Glucoside " .
-<https://purl.org/ontocosmetic#CetearylGlucoside> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl Glucoside " .
-# 
-# https://purl.org/ontocosmetic#CetearylIsononanoate
-<https://purl.org/ontocosmetic#CetearylIsononanoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetearylIsononanoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#CetearylIsononanoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#CetearylIsononanoate> <https://purl.org/ontocosmetic#hasINCIcode> "Cetearyl Isononanoate" .
-<https://purl.org/ontocosmetic#CetearylIsononanoate> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl Isononanoate" .
-# 
-# https://purl.org/ontocosmetic#Ceteth-10
-<https://purl.org/ontocosmetic#Ceteth-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteth-10> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteth-10> <https://purl.org/ontocosmetic#hasHLB> "12.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteth-10> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteth-10" .
-<https://purl.org/ontocosmetic#Ceteth-10> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteth-10" .
-# 
-# https://purl.org/ontocosmetic#Ceteth-2
-<https://purl.org/ontocosmetic#Ceteth-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteth-2> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteth-2> <https://purl.org/ontocosmetic#hasHLB> "5.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteth-2> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteth-2" .
-<https://purl.org/ontocosmetic#Ceteth-2> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteth-2" .
-# 
-# https://purl.org/ontocosmetic#Ceteth-20
-<https://purl.org/ontocosmetic#Ceteth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Ceteth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Ceteth-20> <https://purl.org/ontocosmetic#hasHLB> "15.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Ceteth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Ceteth-20" .
-<https://purl.org/ontocosmetic#Ceteth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Ceteth-20" .
-# 
-# https://purl.org/ontocosmetic#CetylAlcohol
-<https://purl.org/ontocosmetic#CetylAlcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetylAlcohol> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#fatty_alcohol> .
-<https://purl.org/ontocosmetic#CetylAlcohol> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#CetylAlcohol> <https://purl.org/ontocosmetic#hasINCIcode> "Cetyl Alcohol" .
-<https://purl.org/ontocosmetic#CetylAlcohol> <https://purl.org/ontocosmetic#hasRequiredHLB> "15.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetylAlcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Cetyl Alcohol" .
-# 
-# https://purl.org/ontocosmetic#CetylEthylhexanoate
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_and_SRM> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasINCIcode> "Cetyl Ethylhexanoate" .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetylEthylhexanoate> <http://www.w3.org/2000/01/rdf-schema#label> "Cetyl Ethylhexanoate" .
-# 
-# https://purl.org/ontocosmetic#CetylPalmitate
-<https://purl.org/ontocosmetic#CetylPalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetylPalmitate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#CetylPalmitate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#CetylPalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "Cetyl palmitate" .
-<https://purl.org/ontocosmetic#CetylPalmitate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetylPalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "Cetyl palmitate" .
-# 
-# https://purl.org/ontocosmetic#Coco-Caprylate
-<https://purl.org/ontocosmetic#Coco-Caprylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Coco-Caprylate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Coco-Caprylate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#Coco-Caprylate> <https://purl.org/ontocosmetic#hasINCIcode> "Coco-Caprylate" .
-<https://purl.org/ontocosmetic#Coco-Caprylate> <http://www.w3.org/2000/01/rdf-schema#label> "Coco-Caprylate" .
-# 
-# https://purl.org/ontocosmetic#Cocoglycerides
-<https://purl.org/ontocosmetic#Cocoglycerides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Cocoglycerides> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#triglyceride> .
-<https://purl.org/ontocosmetic#Cocoglycerides> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#Cocoglycerides> <https://purl.org/ontocosmetic#hasINCIcode> "Cocoglycerides" .
-<https://purl.org/ontocosmetic#Cocoglycerides> <http://www.w3.org/2000/01/rdf-schema#label> "Cocoglycerides" .
-# 
-# https://purl.org/ontocosmetic#CoconutOil
-<https://purl.org/ontocosmetic#CoconutOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CoconutOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#CoconutOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#CoconutOil> <https://purl.org/ontocosmetic#hasINCIcode> "Coconut oil" .
-<https://purl.org/ontocosmetic#CoconutOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CoconutOil> <http://www.w3.org/2000/01/rdf-schema#label> "Coconut oil" .
-# 
-# https://purl.org/ontocosmetic#Cosgard
-<https://purl.org/ontocosmetic#Cosgard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-# 
-# https://purl.org/ontocosmetic#DecylCocoate
-<https://purl.org/ontocosmetic#DecylCocoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DecylCocoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DecylCocoate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material_enzymatic_processed> .
-<https://purl.org/ontocosmetic#DecylCocoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#DecylCocoate> <https://purl.org/ontocosmetic#hasINCIcode> "Decyl Cocoate" .
-<https://purl.org/ontocosmetic#DecylCocoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DecylCocoate> <http://www.w3.org/2000/01/rdf-schema#label> "Decyl Cocoate" .
-# 
-# https://purl.org/ontocosmetic#DecylOleate
-<https://purl.org/ontocosmetic#DecylOleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasINCIcode> "Decyl Oleate" .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "25.125"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DecylOleate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DecylOleate> <http://www.w3.org/2000/01/rdf-schema#label> "Decyl Oleate" .
-# 
-# https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate
-<https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate> <https://purl.org/ontocosmetic#hasINCIcode> "Di-PPG-2 Myreth-10 Adipate" .
-<https://purl.org/ontocosmetic#Di-PPG-2Myreth-10Adipate> <http://www.w3.org/2000/01/rdf-schema#label> "Di-PPG-2 Myreth-10 Adipate" .
-# 
-# https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <https://purl.org/ontocosmetic#hasINCIcode> "Di-PPG-3 Myristyl ether Adipate" .
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Di-PPG-3MyristylEtherAdipate> <http://www.w3.org/2000/01/rdf-schema#label> "Di-PPG-3 Myristyl ether Adipate" .
-# 
-# https://purl.org/ontocosmetic#DibutylAdipate
-<https://purl.org/ontocosmetic#DibutylAdipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DibutylAdipate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DibutylAdipate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#DibutylAdipate> <https://purl.org/ontocosmetic#hasINCIcode> "Dibutyl Adipate" .
-<https://purl.org/ontocosmetic#DibutylAdipate> <http://www.w3.org/2000/01/rdf-schema#label> "Dibutyl Adipate" .
-# 
-# https://purl.org/ontocosmetic#DicaprylylCarbonate
-<https://purl.org/ontocosmetic#DicaprylylCarbonate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DicaprylylCarbonate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DicaprylylCarbonate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#DicaprylylCarbonate> <https://purl.org/ontocosmetic#hasINCIcode> "Dicaprylyl Carbonate" .
-<https://purl.org/ontocosmetic#DicaprylylCarbonate> <http://www.w3.org/2000/01/rdf-schema#label> "Dicaprylyl Carbonate" .
-# 
-# https://purl.org/ontocosmetic#DicaprylylEther
-<https://purl.org/ontocosmetic#DicaprylylEther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DicaprylylEther> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#DicaprylylEther> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#DicaprylylEther> <https://purl.org/ontocosmetic#hasINCIcode> "Dicaprylyl ether" .
-<https://purl.org/ontocosmetic#DicaprylylEther> <http://www.w3.org/2000/01/rdf-schema#label> "Dicaprylyl ether" .
-# 
-# https://purl.org/ontocosmetic#DiethylhexylCarbonate
-<https://purl.org/ontocosmetic#DiethylhexylCarbonate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DiethylhexylCarbonate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DiethylhexylCarbonate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#very_high_spreading> .
-<https://purl.org/ontocosmetic#DiethylhexylCarbonate> <https://purl.org/ontocosmetic#hasINCIcode> "Diethylhexyl Carbonate" .
-<https://purl.org/ontocosmetic#DiethylhexylCarbonate> <http://www.w3.org/2000/01/rdf-schema#label> "Diethylhexyl Carbonate" .
-# 
-# https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <https://purl.org/ontocosmetic#hasINCIcode> "Diisopropyl Dimer Dilinoleate" .
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DiisopropylDimerDilinoleate> <http://www.w3.org/2000/01/rdf-schema#label> "Diisopropyl Dimer Dilinoleate" .
-# 
-# https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <https://purl.org/ontocosmetic#hasINCIcode> "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate" .
-<https://purl.org/ontocosmetic#DiisostearoylPolyglyceryl-3DimerDilinoleate> <http://www.w3.org/2000/01/rdf-schema#label> "Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate" .
-# 
-# https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <https://purl.org/ontocosmetic#hasINCIcode> "Diisostearyl Dimer Dilinoleate" .
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <https://purl.org/ontocosmetic#hasRequiredHLB> "7.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DiisostearylDimerDilinoleate> <http://www.w3.org/2000/01/rdf-schema#label> "Diisostearyl Dimer Dilinoleate" .
-# 
-# https://purl.org/ontocosmetic#Dimethicone
-<https://purl.org/ontocosmetic#Dimethicone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Dimethicone> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#silicone> .
-<https://purl.org/ontocosmetic#Dimethicone> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#synthetic> .
-<https://purl.org/ontocosmetic#Dimethicone> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Dimethicone> <https://purl.org/ontocosmetic#hasINCIcode> "Dimethicone" .
-<https://purl.org/ontocosmetic#Dimethicone> <https://purl.org/ontocosmetic#hasPricePerKilogram> "30.4"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Dimethicone> <http://www.w3.org/2000/01/rdf-schema#label> "Dimethicone" .
-# 
-# https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#anionic> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#gel> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasHLB> "31.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <https://purl.org/ontocosmetic#hasINCIcode> "Disodium CetearylSulfosuccite" .
-<https://purl.org/ontocosmetic#DisodiumCetearylSulfosuccite> <http://www.w3.org/2000/01/rdf-schema#label> "Disodium CetearylSulfosuccite" .
-# 
-# https://purl.org/ontocosmetic#EthylhexylPalmitate
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_and_SRM> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "Ethylhexyl Palmitate" .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "14.6875"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#EthylhexylPalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylhexyl Palmitate" .
-# 
-# https://purl.org/ontocosmetic#EthylhexylStearate
-<https://purl.org/ontocosmetic#EthylhexylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_and_SRM> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Ethylhexyl Stearate" .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#EthylhexylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Ethylhexyl Stearate" .
-# 
-# https://purl.org/ontocosmetic#Glycerin
-<https://purl.org/ontocosmetic#Glycerin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Glycerin> <https://purl.org/ontocosmetic#hasINCIcode> "Humectant" .
-# 
-# https://purl.org/ontocosmetic#GlycerylIsostearate
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Isostearate" .
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "35.6875"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Isostearate" .
-# 
-# https://purl.org/ontocosmetic#GlycerylMyristate
-<https://purl.org/ontocosmetic#GlycerylMyristate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylMyristate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#GlycerylMyristate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Myristate" .
-<https://purl.org/ontocosmetic#GlycerylMyristate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Myristate" .
-# 
-# https://purl.org/ontocosmetic#GlycerylOleate
-<https://purl.org/ontocosmetic#GlycerylOleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylOleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylOleate> <https://purl.org/ontocosmetic#hasHLB> "3.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylOleate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Oleate" .
-<https://purl.org/ontocosmetic#GlycerylOleate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "18.61111"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylOleate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Oleate" .
-# 
-# https://purl.org/ontocosmetic#GlycerylStearate
-<https://purl.org/ontocosmetic#GlycerylStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylStearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylStearate> <https://purl.org/ontocosmetic#hasHLB> "4.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Stearate" .
-<https://purl.org/ontocosmetic#GlycerylStearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "8.92"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Stearate" .
-# 
-# https://purl.org/ontocosmetic#GlycerylStearateCitrate
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Stearate Citrate " .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.16"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearateCitrate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Stearate Citrate " .
-# 
-# https://purl.org/ontocosmetic#GlycerylStearateSE
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Stearate SE" .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <https://purl.org/ontocosmetic#hasPricePerKilogram> "8.92"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearateSE> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Stearate SE" .
-# 
 # https://purl.org/ontocosmetic#HLB
 <https://purl.org/ontocosmetic#HLB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#HLB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Property> .
@@ -1590,163 +1068,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#HexyldecylStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Hexyldecyl Stearate" .
 <https://purl.org/ontocosmetic#HexyldecylStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Hexyldecyl Stearate" .
 # 
-# https://purl.org/ontocosmetic#HydrogenatedPolyisobutene
-<https://purl.org/ontocosmetic#HydrogenatedPolyisobutene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#HydrogenatedPolyisobutene> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#hydrocarbon> .
-<https://purl.org/ontocosmetic#HydrogenatedPolyisobutene> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#HydrogenatedPolyisobutene> <https://purl.org/ontocosmetic#hasINCIcode> "Hydrogenated Polyisobutene" .
-<https://purl.org/ontocosmetic#HydrogenatedPolyisobutene> <http://www.w3.org/2000/01/rdf-schema#label> "Hydrogenated Polyisobutene" .
-# 
-# https://purl.org/ontocosmetic#IsoamylCocoate
-<https://purl.org/ontocosmetic#IsoamylCocoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material_enzymatic_processed> .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <https://purl.org/ontocosmetic#hasINCIcode> "Isoamyl Cocoate" .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsoamylCocoate> <http://www.w3.org/2000/01/rdf-schema#label> "Isoamyl Cocoate" .
-# 
-# https://purl.org/ontocosmetic#Isoceteth-20
-<https://purl.org/ontocosmetic#Isoceteth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Isoceteth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Isoceteth-20> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Isoceteth-20> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Isoceteth-20> <https://purl.org/ontocosmetic#hasHLB> "16.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Isoceteth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Isoceteth-20" .
-<https://purl.org/ontocosmetic#Isoceteth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Isoceteth-20" .
-# 
-# https://purl.org/ontocosmetic#Isohexadecane
-<https://purl.org/ontocosmetic#Isohexadecane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Isohexadecane> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#hydrocarbon> .
-<https://purl.org/ontocosmetic#Isohexadecane> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_to_high_spreading> .
-<https://purl.org/ontocosmetic#Isohexadecane> <https://purl.org/ontocosmetic#hasINCIcode> "Isohexadecane" .
-<https://purl.org/ontocosmetic#Isohexadecane> <https://purl.org/ontocosmetic#hasPricePerKilogram> "22.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Isohexadecane> <https://purl.org/ontocosmetic#hasRequiredHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Isohexadecane> <http://www.w3.org/2000/01/rdf-schema#label> "Isohexadecane" .
-# 
-# https://purl.org/ontocosmetic#IsopropylIsostearate
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#NRM_and_SRM> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_to_high_spreading> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Isopropyl Isostearate" .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "38.8125"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Isopropyl Isostearate" .
-# 
-# https://purl.org/ontocosmetic#IsopropylLanolate
-<https://purl.org/ontocosmetic#IsopropylLanolate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsopropylLanolate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsopropylLanolate> <https://purl.org/ontocosmetic#hasINCIcode> "Isopropyl Lanolate" .
-<https://purl.org/ontocosmetic#IsopropylLanolate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylLanolate> <http://www.w3.org/2000/01/rdf-schema#label> "Isopropyl Lanolate" .
-# 
-# https://purl.org/ontocosmetic#IsopropylMyristate
-<https://purl.org/ontocosmetic#IsopropylMyristate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#NRM_and_SRM> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasINCIcode> "Isopropyl Myristate" .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "17.1875"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylMyristate> <http://www.w3.org/2000/01/rdf-schema#label> "Isopropyl Myristate" .
-# 
-# https://purl.org/ontocosmetic#IsopropylPalmitate
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#NRM_and_SRM> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "Isopropyl Palmitate" .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "17.125"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsopropylPalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "Isopropyl Palmitate" .
-# 
-# https://purl.org/ontocosmetic#IsostearylIsostearate
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#NRM_and_SRM> .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Isostearyl Isostearate" .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsostearylIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Isostearyl Isostearate" .
-# 
-# https://purl.org/ontocosmetic#IsotridecylIsononanoate
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_to_high_spreading> .
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <https://purl.org/ontocosmetic#hasINCIcode> "Isotridecyl Isononanoate" .
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#IsotridecylIsononanoate> <http://www.w3.org/2000/01/rdf-schema#label> "Isotridecyl Isononanoate" .
-# 
-# https://purl.org/ontocosmetic#Laureth-23
-<https://purl.org/ontocosmetic#Laureth-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Laureth-23> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Laureth-23> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Laureth-23> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Laureth-23> <https://purl.org/ontocosmetic#hasHLB> "16.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Laureth-23> <https://purl.org/ontocosmetic#hasINCIcode> "Laureth-23" .
-<https://purl.org/ontocosmetic#Laureth-23> <http://www.w3.org/2000/01/rdf-schema#label> "Laureth-23" .
-# 
-# https://purl.org/ontocosmetic#Laureth-4
-<https://purl.org/ontocosmetic#Laureth-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Laureth-4> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Laureth-4> <https://purl.org/ontocosmetic#hasHLB> "9.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Laureth-4> <https://purl.org/ontocosmetic#hasINCIcode> "Laureth-4" .
-<https://purl.org/ontocosmetic#Laureth-4> <http://www.w3.org/2000/01/rdf-schema#label> "Laureth-4" .
-# 
-# https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasINCIcode> "Macadamia Integrifolia (Macadamia) oil" .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "18.38889"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MacadamiaIntegrifoliaOil> <http://www.w3.org/2000/01/rdf-schema#label> "Macadamia Integrifolia (Macadamia) oil" .
-# 
-# https://purl.org/ontocosmetic#MethylGlucoseIsostearate
-<https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Methyl Glucose Isostearate" .
-<https://purl.org/ontocosmetic#MethylGlucoseIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Methyl Glucose Isostearate" .
-# 
-# https://purl.org/ontocosmetic#MethylGlucoseSesquistearate
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <https://purl.org/ontocosmetic#hasINCIcode> "Methyl Glucose Sesquistearate" .
-<https://purl.org/ontocosmetic#MethylGlucoseSesquistearate> <http://www.w3.org/2000/01/rdf-schema#label> "Methyl Glucose Sesquistearate" .
-# 
-# https://purl.org/ontocosmetic#MineralOil
-<https://purl.org/ontocosmetic#MineralOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MineralOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#hydrocarbon> .
-<https://purl.org/ontocosmetic#MineralOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#synthetic> .
-<https://purl.org/ontocosmetic#MineralOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#MineralOil> <https://purl.org/ontocosmetic#hasINCIcode> "Mineral oil" .
-<https://purl.org/ontocosmetic#MineralOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MineralOil> <http://www.w3.org/2000/01/rdf-schema#label> "Mineral oil" .
-# 
-# https://purl.org/ontocosmetic#MyristylLactate
-<https://purl.org/ontocosmetic#MyristylLactate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MyristylLactate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#MyristylLactate> <https://purl.org/ontocosmetic#hasINCIcode> "Myristyl Lactate" .
-<https://purl.org/ontocosmetic#MyristylLactate> <https://purl.org/ontocosmetic#hasRequiredHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MyristylLactate> <http://www.w3.org/2000/01/rdf-schema#label> "Myristyl Lactate" .
-# 
-# https://purl.org/ontocosmetic#MyristylMyristate
-<https://purl.org/ontocosmetic#MyristylMyristate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#MyristylMyristate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#MyristylMyristate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#MyristylMyristate> <https://purl.org/ontocosmetic#hasINCIcode> "Myristyl Myristate" .
-<https://purl.org/ontocosmetic#MyristylMyristate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "18.105726"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MyristylMyristate> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#MyristylMyristate> <http://www.w3.org/2000/01/rdf-schema#label> "Myristyl Myristate" .
-# 
 # https://purl.org/ontocosmetic#NRM_and_SRM
 <https://purl.org/ontocosmetic#NRM_and_SRM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#NRM_and_SRM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Origin> .
@@ -1757,264 +1078,9 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#NonStable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StabilityState> .
 <https://purl.org/ontocosmetic#NonStable> <http://www.w3.org/2000/01/rdf-schema#label> "Non stable"@en .
 # 
-# https://purl.org/ontocosmetic#Octyldodecanol
-<https://purl.org/ontocosmetic#Octyldodecanol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#fatty_alcohol> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasINCIcode> "Octyldodecanol" .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasPricePerKilogram> "23.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Octyldodecanol> <http://www.w3.org/2000/01/rdf-schema#label> "Octyldodecanol" .
-# 
 # https://purl.org/ontocosmetic#OilyPhaseConcentration
 <https://purl.org/ontocosmetic#OilyPhaseConcentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#OilyPhaseConcentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StructurePropertyState> .
-# 
-# https://purl.org/ontocosmetic#Oleth-10
-<https://purl.org/ontocosmetic#Oleth-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Oleth-10> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Oleth-10> <https://purl.org/ontocosmetic#hasHLB> "12.4"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Oleth-10> <https://purl.org/ontocosmetic#hasINCIcode> "Oleth-10" .
-<https://purl.org/ontocosmetic#Oleth-10> <http://www.w3.org/2000/01/rdf-schema#label> "Oleth-10" .
-# 
-# https://purl.org/ontocosmetic#Oleth-2
-<https://purl.org/ontocosmetic#Oleth-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Oleth-2> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Oleth-2> <https://purl.org/ontocosmetic#hasHLB> "4.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Oleth-2> <https://purl.org/ontocosmetic#hasINCIcode> "Oleth-2" .
-<https://purl.org/ontocosmetic#Oleth-2> <http://www.w3.org/2000/01/rdf-schema#label> "Oleth-2" .
-# 
-# https://purl.org/ontocosmetic#Oleth-20
-<https://purl.org/ontocosmetic#Oleth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Oleth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Oleth-20> <https://purl.org/ontocosmetic#hasHLB> "15.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Oleth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Oleth-20" .
-<https://purl.org/ontocosmetic#Oleth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Oleth-20" .
-# 
-# https://purl.org/ontocosmetic#Oleth-3
-<https://purl.org/ontocosmetic#Oleth-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Oleth-3> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Oleth-3> <https://purl.org/ontocosmetic#hasHLB> "6.6"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Oleth-3> <https://purl.org/ontocosmetic#hasINCIcode> "Oleth-3" .
-<https://purl.org/ontocosmetic#Oleth-3> <http://www.w3.org/2000/01/rdf-schema#label> "Oleth-3" .
-# 
-# https://purl.org/ontocosmetic#Oleth-5
-<https://purl.org/ontocosmetic#Oleth-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Oleth-5> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Oleth-5> <https://purl.org/ontocosmetic#hasHLB> "8.8"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Oleth-5> <https://purl.org/ontocosmetic#hasINCIcode> "Oleth-5" .
-<https://purl.org/ontocosmetic#Oleth-5> <http://www.w3.org/2000/01/rdf-schema#label> "Oleth-5" .
-# 
-# https://purl.org/ontocosmetic#OleylErucate
-<https://purl.org/ontocosmetic#OleylErucate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#OleylErucate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#OleylErucate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#OleylErucate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#OleylErucate> <https://purl.org/ontocosmetic#hasINCIcode> "Oleyl Erucate" .
-<https://purl.org/ontocosmetic#OleylErucate> <https://purl.org/ontocosmetic#hasRequiredHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#OleylErucate> <http://www.w3.org/2000/01/rdf-schema#label> "Oleyl Erucate" .
-# 
-# https://purl.org/ontocosmetic#OliveOil
-<https://purl.org/ontocosmetic#OliveOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural> .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasINCIcode> "Olea Europaea (Olive) Fruit Oil" .
-<https://purl.org/ontocosmetic#OliveOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "7.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#OliveOil> <http://www.w3.org/2000/01/rdf-schema#label> "Olea Europaea (Olive) Fruit Oil" .
-# 
-# https://purl.org/ontocosmetic#OlusOil
-<https://purl.org/ontocosmetic#OlusOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#OlusOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#OlusOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#OlusOil> <https://purl.org/ontocosmetic#hasINCIcode> "Olus Oil" .
-<https://purl.org/ontocosmetic#OlusOil> <http://www.w3.org/2000/01/rdf-schema#label> "Olus Oil" .
-# 
-# https://purl.org/ontocosmetic#PCADimethicone
-<https://purl.org/ontocosmetic#PCADimethicone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PCADimethicone> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#silicone> .
-<https://purl.org/ontocosmetic#PCADimethicone> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PCADimethicone> <https://purl.org/ontocosmetic#hasINCIcode> "PCA Dimethicone" .
-<https://purl.org/ontocosmetic#PCADimethicone> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PCADimethicone> <http://www.w3.org/2000/01/rdf-schema#label> "PCA Dimethicone" .
-# 
-# https://purl.org/ontocosmetic#PEG-100Stearate
-<https://purl.org/ontocosmetic#PEG-100Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasHLB> "19.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-100 Stearate" .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "19.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-100Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-100 Stearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20AlmondGlycerides
-<https://purl.org/ontocosmetic#PEG-20AlmondGlycerides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20AlmondGlycerides> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20AlmondGlycerides> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 Almond Glycerides" .
-<https://purl.org/ontocosmetic#PEG-20AlmondGlycerides> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 Almond Glycerides" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasHLB> "16.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 Sorbitan Monolaurate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.277778"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonolaurate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 Sorbitan Monolaurate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <https://purl.org/ontocosmetic#hasHLB> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 sorbitan monooleate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "14.944445"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonooleate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 sorbitan monooleate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasHLB> "15.6"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 sorbitan monopalmitate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonopalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 sorbitan monopalmitate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <https://purl.org/ontocosmetic#hasHLB> "14.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 sorbitan monostearate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.444445"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanMonostearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 sorbitan monostearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate
-<https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate> <https://purl.org/ontocosmetic#hasHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 sorbitan trioleate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTrioleate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 sorbitan trioleate" .
-# 
-# https://purl.org/ontocosmetic#PEG-20SorbitanTristearate
-<https://purl.org/ontocosmetic#PEG-20SorbitanTristearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTristearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTristearate> <https://purl.org/ontocosmetic#hasHLB> "10.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTristearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-20 sorbitan tristearate" .
-<https://purl.org/ontocosmetic#PEG-20SorbitanTristearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-20 sorbitan tristearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-40Stearate
-<https://purl.org/ontocosmetic#PEG-40Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <https://purl.org/ontocosmetic#hasHLB> "17.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-40 Stearate" .
-<https://purl.org/ontocosmetic#PEG-40Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-40 Stearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasHLB> "13.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-4 Sorbitan Monolaurate" .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonolaurate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-4 Sorbitan Monolaurate" .
-# 
-# https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate> <https://purl.org/ontocosmetic#hasHLB> "9.6"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-4 sorbitan monostearate" .
-<https://purl.org/ontocosmetic#PEG-4SorbitanMonostearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-4 sorbitan monostearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-50Stearate
-<https://purl.org/ontocosmetic#PEG-50Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-50Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-50Stearate> <https://purl.org/ontocosmetic#hasHLB> "17.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-50Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-50 stearate" .
-<https://purl.org/ontocosmetic#PEG-50Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-50 stearate" .
-# 
-# https://purl.org/ontocosmetic#PEG-80SorbitanLaurate
-<https://purl.org/ontocosmetic#PEG-80SorbitanLaurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-80SorbitanLaurate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-80SorbitanLaurate> <https://purl.org/ontocosmetic#hasHLB> "19.1"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-80SorbitanLaurate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-80 Sorbitan Laurate" .
-<https://purl.org/ontocosmetic#PEG-80SorbitanLaurate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-80 Sorbitan Laurate" .
-# 
-# https://purl.org/ontocosmetic#PEG-8Stearate
-<https://purl.org/ontocosmetic#PEG-8Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PEG-8Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#PEG-8Stearate> <https://purl.org/ontocosmetic#hasHLB> "11.1"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PEG-8Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "PEG-8 Stearate" .
-<https://purl.org/ontocosmetic#PEG-8Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "PEG-8 Stearate" .
-# 
-# https://purl.org/ontocosmetic#PPG-11StearylEther
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_to_low_spreading> .
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-11 Stearyl ether" .
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <https://purl.org/ontocosmetic#hasPricePerKilogram> "23.375"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-11StearylEther> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-11 Stearyl ether" .
-# 
-# https://purl.org/ontocosmetic#PPG-14ButylEther
-<https://purl.org/ontocosmetic#PPG-14ButylEther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-14ButylEther> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-14ButylEther> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-14ButylEther> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-14 Butyl ether" .
-<https://purl.org/ontocosmetic#PPG-14ButylEther> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-14 Butyl ether" .
-# 
-# https://purl.org/ontocosmetic#PPG-15StearylEther
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-15 Stearyl ether" .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <https://purl.org/ontocosmetic#hasPricePerKilogram> "23.375"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-15StearylEther> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-15 Stearyl ether" .
-# 
-# https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-3 Benzyl ether Ethylhexanoate" .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <https://purl.org/ontocosmetic#hasRequiredHLB> "14.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherEthylhexanoate> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-3 Benzyl ether Ethylhexanoate" .
-# 
-# https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-3 Benzyl ether Myristate" .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <https://purl.org/ontocosmetic#hasRequiredHLB> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-3BenzylEtherMyristate> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-3 Benzyl ether Myristate" .
-# 
-# https://purl.org/ontocosmetic#PPG-3MyristylEther
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-3 Myristyl ether" .
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <https://purl.org/ontocosmetic#hasPricePerKilogram> "26.125"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PPG-3MyristylEther> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-3 Myristyl ether" .
-# 
-# https://purl.org/ontocosmetic#PPG-5-Ceteth-20
-<https://purl.org/ontocosmetic#PPG-5-Ceteth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PPG-5-Ceteth-20> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PPG-5-Ceteth-20> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PPG-5-Ceteth-20> <https://purl.org/ontocosmetic#hasINCIcode> "PPG-5-Ceteth-20" .
-<https://purl.org/ontocosmetic#PPG-5-Ceteth-20> <http://www.w3.org/2000/01/rdf-schema#label> "PPG-5-Ceteth-20" .
-# 
-# https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil
-<https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil> <https://purl.org/ontocosmetic#hasINCIcode> "Passiflora Incarnata Seed Oil" .
-<https://purl.org/ontocosmetic#PassifloraIncarnataSeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Passiflora Incarnata Seed Oil" .
-# 
-# https://purl.org/ontocosmetic#PentaerythritylTetraisostearate
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Pentaerythrityl Tetraisostearate" .
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "7.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PentaerythritylTetraisostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Pentaerythrityl Tetraisostearate" .
 # 
 # https://purl.org/ontocosmetic#Petrolatum
 <https://purl.org/ontocosmetic#Petrolatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2022,221 +1088,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#Petrolatum> <https://purl.org/ontocosmetic#hasINCIcode> "Petrolatum" .
 <https://purl.org/ontocosmetic#Petrolatum> <https://purl.org/ontocosmetic#hasPricePerKilogram> "14.111111"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#Petrolatum> <http://www.w3.org/2000/01/rdf-schema#label> "Petrolatum" .
-# 
-# https://purl.org/ontocosmetic#PhenoxyethylCaprylate
-<https://purl.org/ontocosmetic#PhenoxyethylCaprylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PhenoxyethylCaprylate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PhenoxyethylCaprylate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PhenoxyethylCaprylate> <https://purl.org/ontocosmetic#hasINCIcode> "Phenoxyethyl Caprylate" .
-<https://purl.org/ontocosmetic#PhenoxyethylCaprylate> <http://www.w3.org/2000/01/rdf-schema#label> "Phenoxyethyl Caprylate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-2 Dipolyhydroxystearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Dipolyhydroxystearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-2 Dipolyhydroxystearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate
-<https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-2 Isostearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Isostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-2 Isostearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate
-<https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-2 Triisostearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-2Triisostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-2 Triisostearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <https://purl.org/ontocosmetic#hasHLB> "4.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Diisostearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Diisostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Diisostearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3Distearate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasHLB> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Distearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Distearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Distearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Methylglucose Distearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3MethylglucoseDistearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Methylglucose Distearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3Oleate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Oleate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "27.444445"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Oleate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Oleate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Polyricinoleate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Polyricinoleate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Polyricinoleate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-4 Isostearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Isostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-4 Isostearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-4Laurate
-<https://purl.org/ontocosmetic#Polyglyceryl-4Laurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Laurate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Laurate> <https://purl.org/ontocosmetic#hasHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Laurate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-4 Laurate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Laurate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-4 Laurate" .
-# 
-# https://purl.org/ontocosmetic#Polysorbate60
-<https://purl.org/ontocosmetic#Polysorbate60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polysorbate60> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polysorbate60> <https://purl.org/ontocosmetic#hasHLB> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polysorbate60> <https://purl.org/ontocosmetic#hasINCIcode> "Polysorbate 60" .
-<https://purl.org/ontocosmetic#Polysorbate60> <http://www.w3.org/2000/01/rdf-schema#label> "Polysorbate 60" .
-# 
-# https://purl.org/ontocosmetic#Polysorbate80
-<https://purl.org/ontocosmetic#Polysorbate80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polysorbate80> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polysorbate80> <https://purl.org/ontocosmetic#hasHLB> "15.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polysorbate80> <https://purl.org/ontocosmetic#hasINCIcode> "Polysorbate 80" .
-<https://purl.org/ontocosmetic#Polysorbate80> <http://www.w3.org/2000/01/rdf-schema#label> "Polysorbate 80" .
-# 
-# https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate
-<https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ether> .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate> <https://purl.org/ontocosmetic#hasINCIcode> "Propylene Glycol Isoceteth-3 Acetate" .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsoceteth-3Acetate> <http://www.w3.org/2000/01/rdf-schema#label> "Propylene Glycol Isoceteth-3 Acetate" .
-# 
-# https://purl.org/ontocosmetic#PropyleneGlycolIsostearate
-<https://purl.org/ontocosmetic#PropyleneGlycolIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Propylene Glycol Isostearate" .
-<https://purl.org/ontocosmetic#PropyleneGlycolIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Propylene Glycol Isostearate" .
-# 
-# https://purl.org/ontocosmetic#PropylheptylCaprylate
-<https://purl.org/ontocosmetic#PropylheptylCaprylate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PropylheptylCaprylate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PropylheptylCaprylate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#PropylheptylCaprylate> <https://purl.org/ontocosmetic#hasINCIcode> "Propylheptyl Caprylate" .
-<https://purl.org/ontocosmetic#PropylheptylCaprylate> <http://www.w3.org/2000/01/rdf-schema#label> "Propylheptyl Caprylate" .
-# 
-# https://purl.org/ontocosmetic#SesamumIndicumSeedOil
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasINCIcode> "Sesamum Indicum (Sesame) seed oil" .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "22.529411"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SesamumIndicumSeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Sesamum Indicum (Sesame) seed oil" .
-# 
-# https://purl.org/ontocosmetic#SheaButter
-<https://purl.org/ontocosmetic#SheaButter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SheaButter> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#SheaButter> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural> .
-<https://purl.org/ontocosmetic#SheaButter> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#SheaButter> <https://purl.org/ontocosmetic#hasINCIcode> "Shea butter" .
-<https://purl.org/ontocosmetic#SheaButter> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SheaButter> <http://www.w3.org/2000/01/rdf-schema#label> "Shea butter" .
-# 
-# https://purl.org/ontocosmetic#SodiumCetearylSulfate
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#anionic> .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasHLB> "38.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasINCIcode> "Sodium Cetearyl Sulfate" .
-<https://purl.org/ontocosmetic#SodiumCetearylSulfate> <http://www.w3.org/2000/01/rdf-schema#label> "Sodium Cetearyl Sulfate" .
-# 
-# https://purl.org/ontocosmetic#SodiumStearoylGlutamate
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#anionic> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#gel> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasHLB> "23.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <https://purl.org/ontocosmetic#hasINCIcode> "Sodium Stearoyl Glutamate" .
-<https://purl.org/ontocosmetic#SodiumStearoylGlutamate> <http://www.w3.org/2000/01/rdf-schema#label> "Sodium Stearoyl Glutamate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanIsostearate
-<https://purl.org/ontocosmetic#SorbitanIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanIsostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanIsostearate> <https://purl.org/ontocosmetic#hasHLB> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan isostearate" .
-<https://purl.org/ontocosmetic#SorbitanIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan isostearate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanLaurate
-<https://purl.org/ontocosmetic#SorbitanLaurate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanLaurate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanLaurate> <https://purl.org/ontocosmetic#hasHLB> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanLaurate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan Laurate" .
-<https://purl.org/ontocosmetic#SorbitanLaurate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan Laurate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanMonopalmitate
-<https://purl.org/ontocosmetic#SorbitanMonopalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasHLB> "6.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanMonopalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan Monopalmitate" .
-<https://purl.org/ontocosmetic#SorbitanMonopalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan Monopalmitate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanMonostearate
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <https://purl.org/ontocosmetic#hasHLB> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan Monostearate" .
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "12.48"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanMonostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan Monostearate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanOleate
-<https://purl.org/ontocosmetic#SorbitanOleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasHLB> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan Oleate" .
-<https://purl.org/ontocosmetic#SorbitanOleate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "16.222221"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanOleate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan Oleate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanSesquioleate
-<https://purl.org/ontocosmetic#SorbitanSesquioleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanSesquioleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanSesquioleate> <https://purl.org/ontocosmetic#hasHLB> "3.7"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanSesquioleate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan sesquioleate" .
-<https://purl.org/ontocosmetic#SorbitanSesquioleate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan sesquioleate" .
-# 
-# https://purl.org/ontocosmetic#SorbitanTrioleate
-<https://purl.org/ontocosmetic#SorbitanTrioleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanTrioleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanTrioleate> <https://purl.org/ontocosmetic#hasHLB> "1.8"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanTrioleate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan trioleate" .
-<https://purl.org/ontocosmetic#SorbitanTrioleate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan trioleate" .
 # 
 # https://purl.org/ontocosmetic#Squalane
 <https://purl.org/ontocosmetic#Squalane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2250,119 +1101,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#Stable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#Stable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#StabilityState> .
 <https://purl.org/ontocosmetic#Stable> <http://www.w3.org/2000/01/rdf-schema#label> "Stable"@en .
-# 
-# https://purl.org/ontocosmetic#Steareth-10
-<https://purl.org/ontocosmetic#Steareth-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Steareth-10> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Steareth-10> <https://purl.org/ontocosmetic#hasHLB> "12.4"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Steareth-10> <https://purl.org/ontocosmetic#hasINCIcode> "Steareth-10" .
-<https://purl.org/ontocosmetic#Steareth-10> <http://www.w3.org/2000/01/rdf-schema#label> "Steareth-10" .
-# 
-# https://purl.org/ontocosmetic#Steareth-100
-<https://purl.org/ontocosmetic#Steareth-100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Steareth-100> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Steareth-100> <https://purl.org/ontocosmetic#hasHLB> "18.8"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Steareth-100> <https://purl.org/ontocosmetic#hasINCIcode> "Steareth-100" .
-<https://purl.org/ontocosmetic#Steareth-100> <http://www.w3.org/2000/01/rdf-schema#label> "Steareth-100" .
-# 
-# https://purl.org/ontocosmetic#Steareth-2
-<https://purl.org/ontocosmetic#Steareth-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasHLB> "4.9"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Steareth-2> <https://purl.org/ontocosmetic#hasINCIcode> "Steareth-2" .
-<https://purl.org/ontocosmetic#Steareth-2> <http://www.w3.org/2000/01/rdf-schema#label> "Steareth-2" .
-# 
-# https://purl.org/ontocosmetic#Steareth-20
-<https://purl.org/ontocosmetic#Steareth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasHLB> "15.3"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Steareth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Steareth-20" .
-<https://purl.org/ontocosmetic#Steareth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Steareth-20" .
-# 
-# https://purl.org/ontocosmetic#Steareth-21
-<https://purl.org/ontocosmetic#Steareth-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasHLB> "15.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Steareth-21> <https://purl.org/ontocosmetic#hasINCIcode> "Steareth-21" .
-<https://purl.org/ontocosmetic#Steareth-21> <http://www.w3.org/2000/01/rdf-schema#label> "Steareth-21" .
-# 
-# https://purl.org/ontocosmetic#StearylAlcohol
-<https://purl.org/ontocosmetic#StearylAlcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#StearylAlcohol> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#fatty_alcohol> .
-<https://purl.org/ontocosmetic#StearylAlcohol> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#StearylAlcohol> <https://purl.org/ontocosmetic#hasINCIcode> "Stearyl Alcohol" .
-<https://purl.org/ontocosmetic#StearylAlcohol> <https://purl.org/ontocosmetic#hasRequiredHLB> "15.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#StearylAlcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Stearyl Alcohol" .
-# 
-# https://purl.org/ontocosmetic#SucroseDistearate
-<https://purl.org/ontocosmetic#SucroseDistearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucroseDistearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SucroseDistearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SucroseDistearate> <https://purl.org/ontocosmetic#hasHLB> "3.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucroseDistearate> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Distearate" .
-<https://purl.org/ontocosmetic#SucroseDistearate> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Distearate" .
-# 
-# https://purl.org/ontocosmetic#SucrosePolysoyate
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Polysoyate" .
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucrosePolysoyate> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Polysoyate" .
-# 
-# https://purl.org/ontocosmetic#SucroseStearate
-<https://purl.org/ontocosmetic#SucroseStearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucroseStearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SucroseStearate> <https://purl.org/ontocosmetic#hasHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucroseStearate> <https://purl.org/ontocosmetic#hasHLB> "14.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucroseStearate> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Stearate" .
-<https://purl.org/ontocosmetic#SucroseStearate> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Stearate" .
-# 
-# https://purl.org/ontocosmetic#Triethylhexanoin
-<https://purl.org/ontocosmetic#Triethylhexanoin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Triethylhexanoin> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Triethylhexanoin> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Triethylhexanoin> <https://purl.org/ontocosmetic#hasINCIcode> "Triethylhexanoin" .
-<https://purl.org/ontocosmetic#Triethylhexanoin> <https://purl.org/ontocosmetic#hasRequiredHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Triethylhexanoin> <http://www.w3.org/2000/01/rdf-schema#label> "Triethylhexanoin" .
-# 
-# https://purl.org/ontocosmetic#Triisononanoin
-<https://purl.org/ontocosmetic#Triisononanoin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Triisononanoin> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Triisononanoin> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Triisononanoin> <https://purl.org/ontocosmetic#hasINCIcode> "Triisononanoin" .
-<https://purl.org/ontocosmetic#Triisononanoin> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Triisononanoin> <http://www.w3.org/2000/01/rdf-schema#label> "Triisononanoin" .
-# 
-# https://purl.org/ontocosmetic#Triisostearin
-<https://purl.org/ontocosmetic#Triisostearin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Triisostearin> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#triglyceride> .
-<https://purl.org/ontocosmetic#Triisostearin> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#Triisostearin> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Triisostearin> <https://purl.org/ontocosmetic#hasINCIcode> "Triisostearin" .
-<https://purl.org/ontocosmetic#Triisostearin> <https://purl.org/ontocosmetic#hasRequiredHLB> "8.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Triisostearin> <http://www.w3.org/2000/01/rdf-schema#label> "Triisostearin" .
-# 
-# https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Trimethylolpropane Triisostearate" .
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#TrimethylolpropaneTriisostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Trimethylolpropane Triisostearate" .
-# 
-# https://purl.org/ontocosmetic#Vitamine_E_tocopherol_acetate
-<https://purl.org/ontocosmetic#Vitamine_E_tocopherol_acetate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Vitamine_E_tocopherol_acetate> <https://purl.org/ontocosmetic#hasINCIcode> "Vitamine E" .
 # 
 # https://purl.org/ontocosmetic#WaterPhaseConcentration
 <https://purl.org/ontocosmetic#WaterPhaseConcentration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2392,10 +1130,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#anionic
 <https://purl.org/ontocosmetic#anionic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#anionic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#IonicState> .
-# 
-# https://purl.org/ontocosmetic#cetearyl_alcohol
-<https://purl.org/ontocosmetic#cetearyl_alcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#cetearyl_alcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl alcohol"@en .
 # 
 # https://purl.org/ontocosmetic#cloud_point
 <https://purl.org/ontocosmetic#cloud_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2543,15 +1277,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#ingredient_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#ChemicalFamily> .
 <https://purl.org/ontocosmetic#ingredient_type> <http://www.w3.org/2000/01/rdf-schema#label> "Ingredient type"@en .
 # 
-# https://purl.org/ontocosmetic#jojobaOil
-<https://purl.org/ontocosmetic#jojobaOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#jojobaOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_wax> .
-<https://purl.org/ontocosmetic#jojobaOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural> .
-<https://purl.org/ontocosmetic#jojobaOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#jojobaOil> <https://purl.org/ontocosmetic#hasINCIcode> "jojoba oil" .
-<https://purl.org/ontocosmetic#jojobaOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#jojobaOil> <http://www.w3.org/2000/01/rdf-schema#label> "jojoba oil" .
-# 
 # https://purl.org/ontocosmetic#kraft_point
 <https://purl.org/ontocosmetic#kraft_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#kraft_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#Property> .
@@ -2629,6 +1354,7 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#medium_to_high_spreading
 <https://purl.org/ontocosmetic#medium_to_high_spreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#medium_to_high_spreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#SpreadingState> .
+<https://purl.org/ontocosmetic#medium_to_high_spreading> <http://www.w3.org/2000/01/rdf-schema#label> "Medium to high spreading"@en .
 # 
 # https://purl.org/ontocosmetic#medium_to_light_emollience
 <https://purl.org/ontocosmetic#medium_to_light_emollience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2638,6 +1364,7 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontocosmetic#medium_to_low_spreading
 <https://purl.org/ontocosmetic#medium_to_low_spreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#medium_to_low_spreading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#SpreadingState> .
+<https://purl.org/ontocosmetic#medium_to_low_spreading> <http://www.w3.org/2000/01/rdf-schema#label> "Medium to low psreading"@en .
 # 
 # https://purl.org/ontocosmetic#medium_to_rich_emollience
 <https://purl.org/ontocosmetic#medium_to_rich_emollience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2909,9 +1636,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#visual_appearance> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that describes the color and transparency."@en .
 <https://purl.org/ontocosmetic#visual_appearance> <http://www.w3.org/2000/01/rdf-schema#label> "Visual appearance"@en .
 # 
-# https://purl.org/ontocosmetic#water
-<https://purl.org/ontocosmetic#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-# 
 # https://purl.org/ontocosmetic#water-in-oil
 <https://purl.org/ontocosmetic#water-in-oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#water-in-oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#MicrostructureState> .
@@ -2932,125 +1656,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#waxy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#waxy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontocosmetic#AfterfeelingState> .
 # 
-# https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasHLB> "4.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasINCIcode> "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone; Caprylic/Capric Triglyceride" .
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <http://www.w3.org/2000/01/rdf-schema#label> "Bis-(Glyceryl/Lauryl) Glyceryl Lauryl Dimethicone" .
-<https://purl.org/ontocosmetic#Bis-(Glyceryl/Lauryl)GlycerylLaurylDimethicone;Caprylic/CapricTriglyceride> <http://www.w3.org/2000/01/rdf-schema#label> "Caprylic/Capric Triglyceride" .
-# 
-# https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <https://purl.org/ontocosmetic#hasINCIcode> "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone" .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-14/14Dimethicone;Dimethicone> <http://www.w3.org/2000/01/rdf-schema#label> "Bis-PEG/PPG-14/14 Dimethicone; Dimethicone" .
-# 
-# https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasINCIcode> "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride" .
-<https://purl.org/ontocosmetic#Bis-PEG/PPG-16/16PEG/PPG-16/16Dimethicone;Caprylic/CapricTriglyceride> <http://www.w3.org/2000/01/rdf-schema#label> "Bis-PEG/PPG-16/16 PEG/PPG-16/16 Dimethicone; Caprylic/Capric Triglyceride" .
-# 
-# https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <https://purl.org/ontocosmetic#hasINCIcode> "C10-30 Cholesterol/Lanosterol esters" .
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#C10-30Cholesterol/LanosterolEsters> <http://www.w3.org/2000/01/rdf-schema#label> "C10-30 Cholesterol/Lanosterol esters" .
-# 
-# https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#triglyceride> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasINCIcode> "Caprylic/Capric triglyceride" .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasPricePerKilogram> "16.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Caprylic/CapricTriglyceride> <http://www.w3.org/2000/01/rdf-schema#label> "Caprylic/Capric triglyceride" .
-# 
-# https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#high_spreading> .
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <https://purl.org/ontocosmetic#hasINCIcode> "Caprylyl Caprylate/Caprate" .
-<https://purl.org/ontocosmetic#CaprylylCaprylate/Caprate> <http://www.w3.org/2000/01/rdf-schema#label> "Caprylyl Caprylate/Caprate" .
-# 
-# https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#anionic> .
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasHLB> "39.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <https://purl.org/ontocosmetic#hasINCIcode> "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate" .
-<https://purl.org/ontocosmetic#CetearylAlcohol(and)SodiumLaurylSulfate(and)SodiumCetearylSulfate> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl Alcohol (and) Sodium Lauryl Sulfate (and) Sodium Cetearyl Sulfate" .
-# 
-# https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#gel> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <https://purl.org/ontocosmetic#hasINCIcode> "Cetearyl Glucoside (and) CetearylAlcohol" .
-<https://purl.org/ontocosmetic#CetearylGlucoside(and)CetearylAlcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Cetearyl Glucoside (and) CetearylAlcohol" .
-# 
-# https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#silicone> .
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#synthetic> .
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <https://purl.org/ontocosmetic#hasINCIcode> "Cetyl Dimethicone (very high  viscosity,nonpolar)" .
-<https://purl.org/ontocosmetic#CetylDimethicone(veryHighviscosity,nonpolar)> <http://www.w3.org/2000/01/rdf-schema#label> "Cetyl Dimethicone (very high  viscosity,nonpolar)" .
-# 
-# https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <https://purl.org/ontocosmetic#hasINCIcode> "Cetyl PEG/PPG-10/1 Dimethicone" .
-<https://purl.org/ontocosmetic#CetylPEG/PPG-10/1Dimethicone> <http://www.w3.org/2000/01/rdf-schema#label> "Cetyl PEG/PPG-10/1 Dimethicone" .
-# 
-# https://purl.org/ontocosmetic#Coco-Caprylate/Caprate
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_spreading> .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <https://purl.org/ontocosmetic#hasINCIcode> "Coco-Caprylate/Caprate" .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <https://purl.org/ontocosmetic#hasPricePerKilogram> "19.9375"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Coco-Caprylate/Caprate> <http://www.w3.org/2000/01/rdf-schema#label> "Coco-Caprylate/Caprate" .
-# 
-# https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> <https://purl.org/ontocosmetic#hasINCIcode> "Decyl Isostearate, Isostearyl Isostearate" .
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> <https://purl.org/ontocosmetic#hasRequiredHLB> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#DecylIsostearate,IsostearylIsostearate> <http://www.w3.org/2000/01/rdf-schema#label> "Decyl Isostearate, Isostearyl Isostearate" .
-# 
-# https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Stearate; Ceteareth-20" .
-<https://purl.org/ontocosmetic#GlycerylStearate;Ceteareth-20> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Stearate; Ceteareth-20" .
-# 
-# https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <https://purl.org/ontocosmetic#hasHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "Glyceryl Stearate; PEG-100 Stearate" .
-<https://purl.org/ontocosmetic#GlycerylStearate;PEG-100Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "Glyceryl Stearate; PEG-100 Stearate" .
-# 
 # https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
@@ -3061,134 +1666,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#HelianthusAnnuus(sunflowerseed)Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Helianthus Annuus (sunflower seed) oil" .
 # 
-# https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasINCIcode> "Pentaerythrityl Isostearate/Caprate/Caprylate/Adipate" .
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasRequiredHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PentaerythritylIsostearate/Caprate/Caprylate/Adipate> <http://www.w3.org/2000/01/rdf-schema#label> "Pentaerythrityl Isostearate/Caprate/Caprylate/Adipate" .
-# 
-# https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasINCIcode> "Pentaerythrityl Stearate/Caprate/Caprylate/Adipate" .
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> <https://purl.org/ontocosmetic#hasRequiredHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PentaerythritylStearate/Caprate/Caprylate/Adipate> <http://www.w3.org/2000/01/rdf-schema#label> "Pentaerythrityl Stearate/Caprate/Caprylate/Adipate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> <https://purl.org/ontocosmetic#hasHLB> "11.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-3 Dicitrate/Stearate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-3Dicitrate/Stearate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-3 Dicitrate/Stearate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <https://purl.org/ontocosmetic#hasHLB> "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate" .
-<https://purl.org/ontocosmetic#Polyglyceryl-4Diisostearate/Polyhydroxystearate/Sebacate> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-4  Diisostearate/Polyhydroxystearate/Sebacate" .
-# 
-# https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> <https://purl.org/ontocosmetic#hasHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> <https://purl.org/ontocosmetic#hasINCIcode> "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete" .
-<https://purl.org/ontocosmetic#Polyglyceryl-6Stearate;Polyglyceryl-6Behete> <http://www.w3.org/2000/01/rdf-schema#label> "Polyglyceryl-6 Stearate; Polyglyceryl-6 Behete" .
-# 
-# https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#medium_to_high_spreading> .
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> <https://purl.org/ontocosmetic#hasINCIcode> "Propylene Glycol Dicaprylate/ Dicaprate" .
-<https://purl.org/ontocosmetic#PropyleneGlycolDicaprylate/Dicaprate> <http://www.w3.org/2000/01/rdf-schema#label> "Propylene Glycol Dicaprylate/ Dicaprate" .
-# 
-# https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasPhase> <https://purl.org/ontocosmetic#oily_phase> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasINCIcode> "Prunus Armeniaca (Apricot) kernel oil" .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "15.222222"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#PrunusArmeniaca(Apricot)KernelOil> <http://www.w3.org/2000/01/rdf-schema#label> "Prunus Armeniaca (Apricot) kernel oil" .
-# 
-# https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural> .
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <https://purl.org/ontocosmetic#hasINCIcode> "Prunus Amygdalus Dulcis (Sweet Almond) Oil" .
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Prunus_Amygdalus_Dulcis_(Sweet_Almond)_Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Prunus Amygdalus Dulcis (Sweet Almond) Oil"@en .
-# 
-# https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasINCIcode> "Ricinus communis (Castor) oil" .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "12.388889"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#RicinusCommunis(Castor)Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Ricinus communis (Castor) oil" .
-# 
-# https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasOrigin> <https://purl.org/ontocosmetic#natural_raw_material> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasINCIcode> "Rosa Canina (Rose hip) seed oil" .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasPricePerKilogram> "61.11111"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#RosaCanina(Rosehip)SeedOil> <http://www.w3.org/2000/01/rdf-schema#label> "Rosa Canina (Rose hip) seed oil" .
-# 
-# https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasHLB> "3.5"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <https://purl.org/ontocosmetic#hasINCIcode> "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate" .
-<https://purl.org/ontocosmetic#SorbitanOleate(and)Polyglyceryl-3Polyricinoleate> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbitan Oleate (and) Polyglyceryl-3 Polyricinoleate" .
-# 
-# https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#anionic> .
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> <https://purl.org/ontocosmetic#hasHLB> "18.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> <https://purl.org/ontocosmetic#hasINCIcode> "Stearic Acid (and) Palmitic Acid" .
-<https://purl.org/ontocosmetic#StearicAcid(and)PalmiticAcid> <http://www.w3.org/2000/01/rdf-schema#label> "Stearic Acid (and) Palmitic Acid" .
-# 
-# https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#gel> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Polystearate(and) CetylPalmitate" .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)CetylPalmitate> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Polystearate(and) CetylPalmitate" .
-# 
-# https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#cream> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#gel> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#lotion> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasTexture> <https://purl.org/ontocosmetic#spray> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasHLB> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Polystearate(and) Hydrogeted Polyisobutene" .
-<https://purl.org/ontocosmetic#SucrosePolystearate(and)HydrogetedPolyisobutene> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Polystearate(and) Hydrogeted Polyisobutene" .
-# 
-# https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> <https://purl.org/ontocosmetic#hasIonicClass> <https://purl.org/ontocosmetic#nonionic> .
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> <https://purl.org/ontocosmetic#hasHLB> "12.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> <https://purl.org/ontocosmetic#hasINCIcode> "Sucrose Stearate (and) Sucrose Distearate" .
-<https://purl.org/ontocosmetic#SucroseStearate(and)SucroseDistearate> <http://www.w3.org/2000/01/rdf-schema#label> "Sucrose Stearate (and) Sucrose Distearate" .
-# 
 # https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#vegetable_oil> .
@@ -3197,14 +1674,6 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> <https://purl.org/ontocosmetic#hasPricePerKilogram> "20.2"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> <https://purl.org/ontocosmetic#hasRequiredHLB> "6.0"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://purl.org/ontocosmetic#TheobromaCacao(Cocoabutter)> <http://www.w3.org/2000/01/rdf-schema#label> "Theobroma cacao (Cocoa butter)" .
-# 
-# https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <https://purl.org/ontocosmetic#hasChemicalNature> <https://purl.org/ontocosmetic#ester> .
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <https://purl.org/ontocosmetic#hasSpreading> <https://purl.org/ontocosmetic#low_spreading> .
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <https://purl.org/ontocosmetic#hasINCIcode> "Tris(PPG-3 Benzyl ether) Citrate" .
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <https://purl.org/ontocosmetic#hasRequiredHLB> "13.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://purl.org/ontocosmetic#Tris(PPG-3Benzylether)Citrate> <http://www.w3.org/2000/01/rdf-schema#label> "Tris(PPG-3 Benzyl ether) Citrate" .
 # 
 # 
 # 
