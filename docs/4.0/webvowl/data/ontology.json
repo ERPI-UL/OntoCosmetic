@@ -1,0 +1,4656 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://purl.org/ontocosmetic", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Onto Cosmetic"
+    },
+    "iri" : "https://purl.org/ontocosmetic",
+    "version" : "4.0",
+    "author" : [ "Alex Gabriel" ],
+    "description" : {
+      "en" : "An ontology that describes chemical formulation in the perspective to assist the design process of cosmetic product."
+    },
+    "comments" : { },
+    "other" : {
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "en",
+        "value" : "3.0",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Alex Gabriel",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Juliana Serna Rodas",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "4.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Onto Cosmetic",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "119",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "247",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "255",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "269",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "242",
+    "type" : "owl:Class"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "250",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://purl.org/ontocosmetic#CationicSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CationicSurfactant"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Humectant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Humectant"
+    },
+    "subClasses" : [ "26" ],
+    "comment" : {
+      "en" : "Hygroscopic substance used to keep things moist. Most common are glycols."
+    },
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#NonAqueousThickeners",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonAqueousThickeners"
+    },
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#UvFilter",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UvFilter"
+    },
+    "comment" : {
+      "en" : "Ingredients that protect the skin from sun damage and prevent the risks of skin cancer such as melanoma as well as sunburn, premature aging of the skin, or the appearance of spots. They can be mineral (ex. Titanium oxide, zinc oxide) or they can be organic (ex. Octocrylene)."
+    },
+    "id" : "29",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#FormulationPropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FormulationPropertyState"
+    },
+    "subClasses" : [ "30", "31", "32", "33", "34" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AbsorptionRateState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AbsorptionRateState",
+      "en" : "After Feel - Absorption Rate"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#med_absorption_rate",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "med_absorption_rate",
+        "en" : "Medium absorption rate"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#high_absorption_rate",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "high_absorption_rate",
+        "en" : "High absorption rate"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#low_absorption_rate",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "low_absorption_rate",
+        "en" : "Low absorption rate"
+      }
+    } ],
+    "comment" : {
+      "en" : "Describe the capacity of the formulation product to be absopt by a skin."
+    },
+    "id" : "31",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#PureSubstance",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PureSubstance",
+      "en" : "Pure Substance"
+    },
+    "comment" : {
+      "en" : "It is a single kind of substance that cannot be separated into other kinds of substance by any physical means."
+    },
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Antioxidant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Antioxidant"
+    },
+    "comment" : {
+      "en" : "Chemicals that interrupt oxidation reactions and prevent the effects of oxygen radicals (e.g. peroxides) both processes known to damage the integrity and function of various natural substances. Antioxidants are useful in two ways: On the one hand they prevent degradation of natural ingredients (proteins, sugars, lipids) in the cosmetic product. On the other hand antioxidants protect the skin cells from being damaged and slow down the aging process. Antioxidants have been shown to boost the skin's radiance, minimize age spots, sun spots, and fine lines."
+    },
+    "id" : "40",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#RheologicState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RheologicState",
+      "en" : "Rheologic state"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#pseudoplastic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "pseudoplastic"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#thixotropic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "thixotropic"
+      }
+    } ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IonicThickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicThickener",
+      "en" : "Ionic thickener"
+    },
+    "subClasses" : [ "65", "66" ],
+    "id" : "52",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HeterogenousMixture",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeterogenousMixture",
+      "en" : "Heterogenous Mixture"
+    },
+    "subClasses" : [ "75", "76" ],
+    "comment" : {
+      "en" : "It is a mixture in which the composition is not uniform throughout the mixture. It two or more phases in contact."
+    },
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Substance",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Substance",
+      "en" : "Substance"
+    },
+    "subClasses" : [ "35", "74", "54" ],
+    "comment" : {
+      "en" : "Any chemical entity (pure and mixture) is a substance."
+    },
+    "id" : "36",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#EmollienceState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EmollienceState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#medium_to_light_emollience",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_to_light_emollience",
+        "en" : "Medium to light emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#light_emollience",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "light_emollience",
+        "en" : "Light emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#rich_emollience",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "rich_emollience",
+        "en" : "Rich emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#medium_to_rich_emollience",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_to_rich_emollience",
+        "en" : "Medium to rich emollience"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#medium_emollience",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_emollience",
+        "en" : "Medium emollience"
+      }
+    } ],
+    "id" : "16",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Product",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product",
+      "en" : "Product"
+    },
+    "comment" : {
+      "en" : "Formulation ready to go to the market."
+    },
+    "id" : "89",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Origin",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Origin",
+      "en" : "Origin type"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#NRM_and_SRM",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "NRM = Natural Raw Material\nSRM = Synthetic Raw Material"
+      },
+      "labels" : {
+        "IRI-based" : "NRM_and_SRM"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#natural_raw_material_enzymatic_processed",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "natural_raw_material_enzymatic_processed"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#natural_raw_material",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "natural_raw_material"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#natural",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "natural"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#synthetic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "synthetic"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#natural_and_SRM",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "natural_and_SRM"
+      }
+    } ],
+    "comment" : {
+      "en" : "It described the origin of the ingredient or product."
+    },
+    "id" : "90",
+    "superClasses" : [ "5", "91" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HeuristicForActive",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForActive"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "Sub group of heuristic that only concerns active ingredients."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "92",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AfterfeelingState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AfterfeelingState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#waxy",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "waxy"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#smooth",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "smooth"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#silky",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "silky"
+      }
+    } ],
+    "comment" : {
+      "en" : "Ingredients have the property to influence the afterfeel of the formulated product."
+    },
+    "id" : "39",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Heuristic",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heuristic"
+    },
+    "subClasses" : [ "97", "98", "99", "92", "80", "78" ],
+    "comment" : {
+      "en" : "Rules that are used by product formulator to anticipate what happens while combining different ingredients."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Active",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Active",
+      "en" : "Active"
+    },
+    "subClasses" : [ "40", "87", "24", "29" ],
+    "comment" : {
+      "en" : "Ingredients that perform an specific function on customer skin. [cosmetic sector definition]. It is a chemical that helps with the main function of the cosmetic product."
+    },
+    "id" : "25",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#SubstanceProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SubstanceProperty",
+      "en" : "Substance property"
+    },
+    "comment" : {
+      "en" : "Chemical properties of a substance."
+    },
+    "id" : "104",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AmphotericSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmphotericSurfactant"
+    },
+    "id" : "57",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#PhaseState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhaseState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#water_phase",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "water_phase",
+        "en" : "Water phase"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#oily_phase",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "oily_phase",
+        "en" : "Oily phase"
+      }
+    } ],
+    "id" : "18",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#DropletSizeState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DropletSizeState",
+      "en" : "Droplet size state"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#small_droplet",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "small_droplet",
+        "en" : "Small droplet"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#med_droplet",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "med_droplet",
+        "en" : "Medium droplet"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#high_droplet",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "high_droplet",
+        "en" : "High droplet"
+      }
+    } ],
+    "id" : "20",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Preservative",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Preservative"
+    },
+    "comment" : {
+      "en" : "Compounds that prevent products from going off by controlling the growth of microorganisms. Some of them cannot be used for certain product applications and/or they have a maximum allowed concentration in the final product. For their selection, it is important to consider: efficiency, maximal allowed concentration, toxicity, environmental effect, and possible interactions with other emulsion ingredients."
+    },
+    "id" : "106",
+    "superClasses" : [ "107" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#UnitOperation",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UnitOperation",
+      "en" : "Unit operation"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#cooling",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "cooling"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#heating",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "heating"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#agitation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "agitation"
+      }
+    } ],
+    "comment" : {
+      "en" : "Bloc unit of a process."
+    },
+    "id" : "108"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#StabilityState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StabilityState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#Stable",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "Stable",
+        "en" : "Stable"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#NonStable",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "NonStable",
+        "en" : "Non stable"
+      }
+    } ],
+    "comment" : {
+      "en" : "A formulation can be either stable or note stable."
+    },
+    "id" : "34",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AqueousThickeners",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AqueousThickeners",
+      "en" : "Aqueous Thickeners"
+    },
+    "subClasses" : [ "49", "52" ],
+    "id" : "50",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#FormulationProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FormulationProperty"
+    },
+    "intersection" : [ "105" ],
+    "comment" : {
+      "en" : "Describe the list of properties that a formulated product can have. Formulation heuristic can have an impact on it."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "109",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AnionicThickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnionicThickener",
+      "en" : "Anionic thickener"
+    },
+    "id" : "65",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ProductProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProductProperty"
+    },
+    "intersection" : [ "105" ],
+    "attributes" : [ "intersection" ],
+    "id" : "130",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IngredientProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IngredientProperty"
+    },
+    "intersection" : [ "105" ],
+    "comment" : {
+      "en" : "Describe the properties of the ingredient that is considered by the heuristic. Each instance is a type of property. All the propterties does not concern all the ingredients."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "119",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IonicSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicSurfactant",
+      "en" : "Ionic surfactant"
+    },
+    "subClasses" : [ "57", "8", "60" ],
+    "id" : "9",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#NonIonicSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonIonicSurfactant",
+      "en" : "Non ionic surfactant"
+    },
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Solution",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solution"
+    },
+    "comment" : {
+      "en" : "It is a homogeneous mixture of soluble substances. It does not have a microstructure. It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."
+    },
+    "id" : "141",
+    "superClasses" : [ "142" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Sensation",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensation",
+      "en" : "After Feel - Absorption Sensation"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#complete_sensoriel_profile",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "complete_sensoriel_profile",
+        "en" : "Complete sensoriel profile"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#incomplete_sensoriel_profile",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "incomplete_sensoriel_profile",
+        "en" : "Incomplete sensorial profile"
+      }
+    } ],
+    "comment" : {
+      "en" : "Describe the after feel of the formulation on the skin of a consumer. I define the level of oilyness"
+    },
+    "id" : "33",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#TextureState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TextureState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#lotion",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "lotion",
+        "en" : "Lotion"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#gel",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "gel",
+        "en" : "Gel"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#spray",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "spray"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#cream",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "cream",
+        "en" : "Cream"
+      }
+    } ],
+    "id" : "94",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#MicrostructureState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MicrostructureState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#oil-in-water",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "oil-in-water",
+        "en" : "Oil in water"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#water-in-oil",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "water-in-oil",
+        "en" : "Water in oil"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#homogenous",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "homogenous"
+      }
+    } ],
+    "comment" : {
+      "en" : "It is a characteristic of colloidal systems. In this ontology it is described with two phases: Continuous phase and disperse phase."
+    },
+    "id" : "44",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ViscosityState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ViscosityState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#med_viscosity",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "med_viscosity",
+        "en" : "Medium viscosity"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#low_viscosity",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "low_viscosity",
+        "en" : "Low viscosity"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#high_viscosity",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "high_viscosity",
+        "en" : "High viscosity"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) \nDescribe the level of viscosity of a formulated product. it can be low, medium or high.\nIt is related to the sensorial term of thickness."
+    },
+    "id" : "23",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Glycols",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glycols"
+    },
+    "comment" : {
+      "en" : "They are chemical compounds containing a certain number of hydroxyl groups. They are water- soluble and are widely used in cosmetics due to their moisturizing function. They also work as stabilizer solvents and dispersants of polymers. They have a significant effect on the feel of use."
+    },
+    "id" : "26",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Surfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "emulsifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Surfactant"
+    },
+    "subClasses" : [ "62", "9" ],
+    "comment" : {
+      "en" : "They are compounds that lower the interfacial tension between two immiscible phases. Surfactants are used in emulsions for four purposes: to decrease the energy required during emulsification, to adsorb rapidly at the interface of recently formed droplets, and to generate a barrier, either electrostatic, steric, or both, for long-term emulsion stability. Additionally, they can be also used as active ingredients in soaps, shampoos and conditioners. They can be classified according to their electrical nature in nonionic, ionic-anionic and ionic-cationic. They can be classified according to their chemical nature."
+    },
+    "id" : "63",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ThickenerProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThickenerProperty"
+    },
+    "intersection" : [ "105" ],
+    "attributes" : [ "intersection" ],
+    "id" : "134",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Formulation",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://purl.org/ontocosmetic#Mixture",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "Blend",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Formulation"
+    },
+    "comment" : {
+      "en" : "Designed mixture of ingredients combined with an appropriated process. It can potentially take any substance form. It is a technical created object. It can have different forms: solid, liquid, gas. And it can be homogeneous (solutions) or heterogeneous (colloidal system). It is a subclass of substance and a super class of solution, mixture, emulsion, colloid."
+    },
+    "id" : "68",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#StructurePropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructurePropertyState",
+      "en" : "Structure property State"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#droplet_size",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Fromulated product can be emulsions. These emulsions are caracterized by the size of the droplets."
+      },
+      "labels" : {
+        "IRI-based" : "droplet_size",
+        "en" : "Droplet size"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#WaterPhaseConcentration",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "WaterPhaseConcentration"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#OilyPhaseConcentration",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "OilyPhaseConcentration"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#microstructure",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "microstructure",
+        "en" : "Microstructure"
+      }
+    } ],
+    "subClasses" : [ "44", "20" ],
+    "comment" : {
+      "en" : "Physico-mechanical porpterties of a substance."
+    },
+    "id" : "14",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Ether_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ether_emollient"
+    },
+    "comment" : {
+      "en" : "Sub type of emollient ingredient that are ether."
+    },
+    "id" : "165",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ChemicalFamily",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChemicalFamily"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#formulation_type",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "formulation_type",
+        "en" : "Formulation type"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#active",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "active",
+        "en" : "Active"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#surfactant_type",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "surfactant_type",
+        "en" : "Surfactant type"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#thickener",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "thickener",
+        "en" : "Thickener type"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#emollient_type",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "emollient_type",
+        "en" : "Emollient type"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#product_type",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "product_type",
+        "en" : "Product type"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#ingredient_type",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "ingredient_type",
+        "en" : "Ingredient type"
+      }
+    } ],
+    "id" : "172",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#StickinessState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StickinessState",
+      "en" : "After feel - Stickiness"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#sticky_sensation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "sticky_sensation",
+        "en" : "Sticky sensation"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#no_sticky_sensation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "no_sticky_sensation",
+        "en" : "No sticky sensation"
+      }
+    } ],
+    "id" : "30",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Chemical_nature",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chemical_nature",
+      "en" : "Chemical nature"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#vegetable_wax",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "vegetable_wax"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#fatty_alcohol",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Category of emollients that are?usually high-molecular-weight derived from natural fats and oils."
+      },
+      "labels" : {
+        "IRI-based" : "fatty_alcohol",
+        "en" : "fatty alcohol"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#fatty_acid",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Category of emollient that are carboxylic acid?with an?aliphatic?chain."
+      },
+      "labels" : {
+        "IRI-based" : "fatty_acid",
+        "en" : "Fatty acid"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#triglyceride",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Category of emollients that are ester?derived from?glycerol?and three?fatty acids"
+      },
+      "labels" : {
+        "IRI-based" : "triglyceride"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#ether",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "ether",
+        "en" : "Ether"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#hydrocarbon",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Catergory of emmolients that have?organic compound?consisting entirely of?hydrogen?and?carbon."
+      },
+      "labels" : {
+        "IRI-based" : "hydrocarbon",
+        "en" : "Hydrocarbon"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#silicone",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Category of emollient that are polysiloxane which?is a?polymer?made up of?siloxane?(?R2Si?O?SiR2?)"
+      },
+      "labels" : {
+        "IRI-based" : "silicone"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#vegetable_oil",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "vegetable_oil"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#ester",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "ester",
+        "en" : "Ester"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#non-organic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "non-organic"
+      }
+    } ],
+    "comment" : {
+      "en" : "Classification that a substance can have"
+    },
+    "id" : "82",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IonicState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IonicState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#anionic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "anionic"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#nonionic",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "nonionic"
+      }
+    } ],
+    "id" : "114",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HeuristicForEmollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForEmollient"
+    },
+    "comment" : {
+      "en" : "Sub group of heuristic that only concerns emollients."
+    },
+    "id" : "80",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#StateOfMatter",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StateOfMatter",
+      "en" : "State of matter"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#gas",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "State of matter. It is a substance in a state that takes the shape and volume of its container."
+      },
+      "labels" : {
+        "IRI-based" : "gas",
+        "en" : "Gas"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#liquid",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"
+      },
+      "labels" : {
+        "IRI-based" : "liquid",
+        "en" : "Liquid"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#solid",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "State of matter. It has an structural rigidity and a resistance to a force applied to the surface."
+      },
+      "labels" : {
+        "IRI-based" : "solid",
+        "en" : "Solid"
+      }
+    } ],
+    "subClasses" : [ "1" ],
+    "comment" : {
+      "en" : "Substances in formulation design context can have various state: solid, liquid or gaseous."
+    },
+    "id" : "2",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#SurfactantProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SurfactantProperty"
+    },
+    "intersection" : [ "105" ],
+    "attributes" : [ "intersection" ],
+    "id" : "132",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#EmulsionScienceHeuristic",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EmulsionScienceHeuristic"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "It is a sub-type of heuristic that come from scientific literature."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "98",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#NonionicThickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonionicThickener",
+      "en" : "Non ionic thickener"
+    },
+    "id" : "49",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Emulsion",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emulsion"
+    },
+    "comment" : {
+      "en" : "It is a heterogeneous mixture of two or more immiscible liquids. It is a sub-class of a more general class known as colloid."
+    },
+    "id" : "189",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AgitationState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AgitationState",
+      "en" : "Agitatione state"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#high_agitation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "high_agitation",
+        "en" : "High agitation"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#low_agitation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "low_agitation",
+        "en" : "Low agitation"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#med_agitation",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "med_agitation",
+        "en" : "Medium agitation"
+      }
+    } ],
+    "id" : "158",
+    "superClasses" : [ "159" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#PhRegulator",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhRegulator",
+      "en" : "Ph regulator"
+    },
+    "id" : "155",
+    "superClasses" : [ "107" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#OneIngredient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OneIngredient"
+    },
+    "id" : "181",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#PropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PropertyState",
+      "en" : "Property state"
+    },
+    "subClasses" : [ "4", "7", "14", "16", "18", "2", "23", "82", "90", "172", "91" ],
+    "comment" : {
+      "en" : "Define the different qualitative value of properties."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ExtensiveProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExtensiveProperty",
+      "en" : "Extensive property"
+    },
+    "comment" : {
+      "en" : "A measurable characteristic of a substance that depends on the amount of mass of the system (Mass, volume, size)"
+    },
+    "id" : "136",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Sol",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sol"
+    },
+    "comment" : {
+      "en" : "solid particles in a liquid."
+    },
+    "id" : "208",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Mixture",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mixture"
+    },
+    "subClasses" : [ "142", "68", "73", "181" ],
+    "comment" : {
+      "en" : "It is an entity made up of two or more substances. It can be homogeneous or heterogeneous."
+    },
+    "id" : "74",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HomogenousMixture",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HomogenousMixture",
+      "en" : "Homogenous Mixture"
+    },
+    "subClasses" : [ "141" ],
+    "comment" : {
+      "en" : "It is a mixture in which the composition is uniform throughout the mixture. It has only one phase."
+    },
+    "id" : "142",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emollient",
+      "en" : "Emollient"
+    },
+    "subClasses" : [ "184", "168", "170", "165", "174", "150" ],
+    "comment" : {
+      "en" : "Ingredient of oily nature used in cosmetics to make skin and hair softener. Some of them can serve as solvent for liposoluble actives. Additionally, some of them can act as occlusive ingredients, i.e., they create a barrier to avoid the loss of water. It can be classified according to its chemical nature into the sub-classes:  ester, fatty alcohol, fatty acid, hydrocarbon, silicon, triglyceride."
+    },
+    "id" : "38",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#SpreadingState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpreadingState"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#medium_to_low_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_to_low_spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#medium_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_spreading",
+        "en" : "Medium spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#low_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "low_spreading",
+        "en" : "Low spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#high_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "high_spreading",
+        "en" : "High spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#very_high_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "very_high_spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#medium_to_high_spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "medium_to_high_spreading"
+      }
+    } ],
+    "comment" : {
+      "en" : "The ability of the ingredient to spread on the skin"
+    },
+    "id" : "197",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#OtherIngredient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OtherIngredient",
+      "en" : "Other ingredient"
+    },
+    "subClasses" : [ "152", "106", "155" ],
+    "id" : "107",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ProcessState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProcessState",
+      "en" : "Qualitative value that describes the fomulation processing."
+    },
+    "subClasses" : [ "158" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Ingredient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ingredient",
+      "en" : "Ingredient"
+    },
+    "subClasses" : [ "38", "63", "28", "107", "25", "148" ],
+    "comment" : {
+      "en" : "Substance that forms part of a formulation."
+    },
+    "id" : "54",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Fluid",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fluid"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#gas",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "State of matter. It is a substance in a state that takes the shape and volume of its container."
+      },
+      "labels" : {
+        "IRI-based" : "gas",
+        "en" : "Gas"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#liquid",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "State of matter. It is a substance in a state that takes the shape of its container but retains a (nearly) constant volume independent of pressure"
+      },
+      "labels" : {
+        "IRI-based" : "liquid",
+        "en" : "Liquid"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Aerosol",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aerosol"
+    },
+    "comment" : {
+      "en" : "solid or liquid particles in a gas"
+    },
+    "id" : "230",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Stabilizer",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stabilizer"
+    },
+    "comment" : {
+      "en" : "Chemical that maintain the function and viscosity of the emulsion. Thus they also act as rheological modifiers. [cosmetic sector definition]"
+    },
+    "id" : "148",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Suspension",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Suspension"
+    },
+    "comment" : {
+      "en" : "It is cloudy and heterogeneous. The particles are larger than 10,000 Angstroms which allows them to be filtered. If a suspension is allowed to stand the particles will separate out."
+    },
+    "id" : "75",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Surfactant_Dosage",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surfactant_Dosage",
+      "en" : "Surfactant dosage"
+    },
+    "intersection" : [ "72" ],
+    "comment" : {
+      "en" : "Sub-type of dosage which concerns only the surfactant."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "247",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#SolidFoam",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolidFoam"
+    },
+    "comment" : {
+      "en" : "gas in solid."
+    },
+    "id" : "255",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Property",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "physicochemical property",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#electrical_nature",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "electrical_nature",
+        "en" : "Electrical nature"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#required_hlb",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It represents the HLB needed by an oil or a mixture of oils to be more likely to be incorporated in a stable O/W emulsion by an emulsifier or blend of emulsifiers. It determines the compatibility of oils with the surfactant system.\nThe value of the required HLB of an emollient blend corresponds to the average of the HLB required by each emollient weighted by its mass composition in the emollient mixture."
+      },
+      "labels" : {
+        "IRI-based" : "required_hlb",
+        "en" : "Required HLB"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#melting_point",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the temperature in which a substance in the solid-state melts and change to a liquid state. It is important for the selection of ingredients and process conditions. For example, in the case of emollients, it determines if the emollient is solid or liquid, its consistency, and the possible consistency of the resulting formulation."
+      },
+      "labels" : {
+        "IRI-based" : "melting_point",
+        "en" : "Melting point"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#absorption_rate",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Describe the capacity of the formulation product to be absopt by a skin."
+      },
+      "labels" : {
+        "IRI-based" : "absorption_rate",
+        "en" : "Absorption rate"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#source",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "source",
+        "en" : "Source"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#solubility_in_water",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "solubility_in_water",
+        "en" : "Solubility in water"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#special_function",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "special_function",
+        "en" : "Special function"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#transport_and_release",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "transport_and_release",
+        "en" : "Transport and realease"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#oiliness",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "oiliness",
+        "en" : "Oiliness"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#density",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the mass per unit of volume. In emulsions it is related to emulsion stability."
+      },
+      "labels" : {
+        "IRI-based" : "density",
+        "en" : "Density"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#after_feeling",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "after_feeling",
+        "en" : "After feeling"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#cloud_point",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It corresponds to the temperature at which the surfactant begins to precipitate when the temperature is increased. Emulsions are destabilized above this temperature (maximal temperature for stability)."
+      },
+      "labels" : {
+        "IRI-based" : "cloud_point",
+        "en" : "Cloud point"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#efficiency",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the ability to increase viscosity using a certain quantity of the rheological modifier. Efficiency depends on the polymer nature, molecular weight, branches, and conformation."
+      },
+      "labels" : {
+        "IRI-based" : "efficiency",
+        "en" : "Efficiency"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#HLB",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "HLB",
+        "en" : "HLB"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#viscosity",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the is a measure of the resistance of a fluid to deformation. It determines the spreadability of the oil and its formulations. Units (mPa*s) \nDescribe the level of viscosity of a formulated product. it can be low, medium or high.\nIt is related to the sensorial term of thickness."
+      },
+      "labels" : {
+        "IRI-based" : "viscosity",
+        "en" : "Viscosity"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#kraft_point",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the minimal temperature at which surfactants begin to form micelles. Below this temperature, the solubility of surfactant is low. Stable emulsions are only formed above this temperature (minimal temperature for stability)."
+      },
+      "labels" : {
+        "IRI-based" : "kraft_point",
+        "en" : "Kraft point"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#visual_appearance",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Property that describes the color and transparency."
+      },
+      "labels" : {
+        "IRI-based" : "visual_appearance",
+        "en" : "Visual appearance"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#spreading",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "spreading",
+        "en" : "Spreading"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#thickener_stability",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Stability with other ingredients because some rheological modifiers may cause the precipitation of other ingredients in the formula."
+      },
+      "labels" : {
+        "IRI-based" : "thickener_stability",
+        "en" : "Thickener stability"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#rheology",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "rheology",
+        "en" : "Rheology"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#critical_micelle_concentration",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is the concentration at which the surfactant molecules begin to form micelles in an aqueous solution, i.e., an aggregate structure of surfactant molecules. Below CMC, surface tension is reduced when the surfactant concentration increases; above CMC, the surface tension remains constant."
+      },
+      "labels" : {
+        "IRI-based" : "critical_micelle_concentration",
+        "en" : "Critical micelle concentration"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#stickiness",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "stickiness",
+        "en" : "Stickiness"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#stability",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "A formulation can be either stable or note stable."
+      },
+      "labels" : {
+        "IRI-based" : "stability",
+        "en" : "Stability"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#sensorial_profile",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "sensorial_profile",
+        "en" : "Sensorial profile"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#polarity",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is a property that represent the separation of the electrical charge within the same molecule. The polarity determines the types of inter-molecular forces of the substance. Thus, it is related to other properties such as solubility, boiling point, fusion point, among others."
+      },
+      "labels" : {
+        "IRI-based" : "polarity",
+        "en" : "Polarity"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#phase",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "It is a region of space throughout which all physical properties of a material are essentially uniform."
+      },
+      "labels" : {
+        "IRI-based" : "phase",
+        "en" : "Phase"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#recommanded_usage",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "recommanded_usage",
+        "en" : "Recommanded usage"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#texture",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "texture",
+        "en" : "Texture"
+      }
+    } ],
+    "subClasses" : [ "104", "130", "132", "134", "136", "119", "121", "123", "109" ],
+    "comment" : {
+      "en" : "A measurable characteristic related to the physical state or chemical behavior of a substance. They are classified as extensive (depends on the amount of mass of the system) and intensive (independent of mass quantity)."
+    },
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HeuristicForSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForSurfactant"
+    },
+    "comment" : {
+      "en" : "Sub group of heuristic that only concerns surfactants."
+    },
+    "id" : "99",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#System",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System",
+      "en" : "System"
+    },
+    "subClasses" : [ "126", "89", "36" ],
+    "comment" : {
+      "en" : "Anything can be described as a system. (Substance, process, product, mixture, etc). It is a superclass of substance and process."
+    },
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Ester_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ester_emollient"
+    },
+    "comment" : {
+      "en" : "chemical compound derived from an oxoacid (organic or inorganic) in which at least one –OH hydroxyl group is replaced by an –O– alkyl (alkoxy) group."
+    },
+    "id" : "170",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IntensiveProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IntensiveProperty",
+      "en" : "Intensive property"
+    },
+    "comment" : {
+      "en" : "A measurable characteristic of a substance that is independent of mass quantity."
+    },
+    "id" : "123",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Vegetable_oil_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vegetable_oil_emollient"
+    },
+    "comment" : {
+      "en" : "Sub type of emollient ingredient that are vegetable oil."
+    },
+    "id" : "168",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Thickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "Rheological modifiers",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Thickener"
+    },
+    "subClasses" : [ "27", "50" ],
+    "comment" : {
+      "en" : "It is a substance that can significantly modify the rheology of a fluid. Rheological modifiers are added to the formulation for three main purposes: to increase viscosity, to promote a particular rheological behavior (pseudo- plastic and thixotropic), and to enhance emulsion stability."
+    },
+    "id" : "28",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Foam",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foam"
+    },
+    "comment" : {
+      "en" : "gas in liquid."
+    },
+    "id" : "227",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#HeuristicForThickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeuristicForThickener"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "Sub group of heuristic that only concerns thickeners."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "78",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ChelatingAgent",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChelatingAgent",
+      "en" : "Chelating agent"
+    },
+    "comment" : {
+      "en" : "A substance that reacts with metal ions to form stable, water-soluble metal. They are used in liquid soap and body wash to?prevent fragrance and color degradation and for their synergistic effect with antimicrobials. The process of chelation stabilizes metal ions by preventing them from chemically reacting with any other substances."
+    },
+    "id" : "152",
+    "superClasses" : [ "107" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Fatty_alcohol_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fatty_alcohol_emollient"
+    },
+    "comment" : {
+      "en" : "Sub type of emollient ingredient that are fatty alcohol."
+    },
+    "id" : "174",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#IngredientPropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IngredientPropertyState"
+    },
+    "subClasses" : [ "114", "90", "94", "39", "197" ],
+    "id" : "91",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#ExpertKnowledgeHeuristic",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpertKnowledgeHeuristic"
+    },
+    "intersection" : [ "11" ],
+    "comment" : {
+      "en" : "It is a sub-type of heuristic that come from expert  interview."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "97",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#AnionicSurfactant",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnionicSurfactant"
+    },
+    "id" : "60",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Process",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process",
+      "en" : "Process"
+    },
+    "id" : "126",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#anti-age",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "anti-age"
+    },
+    "comment" : {
+      "en" : "Ingredients that make the consumer look younger by reducing, masking or preventing signs of skin aging."
+    },
+    "id" : "87",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#EmollientProperty",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EmollientProperty"
+    },
+    "intersection" : [ "105" ],
+    "attributes" : [ "intersection" ],
+    "id" : "121",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Silicone_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silicone_emollient"
+    },
+    "comment" : {
+      "en" : "Sub type of emollient ingredient that are silicone."
+    },
+    "id" : "184",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Dosage",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dosage",
+      "en" : "Dosage"
+    },
+    "subClasses" : [ "269", "247" ],
+    "comment" : {
+      "en" : "Dosages are the combination of an ingredient and a quantity. It constitute a part of a formulation."
+    },
+    "id" : "72"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Oiliness",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oiliness",
+      "en" : "After Feel - Oiliness"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontocosmetic#very_waterly",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "very_waterly",
+        "en" : "Very waterly"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#very_oily",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Very high oily sensation provided by a formulation. It is a value of the oiliness property."
+      },
+      "labels" : {
+        "IRI-based" : "very_oily",
+        "en" : "Very oily"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#waterly",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "comment" : {
+        "en" : "Water sensation provided by a formulation. It is a value of the oiliness property."
+      },
+      "labels" : {
+        "IRI-based" : "waterly",
+        "en" : "Waterly"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#non_oily",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "non_oily",
+        "en" : "Non oily"
+      }
+    }, {
+      "iri" : "https://purl.org/ontocosmetic#oily",
+      "baseIri" : "https://purl.org/ontocosmetic",
+      "labels" : {
+        "IRI-based" : "oily",
+        "en" : "Oily"
+      }
+    } ],
+    "id" : "32",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Hydrocarbon_emollient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrocarbon_emollient"
+    },
+    "comment" : {
+      "en" : "Sub type of emollient ingredient that are hydrocarbon."
+    },
+    "id" : "150",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#CationicThickener",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CationicThickener",
+      "en" : "Cationic thickener"
+    },
+    "id" : "66",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Emollient_Dosage",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emollient_Dosage",
+      "en" : "Emollient dosage"
+    },
+    "intersection" : [ "72" ],
+    "comment" : {
+      "en" : "Sub-type of dosage which concerns only the emollient."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "269",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Gel",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gel"
+    },
+    "comment" : {
+      "en" : "liquids in solids."
+    },
+    "id" : "245",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#Colloid",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "colloidal system",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Colloid"
+    },
+    "subClasses" : [ "255", "208", "242", "245", "227", "230", "189" ],
+    "comment" : {
+      "en" : "It is a heterogeneous mixture in which a substance with a microscopic structure of disperse insoluble particles (disperse phase) is suspended in another substance (continuous phase). It can exist naturally, or it can be technically formulated, and in that case, it can also be named as a Formulation."
+    },
+    "id" : "76",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#SolidSol",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SolidSol"
+    },
+    "comment" : {
+      "en" : "solid in solid."
+    },
+    "id" : "242",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "250",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "249",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "292",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "293",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "295",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "302",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "309",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "316",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "320",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicSource",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasHeuristicSource"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Provides the source of the heuristic (from literature or experience)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "range" : "5",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "5",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "5",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicProcessOutcome",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasHeuristicProcessOutcome",
+      "en" : "has structural property"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Associate an heuristic to the structure property of the formulation final product  that is involved in the rule."
+    },
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "5",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasAfterfeeling",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasAfterfeeling",
+      "en" : "has afterfeeling"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "Give one or several afterfeeling properties to an ingredient of type emollient."
+    },
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicLowThreshold",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "hasHeuristicLowThreshold"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Low threshold in percentage for an heuristique."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "range" : "14",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "14",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "25",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "50",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasPricePerKilogram",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "hasPricePerKilogram"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Price per kilogram of an ingredient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "range" : "9",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "9",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "63",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProductOilyPhase",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasProductOilyPhase"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Percentage of the formulated product that represent oily ingrdient."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasState"
+    },
+    "domain" : "36",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isQuantifying",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "isQuantifying",
+      "en" : "is quantifying"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "Give the ingredient of a dosage."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "range" : "11",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "11",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasChemicalNature",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "hasChemicalNature",
+      "en" : "has chemical nature"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Give the chemical nature of an ingredient."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasDosage",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasDosage",
+      "en" : "has dosage"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Give the dosages that compose a formulation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "range" : "25",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "25",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasIngredientPropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasIngredientPropertyState",
+      "en" : "has ingredient property state"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Defines a relation between an heuristic and a specific state of a property. It defines the property state that could trigger the heuristic."
+    },
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasTexture",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "hasTexture"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "Provides the texture that can be expected from a given surfactant."
+    },
+    "attributes" : [ "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicHighThreshold",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "hasHeuristicHighThreshold"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "High threshold in percentage for an heuristique."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasINCIcode",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasINCIcode"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "the INCI code that a ingredient can have."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasCalculatedHLB",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasCalculatedHLB"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "the final HLB of the surfactant mixture that compose the formulation"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "range" : "84",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "28",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasIonicClass",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "hasIonicClass"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "Define the ionic nature of an ingredient."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "113"
+  }, {
+    "range" : "91",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasSurfactantQuantitySum",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "hasSurfactantQuantitySum"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "The surfactant quantity sum is an intermediary value that allow the calculation of the total quantity of surfactant in a formulation."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "116"
+  }, {
+    "range" : "105",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
+  }, {
+    "range" : "105",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "105",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "105",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "84",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "84",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "105",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "105",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "105",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "105",
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "105",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHLB",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "hasHLB"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "the HLB that a surfactant can have"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasTotalOilyPhase",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "hasTotalOilyPhase"
+    },
+    "domain" : "68",
+    "attributes" : [ "datatype" ],
+    "id" : "139"
+  }, {
+    "range" : "54",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "54",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "54",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "54",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "54",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "38",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "107",
+    "domain" : "152",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "107",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "107",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasEmollience",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasEmollience",
+      "en" : "has emollience level"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "Give the level of emollience of an ingredient of type emollient."
+    },
+    "attributes" : [ "object" ],
+    "id" : "156"
+  }, {
+    "range" : "159",
+    "domain" : "158",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "54",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasQuantity",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "hasQuantity"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "the quantity of ingredient that compose the dosage. This quantity is in percentage of volume of the formulation."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasQuantitySum",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "hasQuantitySum"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "the quantity sum is an intermediary value that allow the calculation of the total quantity of product in a formulation, except the water. This quantity sum will be used in the calculation of the water quantity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasQualitativeValue",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasQualitativeValue",
+      "en" : "has qualitative value"
+    },
+    "domain" : "105",
+    "comment" : {
+      "en" : "Relationship that link a property to the qualitative value that are associated to the property."
+    },
+    "attributes" : [ "object" ],
+    "id" : "166"
+  }, {
+    "range" : "38",
+    "domain" : "168",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "range" : "38",
+    "domain" : "170",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "38",
+    "domain" : "165",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "38",
+    "domain" : "174",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "5",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicIngProp",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasHeuristicIngProp",
+      "en" : "is affected by ingredient property"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Associate an heuristic to the ingredient property that is involved in the rule."
+    },
+    "attributes" : [ "object" ],
+    "id" : "176"
+  }, {
+    "range" : "74",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "74",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "74",
+    "domain" : "181",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "142",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "38",
+    "domain" : "184",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicProcessProp",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasHeuristicProcessProp",
+      "en" : "is produced through"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Associate an heuristic to the process used to do the formulation final product. This process will have an impact on the product structure or properties."
+    },
+    "attributes" : [ "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isActive",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "isActive"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Property that allow to enable/ disable a heuristic"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "186"
+  }, {
+    "range" : "5",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "5",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "5",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "114",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#definesStateOf",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "definesStateOf",
+      "en" : "defines state of"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Relationship between qualitative state of substance property and the property."
+    },
+    "attributes" : [ "object" ],
+    "id" : "193"
+  }, {
+    "range" : "54",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "11",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "range" : "197",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProductStability",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasProductStability"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Define the stability of a fomulation final product."
+    },
+    "attributes" : [ "object" ],
+    "id" : "198"
+  }, {
+    "range" : "90",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "68",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "94",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "11",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "68",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "114",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "54",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasRequiredHLB",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "hasRequiredHLB"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "the RHLB that an emollient can have."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "206"
+  }, {
+    "range" : "94",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "197",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProductViscosity",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasProductViscosity"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Provides the viscosity of the formulation final product."
+    },
+    "attributes" : [ "object" ],
+    "id" : "211"
+  }, {
+    "range" : "16",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "54",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "11",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "range" : "90",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasIngredient",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasIngredient",
+      "en" : "has ingredient"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Relationship that defines the ingredients that are used in a fomulation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "216"
+  }, {
+    "range" : "114",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicIngType",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "hasHeuristicIngType",
+      "en" : "involves ingredient type"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Define which ingredient type is concerned by the heuristic."
+    },
+    "attributes" : [ "object" ],
+    "id" : "218"
+  }, {
+    "range" : "72",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "68",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "16",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "197",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "197",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "94",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "197",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "76",
+    "domain" : "227",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
+  }, {
+    "range" : "90",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "76",
+    "domain" : "230",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "range" : "90",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "range" : "76",
+    "domain" : "189",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "94",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "range" : "197",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasNbSurfactantIng",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "hasNbSurfactantIng"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Define the number of surfactants inside a given formulation."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "235"
+  }, {
+    "range" : "90",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "114",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "94",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "76",
+    "domain" : "208",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "76",
+    "domain" : "242",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "114",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "76",
+    "domain" : "245",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "54",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isPropertyOf",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "isPropertyOf",
+      "en" : "is property of"
+    },
+    "domain" : "105",
+    "comment" : {
+      "en" : "Define the type of substance (chemical nature) that is concerned by the property."
+    },
+    "attributes" : [ "object" ],
+    "id" : "248"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasEquivalentHLB",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "hasEquivalentHLB"
+    },
+    "domain" : "250",
+    "attributes" : [ "datatype" ],
+    "id" : "249"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasPhase",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasPhase"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "it define which phase the ingredient is soluble in."
+    },
+    "attributes" : [ "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isCommercializedAs",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "isCommercializedAs"
+    },
+    "domain" : "68",
+    "attributes" : [ "object" ],
+    "id" : "253"
+  }, {
+    "range" : "94",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProcessUnit",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasProcessUnit"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Processing done on the ingredient of the formulation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "256"
+  }, {
+    "range" : "114",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "54",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "91",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProductOiliness",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasProductOiliness"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Define the oiliness of formulated product."
+    },
+    "attributes" : [ "object" ],
+    "id" : "260"
+  }, {
+    "range" : "197",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "91",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "90",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "91",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "197",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "91",
+    "domain" : "197",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "range" : "90",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "72",
+    "domain" : "269",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "11",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "72",
+    "domain" : "247",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "94",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "76",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasTotalSurfactantQuantity",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "hasTotalSurfactantQuantity"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The total quantity of surfactant that a formulation have. This quantity is in percentage of volume."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "277"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isConform",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "isConform"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "the data property idicates if a formulation is conform to the restricive heuristics that correspond to formulation specification."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "278"
+  }, {
+    "range" : "181",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "181",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicDescription",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "hasHeuristicDescription"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Data properties that provides a description of the heuristic."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "281"
+  }, {
+    "range" : "94",
+    "domain" : "197",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "94",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "142",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "247",
+    "domain" : "269",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "11",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#isValidatedBy",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "isValidatedBy"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Defines that a formulation validate a given heuristic."
+    },
+    "attributes" : [ "object" ],
+    "id" : "288"
+  }, {
+    "range" : "11",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "11",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  }, {
+    "range" : "11",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasOrigin",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasOrigin",
+      "en" : "has origin"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Provide the origin of an ingredient"
+    },
+    "attributes" : [ "object" ],
+    "id" : "293"
+  }, {
+    "range" : "36",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "range" : "36",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "295"
+  }, {
+    "range" : "16",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "68",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "11",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "54",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasTotalThickenerQuantity",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "hasTotalThickenerQuantity"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The total quantity of thickener that a formulation have. This quantity is in percentage of volume."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "300"
+  }, {
+    "range" : "114",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "301"
+  }, {
+    "range" : "90",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "302"
+  }, {
+    "range" : "197",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "303"
+  }, {
+    "range" : "94",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "82",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "72",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicProdProp",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasHeuristicProdProp"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Associate an heuristic to a product property. The rule has an impact on the properties of the final product formulated."
+    },
+    "attributes" : [ "object" ],
+    "id" : "307"
+  }, {
+    "range" : "52",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "308"
+  }, {
+    "range" : "52",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "309"
+  }, {
+    "range" : "73",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "310"
+  }, {
+    "range" : "73",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "4",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "312"
+  }, {
+    "range" : "4",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "313"
+  }, {
+    "range" : "4",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "314"
+  }, {
+    "range" : "4",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasSpreading",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "hasSpreading"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "Defines the spreading property of an emollient."
+    },
+    "attributes" : [ "object" ],
+    "id" : "316"
+  }, {
+    "range" : "4",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "317"
+  }, {
+    "range" : "24",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "318"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasProductDropletSize",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasProductDropletSize"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Provides the size of the droplet of the final product of a formulation. This dorplet will depends on process."
+    },
+    "attributes" : [ "object" ],
+    "id" : "319"
+  }, {
+    "iri" : "https://purl.org/ontocosmetic#hasHeuristicProductPropertyState",
+    "baseIri" : "https://purl.org/ontocosmetic",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasHeuristicProductPropertyState"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Define the state that is given to the property when the heuristic is verified."
+    },
+    "attributes" : [ "object" ],
+    "id" : "320"
+  } ]
+}
